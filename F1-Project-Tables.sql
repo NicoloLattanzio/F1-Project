@@ -1,137 +1,175 @@
--- Creazione schema
-CREATE SCHEMA IF NOT EXISTS f1_management;
-
--- Tabella Fornitore
-CREATE TABLE Fornitore (
-    Nome VARCHAR(100) PRIMARY KEY,
-    Settore VARCHAR(100) NOT NULL
+-- Tabella fornitore
+CREATE TABLE fornitore (
+    nome CHAR(10) PRIMARY KEY,
+    settore VARCHAR(30) NOT NULL
 );
 
--- Tabella Strumento
-CREATE TABLE Strumento (
-    IdStrumento VARCHAR(50) PRIMARY KEY,
-    Nome VARCHAR(100) NOT NULL
+-- Tabella strumento
+CREATE TABLE strumento (
+    id_strumento CHAR(10) PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL
 );
 
--- Tabella Fornitura
-CREATE TABLE Fornitura (
-    IdFornitura SERIAL PRIMARY KEY,
-    Quantita INTEGER NOT NULL,
-    Data DATE NOT NULL,
-    Strumento VARCHAR(50) NOT NULL,
-    Fornitore VARCHAR(100) NOT NULL,
-    FOREIGN KEY (Strumento) REFERENCES Strumento(IdStrumento),
-    FOREIGN KEY (Fornitore) REFERENCES Fornitore(Nome)
+-- Tabella fornitura
+CREATE TABLE fornitura (
+    id_fornitura CHAR(10) PRIMARY KEY,
+    quantita INTEGER NOT NULL CHECK (quantita > 0), --Una fornitura per essere considerata tale deve essere di almeno 1 elemento
+    data DATE NOT NULL,
+    strumento CHAR(10) NOT NULL,
+    fornitore CHAR(10) NOT NULL,
+    FOREIGN KEY (strumento) REFERENCES strumento(id_strumento),
+    FOREIGN KEY (fornitore) REFERENCES fornitore(nome)
 );
 
--- Tabella Settore
-CREATE TABLE Settore (
-    Nome VARCHAR(100) PRIMARY KEY,
-    Budget DECIMAL(15,2) NOT NULL,
-    Capo VARCHAR(100) NOT NULL,
-    NumeroPersone INTEGER NOT NULL
+--Tabella settore
+CREATE TABLE settore (
+    nome VARCHAR(20) PRIMARY KEY,
+    budget DECIMAL(15,2) NOT NULL CHECK (budget > 0),
+    capo CHAR(16),
+    numero_persone INTEGER NOT NULL CHECK (numero_persone > 0),
+	--FOREIGN KEY (capo) REFERENCES team_member(cf) on delete set null,
+	--Non si può eliminare un intero settore se il capo viene licenziato
+	UNIQUE (capo)
+	--Una persona non può essere a capo di più settori
 );
 
--- Tabella Utilizzo
-CREATE TABLE Utilizzo (
-    Strumento VARCHAR(50) NOT NULL,
-    Settore VARCHAR(100) NOT NULL,
-    Quantita INTEGER NOT NULL,
-    PRIMARY KEY (Strumento, Settore),
-    FOREIGN KEY (Strumento) REFERENCES Strumento(IdStrumento),
-    FOREIGN KEY (Settore) REFERENCES Settore(Nome)
+--Tabella utilizzo
+CREATE TABLE utilizzo (
+    strumento CHAR(10) NOT NULL,
+    settore VARCHAR(20) NOT NULL,
+    quantita INTEGER NOT NULL CHECK (quantita > 0), --per utilizzare uno strumento per forza deve essere almeno 1
+    PRIMARY KEY (strumento, settore),
+    FOREIGN KEY (strumento) REFERENCES strumento(id_strumento),
+    FOREIGN KEY (settore) REFERENCES settore(nome) on update cascade on delete cascade
+	--Se elimino un certo settore per un fork ho bisogno di eliminare tutte le assegnazioni degli strumenti
+	--Poi organizzerò gli strumenti non ancora assegnati alla nuova organizzazione dei settori
 );
 
--- Tabella Team Member
-CREATE TABLE "Team Member" (
-    CF VARCHAR(16) PRIMARY KEY,
-    Nome VARCHAR(50) NOT NULL,
-    Cognome VARCHAR(50) NOT NULL,
-    Nazionalita VARCHAR(50) NOT NULL,
-    "Data Nascita" DATE NOT NULL,
-    Ruolo VARCHAR(100) NOT NULL,
-    Specializzazione VARCHAR(100),
-    Laurea VARCHAR(100),
-    "Anni Esp." INTEGER
+--Tabella contratto
+CREATE TABLE contratto (
+    id_contratto CHAR(10) PRIMARY KEY,
+    inizio DATE NOT NULL CHECK (fine is null or inizio < fine),
+    fine DATE CHECK (fine is null or (fine is not null and fine > inizio)),
+    compenso DECIMAL(15,2) NOT NULL CHECK (compenso > 0),
+    bonus_mensile DECIMAL(10,2),
+	cf_team CHAR(16),
+	cf_pilota CHAR(16),
+	--FOREIGN KEY (cf_team) REFERENCES team_member(cf) on delete cascade,
+	--FOREIGN KEY (cf_pilota) REFERENCES pilota(cf),
+	--Posso licenziare un team_member ma non un pilota, il tal caso elimino anche tutti i contratti ad egli associati
+	CHECK (
+	    (cf_team IS NOT NULL AND cf_pilota IS NULL) OR
+	    (cf_team IS NULL AND cf_pilota IS NOT NULL)
+	) --Non devono essere entrambe null
 );
 
--- Tabella Contratto
-CREATE TABLE Contratto (
-    ID SERIAL PRIMARY KEY,
-    Inizio DATE NOT NULL,
-    Fine DATE,
-    Compenso DECIMAL(15,2) NOT NULL,
-    "Bonus Mensile" DECIMAL(10,2)
+--Tabella team_member
+CREATE TABLE team_member (
+    cf CHAR(16) PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    cognome VARCHAR(50) NOT NULL,
+    nazionalita VARCHAR(50) NOT NULL,
+    data_nascita DATE NOT NULL,
+    ruolo VARCHAR(50) NOT NULL CHECK (ruolo in ('ingegnere', 'meccanico', 'manager')),
+    specializzazione VARCHAR(50),
+    laurea VARCHAR(50),
+    anni_esp INTEGER,
+	settore VARCHAR(20),
+	FOREIGN KEY (settore) REFERENCES settore(nome) on update cascade on delete set null
+	--Qui ho bisogno di settare a NULL il settore a cui appartiene un certo dipendente poiché non posso eliminare
+	--tutte le persone di un certo settore in quanto si pensa ad una riorganizzazione non ad un licenziamento massivo
+);
+--Tabella pilota
+CREATE TABLE pilota (
+    cf CHAR(16) PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    cognome VARCHAR(50) NOT NULL,
+    numero INTEGER NOT NULL,
+    nazionalita VARCHAR(50) NOT NULL,
+    data_nascita DATE NOT NULL,
+    peso DECIMAL(5,2) NOT NULL CHECK (peso > 0),
+    altezza DECIMAL(5,2) NOT NULL CHECK (altezza > 0),
+	settore VARCHAR(20) NOT NULL,
+	FOREIGN KEY (settore) REFERENCES settore(nome) on update cascade
+	--Non ha senso mettere on delete poiché eliminare il settore "pista" al quale appartiene il pilota
+	--significa che non è più una scuderia di Formula 1
 );
 
--- Tabella Pilota
-CREATE TABLE Pilota (
-    CF VARCHAR(16) PRIMARY KEY,
-    Nome VARCHAR(50) NOT NULL,
-    Cognome VARCHAR(50) NOT NULL,
-    Numero INTEGER NOT NULL,
-    Nazionalita VARCHAR(50) NOT NULL,
-    "Data Nascita" DATE NOT NULL,
-    Peso DECIMAL(5,2) NOT NULL,
-    Altezza DECIMAL(5,2) NOT NULL
+--Tabella motore
+CREATE TABLE motore (
+    id_motore CHAR(10) PRIMARY KEY,
+    cilindri INTEGER NOT NULL CHECK (cilindri > 0 and cilindri <= 16),
+    peso DECIMAL(8,2) NOT NULL CHECK (peso > 0),
+    alimentazione VARCHAR(50) NOT NULL CHECK (alimentazione in ('elettrico', 'combustione', 'ibrido')),
+	produttore VARCHAR(50) NOT NULL
 );
 
--- Tabella Vettura
-CREATE TABLE Vettura (
-    IDVettura SERIAL PRIMARY KEY,
-    Modello VARCHAR(100) NOT NULL,
-    Anno INTEGER NOT NULL,
-    Peso DECIMAL(8,2) -- Puo essere NULL in quanto per vetture ancora in sviluppo potrebbe non essere preciso
+--Tabella vettura
+CREATE TABLE vettura (
+    id_vettura CHAR(10) PRIMARY KEY,
+    modello VARCHAR(50) NOT NULL,
+    anno INTEGER NOT NULL,
+    peso DECIMAL(8,2) CHECK (peso > 0),
+	cf CHAR(16),
+	id_motore CHAR(10) NOT NULL,
+	FOREIGN KEY (cf) REFERENCES pilota(cf),
+	FOREIGN KEY (id_motore) REFERENCES motore(id_motore) on update cascade
+	--Pongo CF come attributo opzionale in modo da permettere a vetture di non appartenere ad alcun ex pilota
+	--Identificativi che hanno bisogno di una diversa numerazione di codice -> update cascade
 );
 
--- Tabella Motore
-CREATE TABLE Motore (
-    IDMotore SERIAL PRIMARY KEY,
-    Cilindri INTEGER NOT NULL,
-    Peso DECIMAL(8,2),
-    Alimentazione VARCHAR(50) NOT NULL
+--Tabella circuito
+CREATE TABLE circuito (
+    id_circuito CHAR(10) PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    localita VARCHAR(100) NOT NULL,
+    paese VARCHAR(50) NOT NULL,
+    lunghezza DECIMAL(6,3) NOT NULL, CHECK (lunghezza > 0),
+    nr_curve INTEGER NOT NULL CHECK (nr_curve > 0),
+	UNIQUE (nome)
 );
 
--- Tabella Circuito
-CREATE TABLE Circuito (
-    IdCircuito SERIAL PRIMARY KEY,
-    Nome VARCHAR(100) NOT NULL,
-    Localita VARCHAR(100) NOT NULL,
-    Paese VARCHAR(50) NOT NULL,
-    Lunghezza DECIMAL(6,3) NOT NULL,
-    "Nr Curve" INTEGER NOT NULL
+--Tabella gp
+CREATE TABLE gp (
+    circuito CHAR(10) NOT NULL,
+    data DATE NOT NULL,
+	--Data non UNIQUE poiché possono esserci più gran premi nella stessa data come per il caso della formula 2
+    condizioni_meteo VARCHAR(50) NOT NULL,
+    PRIMARY KEY (circuito, data),
+    FOREIGN KEY (circuito) REFERENCES circuito(id_circuito)
+	--Non si possono eliminare i circuiti e nemmeno aggiornare perché non avrebbe senso in un database che
+	--funziona anche da cronologia di eventi per lo studio delle prestazioni della scuderia nel lungo periodo
 );
 
--- Tabella GP
-CREATE TABLE GP (
-    Circuito INTEGER,
-    Data DATE NOT NULL,
-    "Condizioni Meteo" VARCHAR(100) NOT NULL,
-    PRIMARY KEY (Circuito, Data),
-    FOREIGN KEY (Circuito) REFERENCES Circuito(IdCircuito)
+--Tabella gara
+CREATE TABLE gara (
+    pilota CHAR(16) NOT NULL,
+    circuito CHAR(10) NOT NULL,
+    data DATE NOT NULL,
+    posizione INTEGER NOT NULL CHECK (posizione > 0) UNIQUE, --Poiché non possono esserci 2 piloti nella stessa posizione
+    tempo_totale INTEGER NOT NULL CHECK (tempo_totale > 0) UNIQUE, --millisecondi, unique perché 2 piloti non possono avere lo stesso tempo
+    PRIMARY KEY (pilota, circuito, data),
+    FOREIGN KEY (pilota) REFERENCES pilota(cf),
+    FOREIGN KEY (circuito, data) REFERENCES gp(circuito, data)
+	--Analogamente a circuiti non avrebbe senso eliminare i gp
 );
 
--- Tabella Gara
-CREATE TABLE Gara (
-    Pilota VARCHAR(16),
-    Circuito INTEGER NOT NULL,
-    Data DATE NOT NULL,
-    Posizione INTEGER NOT NULL,
-    TempoTotale INTERVAL NOT NULL,
-    PRIMARY KEY (Pilota, Circuito, Data),
-    FOREIGN KEY (Pilota) REFERENCES Pilota(CF),
-    FOREIGN KEY (Circuito, Data) REFERENCES GP(Circuito, Data)
+--Tabella giro
+CREATE TABLE giro (
+    numero_giro INTEGER NOT NULL CHECK (numero_giro > 0),
+    circuito CHAR(10) NOT NULL,
+    data DATE NOT NULL,
+    pilota CHAR(16) NOT NULL,
+    tempo INTEGER NOT NULL CHECK (tempo > 0), --millisecondi
+    v_min DECIMAL(6,2) NOT NULL CHECK (v_min >= 0 and v_min > v_max),
+    v_max DECIMAL(6,2) NOT NULL CHECK (v_max >= 0 and v_max > v_min),
+    PRIMARY KEY (numero_giro, circuito, data, pilota),
+    FOREIGN KEY (pilota, circuito, data) REFERENCES gara(pilota, circuito, data)
 );
 
--- Tabella Giro
-CREATE TABLE Giro (
-    NumeroGiro INTEGER,
-    Circuito INTEGER NOT NULL,
-    Data DATE NOT NULL,
-    Pilota VARCHAR(16) NOT NULL,
-    Tempo INTERVAL, -- Per errori di lettura potrebbe non essere possibile avere una telemetria precisa quindi puo essere NULL
-    VMin DECIMAL(6,2),
-    VMax DECIMAL(6,2),
-    PRIMARY KEY (NumeroGiro, Circuito, Data, Pilota),
-    FOREIGN KEY (Pilota, Circuito, Data) REFERENCES Gara(Pilota, Circuito, Data)
-);
+
+
+ALTER TABLE settore
+ADD FOREIGN KEY (capo)
+REFERENCES team_member(cf)
+on delete set null;
