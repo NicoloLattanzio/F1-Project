@@ -88,6 +88,7 @@ CREATE TABLE pilota (
     nazionalita VARCHAR(50) NOT NULL,
     data_nascita DATE NOT NULL,
     peso DECIMAL(5,2) NOT NULL CHECK (peso > 0),
+	attuale BOOLEAN NOT NULL,
     altezza DECIMAL(5,2) NOT NULL CHECK (altezza > 0),
 	settore VARCHAR(20) NOT NULL,
 	FOREIGN KEY (settore) REFERENCES settore(nome) on update cascade
