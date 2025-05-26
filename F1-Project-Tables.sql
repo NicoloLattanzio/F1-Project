@@ -1,82 +1,137 @@
--- Creazione tabelle
-CREATE TABLE Settore (
-    IdSettore INT PRIMARY KEY,
-    Nome VARCHAR(50),
-    Budget DECIMAL(15,2),
-    Capo VARCHAR(50),
-    NumeroPersone INT
-);
+-- Creazione schema
+CREATE SCHEMA IF NOT EXISTS f1_management;
 
+-- Tabella Fornitore
 CREATE TABLE Fornitore (
-    IdFornitore INT PRIMARY KEY,
-    Nome VARCHAR(50),
-    Settore INT REFERENCES Settore(IdSettore)
+    Nome VARCHAR(100) PRIMARY KEY,
+    Settore VARCHAR(100) NOT NULL
 );
 
+-- Tabella Strumento
 CREATE TABLE Strumento (
-    IdStrumento INT PRIMARY KEY,
-    Quantita INT,
-    Nome VARCHAR(50)
+    IdStrumento VARCHAR(50) PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE Contratto (
-    IdContratto INT PRIMARY KEY,
-    Inizio DATE,
-    Fine DATE,
-    Bonus DECIMAL(10,2),
-    Compenso DECIMAL(10,2)
+-- Tabella Fornitura
+CREATE TABLE Fornitura (
+    IdFornitura SERIAL PRIMARY KEY,
+    Quantita INTEGER NOT NULL,
+    Data DATE NOT NULL,
+    Strumento VARCHAR(50) NOT NULL,
+    Fornitore VARCHAR(100) NOT NULL,
+    FOREIGN KEY (Strumento) REFERENCES Strumento(IdStrumento),
+    FOREIGN KEY (Fornitore) REFERENCES Fornitore(Nome)
 );
 
-CREATE TABLE Team (
+-- Tabella Settore
+CREATE TABLE Settore (
+    Nome VARCHAR(100) PRIMARY KEY,
+    Budget DECIMAL(15,2) NOT NULL,
+    Capo VARCHAR(100) NOT NULL,
+    NumeroPersone INTEGER NOT NULL
+);
+
+-- Tabella Utilizzo
+CREATE TABLE Utilizzo (
+    Strumento VARCHAR(50) NOT NULL,
+    Settore VARCHAR(100) NOT NULL,
+    Quantita INTEGER NOT NULL,
+    PRIMARY KEY (Strumento, Settore),
+    FOREIGN KEY (Strumento) REFERENCES Strumento(IdStrumento),
+    FOREIGN KEY (Settore) REFERENCES Settore(Nome)
+);
+
+-- Tabella Team Member
+CREATE TABLE "Team Member" (
     CF VARCHAR(16) PRIMARY KEY,
-    DataNascita DATE,
-    Nome VARCHAR(50),
-    Cognome VARCHAR(50),
-    Ruolo VARCHAR(50),
-    Laurea BOOLEAN
+    Nome VARCHAR(50) NOT NULL,
+    Cognome VARCHAR(50) NOT NULL,
+    Nazionalita VARCHAR(50) NOT NULL,
+    "Data Nascita" DATE NOT NULL,
+    Ruolo VARCHAR(100) NOT NULL,
+    Specializzazione VARCHAR(100),
+    Laurea VARCHAR(100),
+    "Anni Esp." INTEGER
 );
 
+-- Tabella Contratto
+CREATE TABLE Contratto (
+    ID SERIAL PRIMARY KEY,
+    Inizio DATE NOT NULL,
+    Fine DATE,
+    Compenso DECIMAL(15,2) NOT NULL,
+    "Bonus Mensile" DECIMAL(10,2)
+);
+
+-- Tabella Pilota
 CREATE TABLE Pilota (
-    Numero INT PRIMARY KEY,
-    Nome VARCHAR(50),
-    Cognome VARCHAR(50),
-    Altezza DECIMAL(3,2),
-    Peso INT,
-    Nazionalita VARCHAR(50)
+    CF VARCHAR(16) PRIMARY KEY,
+    Nome VARCHAR(50) NOT NULL,
+    Cognome VARCHAR(50) NOT NULL,
+    Numero INTEGER NOT NULL,
+    Nazionalita VARCHAR(50) NOT NULL,
+    "Data Nascita" DATE NOT NULL,
+    Peso DECIMAL(5,2) NOT NULL,
+    Altezza DECIMAL(5,2) NOT NULL
 );
 
+-- Tabella Vettura
 CREATE TABLE Vettura (
-    IdVettura INT PRIMARY KEY,
-    Motore VARCHAR(50),
-    Modello VARCHAR(50) DEFAULT 'SF-23'
+    IDVettura SERIAL PRIMARY KEY,
+    Modello VARCHAR(100) NOT NULL,
+    Anno INTEGER NOT NULL,
+    Peso DECIMAL(8,2) -- Puo essere NULL in quanto per vetture ancora in sviluppo potrebbe non essere preciso
 );
 
+-- Tabella Motore
+CREATE TABLE Motore (
+    IDMotore SERIAL PRIMARY KEY,
+    Cilindri INTEGER NOT NULL,
+    Peso DECIMAL(8,2),
+    Alimentazione VARCHAR(50) NOT NULL
+);
+
+-- Tabella Circuito
 CREATE TABLE Circuito (
-    IdCircuito INT PRIMARY KEY,
-    Nome VARCHAR(50),
-    Localita VARCHAR(50),
-    Paese VARCHAR(50),
-    Lunghezza INT,
-    NR_curve INT
+    IdCircuito SERIAL PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Localita VARCHAR(100) NOT NULL,
+    Paese VARCHAR(50) NOT NULL,
+    Lunghezza DECIMAL(6,3) NOT NULL,
+    "Nr Curve" INTEGER NOT NULL
 );
 
+-- Tabella GP
 CREATE TABLE GP (
-    Data DATE,
-    IdCircuito INT,
-    GiroVeloce TIME,
-    ZoneDRS INT,
-    PRIMARY KEY (Data, IdCircuito),
-    FOREIGN KEY (IdCircuito) REFERENCES Circuito(IdCircuito)
+    Circuito INTEGER,
+    Data DATE NOT NULL,
+    "Condizioni Meteo" VARCHAR(100) NOT NULL,
+    PRIMARY KEY (Circuito, Data),
+    FOREIGN KEY (Circuito) REFERENCES Circuito(IdCircuito)
 );
 
+-- Tabella Gara
+CREATE TABLE Gara (
+    Pilota VARCHAR(16),
+    Circuito INTEGER NOT NULL,
+    Data DATE NOT NULL,
+    Posizione INTEGER NOT NULL,
+    TempoTotale INTERVAL NOT NULL,
+    PRIMARY KEY (Pilota, Circuito, Data),
+    FOREIGN KEY (Pilota) REFERENCES Pilota(CF),
+    FOREIGN KEY (Circuito, Data) REFERENCES GP(Circuito, Data)
+);
+
+-- Tabella Giro
 CREATE TABLE Giro (
-    Data DATE,
-    IdCircuito INT,
-    NumeroGiro INT,
-    NumeroPilota INT REFERENCES Pilota(Numero),
-    Tempo TIME,
-    VelocitaMax DECIMAL(5,2),
-    VelocitaMin DECIMAL(5,2),
-    PRIMARY KEY (Data, IdCircuito, NumeroGiro, NumeroPilota),
-    FOREIGN KEY (Data, IdCircuito) REFERENCES GP(Data, IdCircuito)
+    NumeroGiro INTEGER,
+    Circuito INTEGER NOT NULL,
+    Data DATE NOT NULL,
+    Pilota VARCHAR(16) NOT NULL,
+    Tempo INTERVAL, -- Per errori di lettura potrebbe non essere possibile avere una telemetria precisa quindi puo essere NULL
+    VMin DECIMAL(6,2),
+    VMax DECIMAL(6,2),
+    PRIMARY KEY (NumeroGiro, Circuito, Data, Pilota),
+    FOREIGN KEY (Pilota, Circuito, Data) REFERENCES Gara(Pilota, Circuito, Data)
 );
