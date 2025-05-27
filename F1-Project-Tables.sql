@@ -96,7 +96,6 @@ CREATE TABLE pilota (
     nazionalita VARCHAR(50) NOT NULL,
     data_nascita DATE NOT NULL,
     peso DECIMAL(5,2) NOT NULL CHECK (peso > 0),
-	attuale BOOLEAN NOT NULL,
     altezza DECIMAL(5,2) NOT NULL CHECK (altezza > 0),
 	settore VARCHAR(20) NOT NULL,
 	FOREIGN KEY (settore) REFERENCES settore(nome) on update cascade
@@ -133,7 +132,7 @@ CREATE TABLE circuito (
     nome VARCHAR(50) NOT NULL,
     localita VARCHAR(100) NOT NULL,
     paese VARCHAR(50) NOT NULL,
-    lunghezza DECIMAL(6,3) NOT NULL, CHECK (lunghezza > 0),
+    lunghezza DECIMAL(7,3) NOT NULL, CHECK (lunghezza > 0),
     nr_curve INTEGER NOT NULL CHECK (nr_curve > 0),
 	UNIQUE (nome)
 );
