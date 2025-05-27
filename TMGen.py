@@ -14,6 +14,7 @@ piloti = [
         'numero': 55,
         'nazionalita': 'Italia',
         'data_nascita': '1999-05-01',
+        'peso' : 128,
         'altezza': 176,
         'settore': 'pista'
     },
@@ -24,6 +25,7 @@ piloti = [
         'numero': 16,
         'nazionalita': 'Italia',
         'data_nascita': '1997-10-16',
+        'peso' : 13,
         'altezza': 179,
         'settore': 'pista'
     }
@@ -150,7 +152,7 @@ def scrivi_csv(filename, data, headers):
 
 # --- Scrittura CSV separata ---
 scrivi_csv('team_member.csv', team_member, ['cf', 'nome', 'cognome', 'nazionalita', 'data_nascita', 'ruolo', 'specializzazione', 'laurea', 'anni_esp', 'settore'])
-scrivi_csv('piloti.csv', piloti, ['cf', 'nome', 'cognome', 'numero', 'nazionalita', 'data_nascita', 'altezza', 'settore'])
+scrivi_csv('piloti.csv', piloti, ['cf', 'nome', 'cognome', 'numero', 'nazionalita', 'data_nascita', 'peso', 'altezza', 'settore'])
 scrivi_csv('contratti.csv', contratti, ['id_contratto', 'inizio', 'fine', 'compenso', 'bonus_mensile', 'cf_team', 'cf_pilota'])
 scrivi_csv('circuiti.csv', circuiti, ['id_circuito', 'nome', 'localita', 'paese', 'lunghezza', 'nr_curve'])
 scrivi_csv('gp.csv', gp_list, ['circuito', 'data', 'condizioni_meteo'])
