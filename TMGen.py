@@ -74,9 +74,6 @@ def genera_team_member(n):
 
 team_member_casuali = genera_team_member(20)  # ad es. 20 membri casuali
 
-# --- Unisci piloti e team member ---
-team_member = piloti + team_member_casuali
-
 # --- Genera contratti per tutti i team member ---
 contratti = []
 oggi = date.today()
@@ -180,5 +177,6 @@ scrivi_csv('contratto.csv', contratti, ['id_contratto', 'inizio', 'fine', 'compe
 scrivi_csv('circuito.csv', circuiti, ['id_circuito', 'nome', 'localita', 'paese', 'lunghezza', 'nr_curve'])
 scrivi_csv('gp.csv', gp_list, ['circuito', 'data', 'condizioni_meteo'])
 scrivi_csv('gara.csv', gare, ['pilota', 'circuito', 'data', 'posizione', 'tempo_totale'])
+scrivi_csv('pilota.csv', pilota, ['cf', 'nome', 'cognome','numero', 'nazionalita', 'data_nascita', 'attuale', 'altezza', 'settore'])
 
 print("File CSV generati: team_member.csv, contratto.csv, circuito.csv, gp.csv, gara.csv")
