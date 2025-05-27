@@ -152,7 +152,7 @@ def scrivi_csv(filename, data, headers):
 
 # --- Scrittura CSV separata ---
 scrivi_csv('team_member.csv', team_member, ['cf', 'nome', 'cognome', 'nazionalita', 'data_nascita', 'ruolo', 'specializzazione', 'laurea', 'anni_esp', 'settore'])
-scrivi_csv('piloti.csv', piloti, ['cf', 'nome', 'cognome', 'numero', 'nazionalita', 'data_nascita', 'attuale', 'altezza', 'settore'])
+scrivi_csv('piloti.csv', piloti, ['cf', 'nome', 'cognome', 'numero', 'nazionalita', 'data_nascita', 'altezza', 'settore'])
 scrivi_csv('contratti.csv', contratti, ['id_contratto', 'inizio', 'fine', 'compenso', 'bonus_mensile', 'cf_team', 'cf_pilota'])
 scrivi_csv('circuiti.csv', circuiti, ['id_circuito', 'nome', 'localita', 'paese', 'lunghezza', 'nr_curve'])
 scrivi_csv('gp.csv', gp_list, ['circuito', 'data', 'condizioni_meteo'])
