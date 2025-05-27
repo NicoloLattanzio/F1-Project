@@ -113,9 +113,30 @@ for i, membro in enumerate(team_member):
 
 # --- Circuiti fissi ---
 circuiti = [
-    {'id_circuito': 'CIR01', 'nome': 'Monza', 'localita': 'Monza', 'paese': 'Italia', 'lunghezza': 5.793, 'nr_curve': 11},
-    {'id_circuito': 'CIR02', 'nome': 'Silverstone', 'localita': 'Silverstone', 'paese': 'UK', 'lunghezza': 5.891, 'nr_curve': 18},
-    {'id_circuito': 'CIR03', 'nome': 'Spa', 'localita': 'Francorchamps', 'paese': 'Belgio', 'lunghezza': 7.004, 'nr_curve': 19},
+    {'id_circuito': 'CIR01', 'nome': 'Bahrain International Circuit', 'localita': 'Sakhir', 'paese': 'Bahrain', 'lunghezza': 5412, 'nr_curve': 15},
+    {'id_circuito': 'CIR02', 'nome': 'Jeddah Corniche Circuit', 'localita': 'Gedda', 'paese': 'Arabia Saudita', 'lunghezza': 6174, 'nr_curve': 27},
+    {'id_circuito': 'CIR03', 'nome': 'Albert Park Circuit', 'localita': 'Melbourne', 'paese': 'Australia', 'lunghezza': 5278, 'nr_curve': 14},
+    {'id_circuito': 'CIR04', 'nome': 'Suzuka International Racing Course', 'localita': 'Suzuka', 'paese': 'Giappone', 'lunghezza': 5807, 'nr_curve': 18},
+    {'id_circuito': 'CIR05', 'nome': 'Shanghai International Circuit', 'localita': 'Shanghai', 'paese': 'Cina', 'lunghezza': 5451, 'nr_curve': 16},
+    {'id_circuito': 'CIR06', 'nome': 'Miami International Autodrome', 'localita': 'Miami', 'paese': 'USA', 'lunghezza': 5410, 'nr_curve': 19},
+    {'id_circuito': 'CIR07', 'nome': 'Autodromo Enzo e Dino Ferrari', 'localita': 'Imola', 'paese': 'Italia', 'lunghezza': 4909, 'nr_curve': 19},
+    {'id_circuito': 'CIR08', 'nome': 'Circuit de Monaco', 'localita': 'Monte Carlo', 'paese': 'Monaco', 'lunghezza': 3337, 'nr_curve': 19},
+    {'id_circuito': 'CIR09', 'nome': 'Circuit Gilles Villeneuve', 'localita': 'Montréal', 'paese': 'Canada', 'lunghezza': 4361, 'nr_curve': 14},
+    {'id_circuito': 'CIR10', 'nome': 'Circuit de Barcelona-Catalunya', 'localita': 'Barcellona', 'paese': 'Spagna', 'lunghezza': 4675, 'nr_curve': 16},
+    {'id_circuito': 'CIR11', 'nome': 'Red Bull Ring', 'localita': 'Spielberg', 'paese': 'Austria', 'lunghezza': 4318, 'nr_curve': 10},
+    {'id_circuito': 'CIR12', 'nome': 'Silverstone Circuit', 'localita': 'Silverstone', 'paese': 'Regno Unito', 'lunghezza': 5891, 'nr_curve': 18},
+    {'id_circuito': 'CIR13', 'nome': 'Hungaroring', 'localita': 'Mogyoród', 'paese': 'Ungheria', 'lunghezza': 4381, 'nr_curve': 14},
+    {'id_circuito': 'CIR14', 'nome': 'Circuit de Spa-Francorchamps', 'localita': 'Stavelot', 'paese': 'Belgio', 'lunghezza': 7004, 'nr_curve': 19},
+    {'id_circuito': 'CIR15', 'nome': 'Circuit Zandvoort', 'localita': 'Zandvoort', 'paese': 'Paesi Bassi', 'lunghezza': 4259, 'nr_curve': 14},
+    {'id_circuito': 'CIR16', 'nome': 'Autodromo Nazionale Monza', 'localita': 'Monza', 'paese': 'Italia', 'lunghezza': 5793, 'nr_curve': 11},
+    {'id_circuito': 'CIR17', 'nome': 'Baku City Circuit', 'localita': 'Baku', 'paese': 'Azerbaigian', 'lunghezza': 6003, 'nr_curve': 20},
+    {'id_circuito': 'CIR18', 'nome': 'Marina Bay Street Circuit', 'localita': 'Singapore', 'paese': 'Singapore', 'lunghezza': 5063, 'nr_curve': 23},
+    {'id_circuito': 'CIR19', 'nome': 'Circuit of The Americas', 'localita': 'Austin', 'paese': 'USA', 'lunghezza': 5513, 'nr_curve': 20},
+    {'id_circuito': 'CIR20', 'nome': 'Autódromo Hermanos Rodríguez', 'localita': 'Città del Messico', 'paese': 'Messico', 'lunghezza': 4304, 'nr_curve': 17},
+    {'id_circuito': 'CIR21', 'nome': 'Autódromo José Carlos Pace', 'localita': 'San Paolo', 'paese': 'Brasile', 'lunghezza': 4309, 'nr_curve': 15},
+    {'id_circuito': 'CIR22', 'nome': 'Las Vegas Strip Circuit', 'localita': 'Las Vegas', 'paese': 'USA', 'lunghezza': 6120, 'nr_curve': 17},
+    {'id_circuito': 'CIR23', 'nome': 'Lusail International Circuit', 'localita': 'Lusail', 'paese': 'Qatar', 'lunghezza': 5410, 'nr_curve': 16},
+    {'id_circuito': 'CIR24', 'nome': 'Yas Marina Circuit', 'localita': 'Abu Dhabi', 'paese': 'Emirati Arabi Uniti', 'lunghezza': 5281, 'nr_curve': 21},
 ]
 
 # --- Genera GP negli ultimi 3 mesi ogni 30 giorni ---
