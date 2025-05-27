@@ -14,7 +14,6 @@ piloti = [
         'numero': 55,
         'nazionalita': 'Italia',
         'data_nascita': '1999-05-01',
-        'attuale': True,
         'altezza': 176,
         'settore': 'pista'
     },
@@ -25,7 +24,6 @@ piloti = [
         'numero': 16,
         'nazionalita': 'Italia',
         'data_nascita': '1997-10-16',
-        'attuale': True,
         'altezza': 179,
         'settore': 'pista'
     }
