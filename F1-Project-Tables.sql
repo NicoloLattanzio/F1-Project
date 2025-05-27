@@ -78,6 +78,13 @@ CREATE TABLE team_member (
 	FOREIGN KEY (settore) REFERENCES settore(nome) on update cascade on delete set null
 	--Qui ho bisogno di settare a NULL il settore a cui appartiene un certo dipendente poiché non posso eliminare
 	--tutte le persone di un certo settore in quanto si pensa ad una riorganizzazione non ad un licenziamento massivo
+	CHECK (
+	    (ruolo = 'meccanico' AND specializzazione IS NOT NULL AND anni_esp IS NOT NULL AND laurea IS NULL)
+	    OR
+	    (ruolo = 'ingegnere' AND laurea IS NOT NULL AND specializzazione IS NULL AND anni_esp IS NULL)
+	    OR
+	    (ruolo = 'manager' AND anni_esp IS NOT NULL AND laurea IS NULL AND specializzazione IS NULL)
+	)
 );
 --Tabella pilota
 CREATE TABLE pilota (
