@@ -62,8 +62,8 @@ INSERT INTO pilota (cf, nome, cognome, numero, nazionalita, data_nascita, peso, 
 
 -- Popolamento tabella motore
 INSERT INTO motore (id_motore, cilindri, peso, alimentazione, produttore) VALUES
-('M000000001', 6, 150, 'Ibrida', 'Ferrari'),
-('M000000002', 6, 152, 'Ibrida', 'Ferrari');
+('M000000001', 6, 150, 'ibrido', 'Ferrari'),
+('M000000002', 6, 152, 'ibrido', 'Ferrari');
 
 -- Popolamento tabella vettura
 INSERT INTO vettura (id_vettura, modello, anno, peso, cf, id_motore) VALUES
