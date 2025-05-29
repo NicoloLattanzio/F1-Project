@@ -33,16 +33,16 @@ INSERT INTO utilizzo (strumento, settore, quantita) VALUES
 
 -- Popolamento tabella contratto
 INSERT INTO contratto (id_contratto, inizio, fine, compenso, bonus_mensile, cf_team, cf_pilota) VALUES
-('CT001', '2023-01-01', '2025-12-31', 4000000.00, 150000.00, NULL, 'HAMILC44D01H501W'),  -- Hamilton
-('CT002', '2023-01-01', '2026-12-31', 3000000.00, 120000.00, NULL, 'LECCHR16E02H501V'),   -- Leclerc
-('CT003', '2019-01-01', '2029-12-31', 4000000.00, 150000.00, 'RSSMRA80A01H501Z', NULL),
-('CT004', '2010-12-01', '2027-12-31', 4000000.00, NULL, 'BNCLGU75B12H501Y', NULL),
-('CT005', '2005-05-01', '2030-12-31', 4000000.00, NULL, 'ARDGPP85C23H501X', NULL),
-('CT006', '2020-01-01', NULL, 4000000.00, 150000.00, 'BRDGPP85C23H501X', NULL),
-('CT007', '2016-01-01', '2025-12-31', 4000000.00, NULL, 'CRDGPP85C23H501X', NULL),
-('CT008', '2022-01-01', '2025-12-31', 4000000.00, 150000.00, 'DRDGPP85C23H501X', NULL),
-('CT009', '2023-04-01', NULL, 4000000.00, NULL, 'ERDGPP85C23H501X', NULL),
-('CT010', '2023-05-01', NULL, 4000000.00, 150000.00, 'FRDGPP85C23H501X', NULL);
+('CT00000001', '2023-01-01', '2025-12-31', 4000000.00, 150000.00, NULL, 'HAMILC44D01H501W'),  -- Hamilton
+('CT00000002', '2023-01-01', '2026-12-31', 3000000.00, 120000.00, NULL, 'LECCHR16E02H501V'),   -- Leclerc
+('CT00000003', '2019-01-01', '2029-12-31', 4000000.00, 150000.00, 'RSSMRA80A01H501Z', NULL),
+('CT00000004', '2010-12-01', '2027-12-31', 4000000.00, NULL, 'BNCLGU75B12H501Y', NULL),
+('CT00000005', '2005-05-01', '2030-12-31', 4000000.00, NULL, 'ARDGPP85C23H501X', NULL),
+('CT00000006', '2020-01-01', NULL, 4000000.00, 150000.00, 'BRDGPP85C23H501X', NULL),
+('CT00000007', '2016-01-01', '2025-12-31', 4000000.00, NULL, 'CRDGPP85C23H501X', NULL),
+('CT00000008', '2022-01-01', '2025-12-31', 4000000.00, 150000.00, 'DRDGPP85C23H501X', NULL),
+('CT00000009', '2023-04-01', NULL, 4000000.00, NULL, 'ERDGPP85C23H501X', NULL),
+('CT00000010', '2023-05-01', NULL, 4000000.00, 150000.00, 'FRDGPP85C23H501X', NULL);
 
 -- Popolamento tabella team_member
 INSERT INTO team_member (cf, nome, cognome, nazionalita, data_nascita, ruolo, specializzazione, laurea, anni_esp, settore) VALUES
@@ -53,7 +53,7 @@ INSERT INTO team_member (cf, nome, cognome, nazionalita, data_nascita, ruolo, sp
 ('CRDGPP85C23H501X', 'Giuseppe', 'Rossi', 'Italiana', '1995-01-23', 'Management', NULL, NULL, 8, 'Ricerca e sviluppo'),
 ('DRDGPP85C23H501X', 'Claudio', 'Bellio', 'Italiana', '1988-12-23', 'Management', NULL, NULL, 8, 'Aerodinamica'),
 ('ERDGPP85C23H501X', 'Lorenzo', 'Ferro', 'Italiana', '1985-03-23', 'Meccanico', 'Freni', NULL, 8, 'Aerodinamica', 'Pista'),
-('FRDGPP85C23H501X', 'Alessio', 'Sella', 'Italiana', '1985-03-23', 'Meccanico', 'Carrozzeria', NULL, 10. 'Motori');
+('FRDGPP85C23H501X', 'Alessio', 'Sella', 'Italiana', '1985-03-23', 'Meccanico', 'Carrozzeria', NULL, 10, 'Motori');
 
 -- Popolamento tabella pilota
 INSERT INTO pilota (cf, nome, cognome, numero, nazionalita, data_nascita, peso, altezza, settore) VALUES
