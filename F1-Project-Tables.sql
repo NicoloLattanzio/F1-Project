@@ -155,7 +155,7 @@ CREATE TABLE gara (
     id_circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0),
-    tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > 0),
+    tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > interval '0'),
     PRIMARY KEY (pilota, id_circuito, data),
     FOREIGN KEY (pilota) REFERENCES pilota(cf),
     FOREIGN KEY (id_circuito, data) REFERENCES gp(id_circuito, data)
@@ -168,7 +168,7 @@ CREATE TABLE giro (
     id_circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
     pilota CHAR(16) NOT NULL,
-    tempo INTERVAL NOT NULL CHECK (tempo > 0), --millisecondi
+    tempo INTERVAL NOT NULL CHECK (tempo > interval '0'), --millisecondi
     v_min DECIMAL(6,2) NOT NULL CHECK (v_min >= 0 and v_min > v_max),
     v_max DECIMAL(6,2) NOT NULL CHECK (v_max >= 0 and v_max > v_min),
     PRIMARY KEY (numero_giro, id_circuito, data, pilota),
