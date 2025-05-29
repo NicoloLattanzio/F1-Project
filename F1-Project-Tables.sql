@@ -97,7 +97,7 @@ CREATE TABLE pilota (
     data_nascita DATE NOT NULL,
     peso DECIMAL(5,2) NOT NULL CHECK (peso > 0),
     altezza DECIMAL(5,2) NOT NULL CHECK (altezza > 0),
-	settore VARCHAR(20) NOT NULL,
+	settore VARCHAR(20) NOT NULL CHECK (settore = 'Pista'),
 	FOREIGN KEY (settore) REFERENCES settore(nome) on update cascade
 	--Non ha senso mettere on delete poiché eliminare il settore "pista" al quale appartiene il pilota
 	--significa che non è più una scuderia di Formula 1
