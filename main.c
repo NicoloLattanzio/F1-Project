@@ -29,36 +29,30 @@ void checkresult(PGresult *res, const PGconn *conn){
             exit(1);
         }
 }
-
-PGresult* query_TM_contract_hiring(PGresult *res, PGconn *conn){
-    const char *query =     "SELECT tm.nome, tm.cognome, tm.data_nascita, tm.ruolo\n"
-                            "FROM team_member tm\n"
-                            "JOIN contratto c ON tm.cf = c.cf_team\n"
-                            "WHERE c.inizio >= $1::date;";
-
-    /*const char *query =     "SELECT tm.nome, tm.cognome, tm.data_nascita, tm.ruolo, 'team_member' AS tipo\n"
-                            "FROM team_member tm\n"
-                            "JOIN contratto c ON tm.cf = c.cf_team\n"
-                            "WHERE c.inizio > $1::date\n"
-                            "UNION\n"
-                            "SELECT p.nome, p.cognome, p.data_nascita, NULL AS ruolo, 'pilota' AS tipo\n"
-                            "FROM pilota p\n"
-                            "JOIN contratto c ON p.cf = c.cf_pilota\n"
-                            "WHERE c.inizio > $1::date;";
-*/
-    // First prepare the statement
-    res = PQprepare(conn, "query", query, 1, NULL);
+void prepare_statement(PGconn *conn, const char *stmt_name, const char *query, int n_params) {
+    PGresult *res = PQprepare(conn, stmt_name, query, n_params, NULL);
     if (PQresultStatus(res) != PGRES_COMMAND_OK) {
-        printf("Prepare failed: %s\n", PQerrorMessage(conn));
+        printf("Prepare failed for statement '%s': %s\n", stmt_name, PQerrorMessage(conn));
         PQclear(res);
+        PQfinish(conn);
         exit(1);
     }
-    PQclear(res); // Clear the prepare result
+    PQclear(res);
+}
+
+PGresult* query_TM_contract_hiring(PGresult *res, PGconn *conn) {
+    const char *query = "SELECT tm.nome, tm.cognome, tm.data_nascita, tm.ruolo "
+                        "FROM team_member tm "
+                        "JOIN contratto c ON tm.cf = c.cf_team "
+                        "WHERE c.inizio > $1::date;";
+
+    // Prepare the statement using the helper function
+    prepare_statement(conn, "query", query, 1);
     
     // Get the date parameter
-    char date[11]; // Increased size to accommodate null terminator
+    char date[11];
     printf("Inserire la data dalla quale si vuole sapere quali persone sono state assunte e in che ruolo: (YYYY-MM-DD)\n");
-    scanf("%10s", date); // Limit input to 10 characters
+    scanf("%10s", date);
     while(!isValidDateFormat(date)) {
         printf("Formato data non valido. Inserire nel formato YYYY-MM-DD: ");
         scanf("%10s", date);
