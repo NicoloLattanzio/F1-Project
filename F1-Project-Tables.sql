@@ -139,7 +139,7 @@ CREATE TABLE circuito (
 
 --Tabella gp
 CREATE TABLE gp (
-    circuito CHAR(10) NOT NULL,
+    id_circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
 	--Data non UNIQUE poiché possono esserci più gran premi nella stessa data come per il caso della formula 2
     condizioni_meteo VARCHAR(50) NOT NULL,
@@ -152,7 +152,7 @@ CREATE TABLE gp (
 --Tabella gara
 CREATE TABLE gara (
     pilota CHAR(16) NOT NULL,
-    circuito CHAR(10) NOT NULL,
+    id_circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0) UNIQUE, --Poiché non possono esserci 2 piloti nella stessa posizione
     tempo_totale INTEGER NOT NULL CHECK (tempo_totale > 0) UNIQUE, --millisecondi, unique perché 2 piloti non possono avere lo stesso tempo
@@ -165,7 +165,7 @@ CREATE TABLE gara (
 --Tabella giro
 CREATE TABLE giro (
     numero_giro INTEGER NOT NULL CHECK (numero_giro > 0),
-    circuito CHAR(10) NOT NULL,
+    id_circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
     pilota CHAR(16) NOT NULL,
     tempo INTEGER NOT NULL CHECK (tempo > 0), --millisecondi
