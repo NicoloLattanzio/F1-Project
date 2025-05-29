@@ -49,7 +49,7 @@ INSERT INTO team_member (cf, nome, cognome, nazionalita, data_nascita, ruolo, sp
 ('RSSMRA80A01H501Z', 'Mario', 'Rossi', 'Italiana', '1980-01-01', 'ingegnere', NULL, 'Ingegneria Aerospaziale', NULL, 'Aerodinamica'),
 ('BNCLGU75B12H501Y', 'Luigi', 'Bianchi', 'Italiana', '1975-02-12', 'ingegnere', NULL, 'Ingegneria Meccanica', NULL,'Ricerca e sviluppo'),
 ('ARDGPP85C23H501X', 'Giuseppe', 'Verdi', 'Italiana', '1984-03-23', 'ingegnere', NULL, 'Chimica', NULL, 'Gomme'),
-('BRDGPP85C23H501X', 'Leonardo', 'Esposito', 'Italiana', '1965-03-23', 'management', NULL, NULL, 8, 'Pista'),
+('BRDGPP85C23H501X', 'Leonardo', 'Esposito', 'Italiana', '1965-03-23', 'manager', NULL, NULL, 8, 'Pista'),
 ('CRDGPP85C23H501X', 'Giuseppe', 'Rossi', 'Italiana', '1995-01-23', 'manager', NULL, NULL, 8, 'Ricerca e sviluppo'),
 ('DRDGPP85C23H501X', 'Claudio', 'Bellio', 'Italiana', '1988-12-23', 'manager', NULL, NULL, 8, 'Aerodinamica'),
 ('ERDGPP85C23H501X', 'Lorenzo', 'Ferro', 'Italiana', '1985-03-23', 'meccanico', 'Freni', NULL, 8, 'Pista'),
