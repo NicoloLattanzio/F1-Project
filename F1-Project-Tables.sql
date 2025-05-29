@@ -154,8 +154,8 @@ CREATE TABLE gara (
     pilota CHAR(16) NOT NULL,
     id_circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
-    posizione INTEGER NOT NULL CHECK (posizione > 0) UNIQUE, --Poiché non possono esserci 2 piloti nella stessa posizione
-    tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > 0) UNIQUE, --millisecondi, unique perché 2 piloti non possono avere lo stesso tempo
+    posizione INTEGER NOT NULL CHECK (posizione > 0),
+    tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > 0),
     PRIMARY KEY (pilota, id_circuito, data),
     FOREIGN KEY (pilota) REFERENCES pilota(cf),
     FOREIGN KEY (id_circuito, data) REFERENCES gp(id_circuito, data)
