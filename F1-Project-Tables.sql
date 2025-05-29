@@ -143,8 +143,8 @@ CREATE TABLE gp (
     data DATE NOT NULL,
 	--Data non UNIQUE poiché possono esserci più gran premi nella stessa data come per il caso della formula 2
     condizioni_meteo VARCHAR(50) NOT NULL,
-    PRIMARY KEY (circuito, data),
-    FOREIGN KEY (circuito) REFERENCES circuito(id_circuito)
+    PRIMARY KEY (id_circuito, data),
+    FOREIGN KEY (id_circuito) REFERENCES circuito(id_circuito)
 	--Non si possono eliminare i circuiti e nemmeno aggiornare perché non avrebbe senso in un database che
 	--funziona anche da cronologia di eventi per lo studio delle prestazioni della scuderia nel lungo periodo
 );
@@ -156,9 +156,9 @@ CREATE TABLE gara (
     data DATE NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0) UNIQUE, --Poiché non possono esserci 2 piloti nella stessa posizione
     tempo_totale INTEGER NOT NULL CHECK (tempo_totale > 0) UNIQUE, --millisecondi, unique perché 2 piloti non possono avere lo stesso tempo
-    PRIMARY KEY (pilota, circuito, data),
+    PRIMARY KEY (pilota, id_circuito, data),
     FOREIGN KEY (pilota) REFERENCES pilota(cf),
-    FOREIGN KEY (circuito, data) REFERENCES gp(circuito, data)
+    FOREIGN KEY (id_circuito, data) REFERENCES gp(id_circuito, data)
 	--Analogamente a circuiti non avrebbe senso eliminare i gp
 );
 
@@ -171,8 +171,8 @@ CREATE TABLE giro (
     tempo INTEGER NOT NULL CHECK (tempo > 0), --millisecondi
     v_min DECIMAL(6,2) NOT NULL CHECK (v_min >= 0 and v_min > v_max),
     v_max DECIMAL(6,2) NOT NULL CHECK (v_max >= 0 and v_max > v_min),
-    PRIMARY KEY (numero_giro, circuito, data, pilota),
-    FOREIGN KEY (pilota, circuito, data) REFERENCES gara(pilota, circuito, data)
+    PRIMARY KEY (numero_giro, id_circuito, data, pilota),
+    FOREIGN KEY (pilota, id_circuito, data) REFERENCES gara(pilota, id_circuito, data)
 );
 
 
