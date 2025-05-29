@@ -1,51 +1,77 @@
--- Popolamento tabella Fornitore
-INSERT INTO Fornitore (Nome, Settore) VALUES
+-- Popolamento tabella fornitore
+INSERT INTO fornitore (nome, settore) VALUES
 ('Pirelli', 'Gomme'),
 ('Ferrari', 'Motori'),
 ('Brembo', 'Freni'),
 ('Shell', 'Carburante');
 
--- Popolamento tabella Strumento
-INSERT INTO Strumento (IdStrumento, Nome) VALUES
-('ST001', 'Analizzatore dati'),
-('ST002', 'Simulatore guida'),
-('ST003', 'Banco prova motore');
+-- Popolamento tabella strumento
+INSERT INTO strumento (id_strumento, nome) VALUES
+('ST00000001', 'Analizzatore dati'),
+('ST00000002', 'Simulatore guida'),
+('ST00000003', 'Banco prova motore');
 
--- Popolamento tabella Settore
-INSERT INTO Settore (Nome, Budget, Capo, NumeroPersone) VALUES
-('Aerodinamica', 1000000.00, 'Mario Rossi', 15),
-('Motori', 1500000.00, 'Luigi Bianchi', 20),
-('Gomme', 800000.00, 'Giuseppe Verdi', 10),
-('Piloti', 2000000.00, 'Stefano Ricci', 5);
+-- Popolamento tabella fornitura
+INSERT INTO fornitura (id_fornitura, quantita, data, prezzo_fnt, strumento, fornitore) VALUES
+('F000000001', 10, '2023-05-10', 5000.00, 'ST00000001', 'Pirelli'),
+('F000000002', 3, '2023-06-15', 12000.00, 'ST00000002', 'Ferrari'),
+('F000000003', 3, '2023-04-20', 8000.00, 'ST00000003', 'Brembo');
 
--- Popolamento tabella TeamMember
-INSERT INTO TeamMember (CF, Nome, Cognome, Nazionalità, DataNascita, Ruolo, Specializzazione, Laurea, AnniEsp) VALUES
-('RSSMRA80A01H501Z', 'Mario', 'Rossi', 'Italiana', '1980-01-01', 'Aerodinamica', 'Fluidodinamica', 'Ingegneria Aerospaziale', 10),
-('BNCLGU75B12H501Y', 'Luigi', 'Bianchi', 'Italiana', '1975-02-12', 'Motori', 'Propulsione', 'Ingegneria Meccanica', 15),
-('VRDGPP85C23H501X', 'Giuseppe', 'Verdi', 'Italiana', '1985-03-23', 'Gomme', 'Materiali', 'Chimica', 8);
+-- Popolamento tabella settore
+INSERT INTO settore (nome, budget, capo, numero_persone) VALUES
+('Aerodinamica', 1000000.00, 'RSSMRA80A01H501Z', 15),
+('Motori', 1500000.00, 'FRDGPP85C23H501X', 20),
+('Gomme', 800000.00, 'CRDGPP85C23H501X', 10),
+('Ricerca e sviluppo', 2000000.00, 'BNCLGU75B12H501Y', 5),
+('Pista', 5000000.00, 'BRDGPP85C23H501X', 20);
 
--- Popolamento tabella Pilota
-INSERT INTO Pilota (CF, Nome, Cognome, Numero, Nazionalità, DataNascita, Peso, Altezza, Settore) VALUES
-('HAMILC44D01H501W', 'Lewis', 'Hamilton', 44, 'Britannica', '1985-01-07', 68, 1.74, 'Piloti'),
-('LECCHR16E02H501V', 'Charles', 'Leclerc', 16, 'Monegasco', '1997-10-16', 70, 1.80, 'Piloti');
+-- Popolamento tabella utilizzo
+INSERT INTO utilizzo (strumento, settore, quantita) VALUES
+('ST00000001', 'Aerodinamica', 5),
+('ST00000002', 'Motori', 3),
+('ST00000003', 'Gomme', 2);
 
--- Popolamento tabella Contratto
-INSERT INTO Contratto (ID, Dipendente, Inizio, Fine, Compenso, BonusMensile) VALUES
-('CT002', 'HAMILC44D01H501W', '2023-01-01', '2025-12-31', 4000000.00, 150000.00),  -- Hamilton
-('CT003', 'LECCHR16E02H501V', '2023-01-01', '2026-12-31', 3000000.00, 120000.00);   -- Leclerc
+-- Popolamento tabella contratto
+INSERT INTO contratto (id_contratto, inizio, fine, compenso, bonus_mensile, cf_team, cf_pilota) VALUES
+('CT001', '2023-01-01', '2025-12-31', 4000000.00, 150000.00, NULL, 'HAMILC44D01H501W'),  -- Hamilton
+('CT002', '2023-01-01', '2026-12-31', 3000000.00, 120000.00, NULL, 'LECCHR16E02H501V'),   -- Leclerc
+('CT003', '2019-01-01', '2029-12-31', 4000000.00, 150000.00, 'RSSMRA80A01H501Z', NULL),
+('CT004', '2010-12-01', '2027-12-31', 4000000.00, NULL, 'BNCLGU75B12H501Y', NULL),
+('CT005', '2005-05-01', '2030-12-31', 4000000.00, NULL, 'ARDGPP85C23H501X', NULL),
+('CT006', '2020-01-01', NULL, 4000000.00, 150000.00, 'BRDGPP85C23H501X', NULL),
+('CT007', '2016-01-01', '2025-12-31', 4000000.00, NULL, 'CRDGPP85C23H501X', NULL),
+('CT008', '2022-01-01', '2025-12-31', 4000000.00, 150000.00, 'DRDGPP85C23H501X', NULL),
+('CT009', '2023-04-01', NULL, 4000000.00, NULL, 'ERDGPP85C23H501X', NULL),
+('CT010', '2023-05-01', NULL, 4000000.00, 150000.00, 'FRDGPP85C23H501X', NULL);
 
--- Popolamento tabella Vettura
-INSERT INTO Vettura (IDVettura, Modello, Anno, Peso) VALUES
-('V001', 'F1-2023', 2023, 795),
-('V002', 'F1-2023-B', 2023, 798);
+-- Popolamento tabella team_member
+INSERT INTO team_member (cf, nome, cognome, nazionalita, data_nascita, ruolo, specializzazione, laurea, anni_esp, settore) VALUES
+('RSSMRA80A01H501Z', 'Mario', 'Rossi', 'Italiana', '1980-01-01', 'Ingegnere', NULL, 'Ingegneria Aerospaziale', NULL, 'Aerodinamica'),
+('BNCLGU75B12H501Y', 'Luigi', 'Bianchi', 'Italiana', '1975-02-12', 'Ingegnere', NULL, 'Ingegneria Meccanica', NULL,'Ricerca e sviluppo'),
+('ARDGPP85C23H501X', 'Giuseppe', 'Verdi', 'Italiana', '1984-03-23', 'Ingegnere', NULL, 'Chimica', NULL, 'Gomme'),
+('BRDGPP85C23H501X', 'Leonardo', 'Esposito', 'Italiana', '1965-03-23', 'Management', NULL, NULL, 8, 'Pista'),
+('CRDGPP85C23H501X', 'Giuseppe', 'Rossi', 'Italiana', '1995-01-23', 'Management', NULL, NULL, 8, 'Ricerca e sviluppo'),
+('DRDGPP85C23H501X', 'Claudio', 'Bellio', 'Italiana', '1988-12-23', 'Management', NULL, NULL, 8, 'Aerodinamica'),
+('ERDGPP85C23H501X', 'Lorenzo', 'Ferro', 'Italiana', '1985-03-23', 'Meccanico', 'Freni', NULL, 8, 'Aerodinamica', 'Pista'),
+('FRDGPP85C23H501X', 'Alessio', 'Sella', 'Italiana', '1985-03-23', 'Meccanico', 'Carrozzeria', NULL, 10. 'Motori');
 
--- Popolamento tabella Motore
-INSERT INTO Motore (IDMotore, Cilindri, Peso, Alimentazione, Produttore) VALUES
-('M001', 6, 150, 'Ibrida', 'Ferrari'),
-('M002', 6, 152, 'Ibrida', 'Ferrari');
+-- Popolamento tabella pilota
+INSERT INTO pilota (cf, nome, cognome, numero, nazionalita, data_nascita, peso, altezza, settore) VALUES
+('HAMILC44D01H501W', 'Lewis', 'Hamilton', 44, 'Britannica', '1985-01-07', 68, 1.74, 'Pista'),
+('LECCHR16E02H501V', 'Charles', 'Leclerc', 16, 'Monegasco', '1997-10-16', 70, 1.80, 'Pista');
 
--- Popolamento basico
-INSERT INTO Circuito (IdCircuito, Nome, Localita, Paese, Lunghezza, NR_curve) VALUES
+-- Popolamento tabella motore
+INSERT INTO motore (id_motore, cilindri, peso, alimentazione, produttore) VALUES
+('M000000001', 6, 150, 'Ibrida', 'Ferrari'),
+('M000000002', 6, 152, 'Ibrida', 'Ferrari');
+
+-- Popolamento tabella vettura
+INSERT INTO vettura (id_vettura, modello, anno, peso, cf, id_motore) VALUES
+('V000000001', 'F1-2023', 2023, 795, 'HAMILC44D01H501W', 'M000000001'),
+('V000000002', 'F1-2023-B', 2023, 798, 'LECCHR16E02H501V', 'M000000002');
+
+-- Popolamento tabella circuito
+INSERT INTO circuito (id_circuito, nome, localita, paese, lunghezza, nr_curve) VALUES
 (1, 'Bahrain International Circuit', 'Sakhir', 'Bahrain', 5412, 15),
 (2, 'Jeddah Corniche Circuit', 'Gedda', 'Arabia Saudita', 6174, 27),
 (3, 'Albert Park Circuit', 'Melbourne', 'Australia', 5278, 14),
@@ -71,67 +97,52 @@ INSERT INTO Circuito (IdCircuito, Nome, Localita, Paese, Lunghezza, NR_curve) VA
 (23, 'Lusail International Circuit', 'Lusail', 'Qatar', 5410, 16),
 (24, 'Yas Marina Circuit', 'Abu Dhabi', 'Emirati Arabi Uniti', 5281, 21)
 
-INSERT INTO GP (Circuito, Data, CondizioniMeteo) VALUES
-(1, '2023-03-05', 'Sereno'),       -- Bahrain
-(2, '2023-03-19', 'Sereno'),       -- Arabia Saudita
-(3, '2023-04-02', 'Variabile'),    -- Australia
-(4, '2023-04-16', 'Pioggia'),      -- Giappone (data sostitutiva)
-(5, '2023-04-30', 'Nuvoloso'),     -- Cina (non disputata nel 2023, data ipotetica)
-(6, '2023-05-07', 'Sereno'),       -- Miami
-(7, '2023-05-21', 'Pioggia leggera'), -- Imola (annullata per alluvione, data ipotetica)
-(8, '2023-05-28', 'Sereno'),       -- Monaco
-(9, '2023-06-18', 'Variabile'),    -- Canada
-(10, '2023-06-04', 'Sereno'),      -- Spagna (data reale)
-(11, '2023-07-02', 'Pioggia'),     -- Austria
-(12, '2023-07-09', 'Sereno'),      -- Gran Bretagna
-(13, '2023-07-23', 'Afoso'),       -- Ungheria
-(14, '2023-07-30', 'Variabile'),   -- Belgio
-(15, '2023-08-27', 'Sereno'),      -- Olanda
-(16, '2023-09-03', 'Pioggia'),     -- Italia
-(17, '2023-09-17', 'Sereno'),      -- Azerbaijan
-(18, '2023-09-17', 'Umido'),       -- Singapore (data corretta)
-(19, '2023-10-22', 'Sereno'),      -- USA (Austin)
-(20, '2023-10-29', 'Asciutto'),    -- Messico
-(21, '2023-11-05', 'Pioggia'),     -- Brasile
-(22, '2023-11-19', 'Freddo'),      -- Las Vegas
-(23, '2023-10-08', 'Afoso'),       -- Qatar (data reale)
-(24, '2023-11-26', 'Sereno');      -- Abu Dhabi
+-- Popolamento tabella gp
+INSERT INTO gp (id_circuito, data, condizioni_meteo) VALUES
+('C000000001', '2023-03-05', 'Sereno'),       -- Bahrain
+('C000000002', '2023-03-19', 'Sereno'),       -- Arabia Saudita
+('C000000003', '2023-04-02', 'Variabile'),    -- Australia
+('C000000004', '2023-04-16', 'Pioggia'),      -- Giappone (data sostitutiva)
+('C000000005', '2023-04-30', 'Nuvoloso'),     -- Cina (non disputata nel 2023, data ipotetica)
+('C000000006', '2023-05-07', 'Sereno'),       -- Miami
+('C000000007', '2023-05-21', 'Pioggia leggera'), -- Imola (annullata per alluvione, data ipotetica)
+('C000000008', '2023-05-28', 'Sereno'),       -- Monaco
+('C000000009', '2023-06-18', 'Variabile'),    -- Canada
+('C000000010', '2023-06-04', 'Sereno'),      -- Spagna (data reale)
+('C000000011', '2023-07-02', 'Pioggia'),     -- Austria
+('C000000012', '2023-07-09', 'Sereno'),      -- Gran Bretagna
+('C000000013', '2023-07-23', 'Afoso'),       -- Ungheria
+('C000000014', '2023-07-30', 'Variabile'),   -- Belgio
+('C000000015', '2023-08-27', 'Sereno'),      -- Olanda
+('C000000016', '2023-09-03', 'Pioggia'),     -- Italia
+('C000000017', '2023-09-17', 'Sereno'),      -- Azerbaijan
+('C000000018', '2023-09-17', 'Umido'),       -- Singapore (data corretta)
+('C000000019', '2023-10-22', 'Sereno'),      -- USA (Austin)
+('C000000020', '2023-10-29', 'Asciutto'),    -- Messico
+('C000000021', '2023-11-05', 'Pioggia'),     -- Brasile
+('C000000022', '2023-11-19', 'Freddo'),      -- Las Vegas
+('C000000023', '2023-10-08', 'Afoso'),       -- Qatar (data reale)
+('C000000024', '2023-11-26', 'Sereno');      -- Abu Dhabi
 
--- Popolamento tabella Fornitura
-INSERT INTO Fornitura (IdFornitura, Quantità, PrezzoFornitura, Data, Strumento, Fornitore) VALUES
-('F001', 2, 5000.00, '2023-05-10', 'ST001', 'Pirelli'),
-('F002', 1, 12000.00, '2023-06-15', 'ST002', 'Ferrari'),
-('F003', 3, 8000.00, '2023-04-20', 'ST003', 'Brembo');
+-- Popolamento tabella gara
+INSERT INTO gara (pilota, id_circuito, data, posizione, tempo_totale) VALUES
+('HAMILC44D01H501W', 'C000000001', '2023-03-05', 5, '1:33:30.456'),   -- Hamilton in Bahrain (5°)
+('LECCHR16E02H501V', 'C000000001', '2023-03-05', 2, '1:32:15.123'),   -- Leclerc in Bahrain (2°)
+('HAMILC44D01H501W', 'C000000012', '2023-07-09', 3, '1:25:45.789'),   -- Hamilton a Silverstone (3°)
+('LECCHR16E02H501V', 'C000000012', '2023-07-09', 9, '1:27:22.456'),  -- Leclerc a Silverstone (9°)
+('HAMILC44D01H501W', 'C000000016', '2023-09-03', 6, '1:21:30.111'),  -- Hamilton a Monza (6°)
+('LECCHR16E02H501V', 'C000000016', '2023-09-03', 4, '1:20:45.222');  -- Leclerc a Monza (4°)
 
--- Popolamento tabella Utilizzo
-INSERT INTO Utilizzo (Strumento, Settore, Quantità) VALUES
-('ST001', 'Aerodinamica', 5),
-('ST002', 'Motori', 3),
-('ST003', 'Gomme', 2);
-
--- Popolamento tabella Gara
-INSERT INTO Gara (Pilota, Circuito, Data, Posizione, TempoTotale) VALUES
-('HAMILC44D01H501W', 1, '2023-03-05', 5, '1:33:30.456'),   -- Hamilton in Bahrain (5°)
-('LECCHR16E02H501V', 1, '2023-03-05', 2, '1:32:15.123'),   -- Leclerc in Bahrain (2°)
-('HAMILC44D01H501W', 12, '2023-07-09', 3, '1:25:45.789'),   -- Hamilton a Silverstone (3°)
-('LECCHR16E02H501V', 12, '2023-07-09', 9, '1:27:22.456'),  -- Leclerc a Silverstone (9°)
-('HAMILC44D01H501W', 16, '2023-09-03', 6, '1:21:30.111'),  -- Hamilton a Monza (6°)
-('LECCHR16E02H501V', 16, '2023-09-03', 4, '1:20:45.222');  -- Leclerc a Monza (4°)
-
--- Popolamento tabella Giro
-INSERT INTO Giro (NumeroGiro, Circuito, Data, Pilota, Tempo, VMin, VMax) VALUES
+-- Popolamento tabella giro
+INSERT INTO giro (numero_giro, id_circuito, data, pilota, tempo, v_min, v_max) VALUES
 -- Bahrain
-(1, 1, '2023-03-05', 'HAMILC44D01H501W', '1:35.456', 210, 320),
-(2, 1, '2023-03-05', 'HAMILC44D01H501W', '1:34.123', 215, 325),
-(1, 1, '2023-03-05', 'LECCHR16E02H501V', '1:33.789', 220, 330),
-(2, 1, '2023-03-05', 'LECCHR16E02H501V', '1:32.456', 225, 335),
+(1, 'C000000001', '2023-03-05', 'HAMILC44D01H501W', '1:35.456', 210, 320),
+(2, 'C000000001', '2023-03-05', 'HAMILC44D01H501W', '1:34.123', 215, 325),
+(1, 'C000000001', '2023-03-05', 'LECCHR16E02H501V', '1:33.789', 220, 330),
+(2, 'C000000001', '2023-03-05', 'LECCHR16E02H501V', '1:32.456', 225, 335),
 -- Silverstone
-(1, 12, '2023-07-09', 'HAMILC44D01H501W', '1:30.111', 230, 340),
-(2, 12, '2023-07-09', 'LECCHR16E02H501V', '1:31.222', 228, 338),
+(1, 'C000000012', '2023-07-09', 'HAMILC44D01H501W', '1:30.111', 230, 340),
+(2, 'C000000012', '2023-07-09', 'LECCHR16E02H501V', '1:31.222', 228, 338),
 -- Monza
-(1, 16, '2023-09-03', 'HAMILC44D01H501W', '1:24.555', 240, 360),
-(1, 16, '2023-09-03', 'LECCHR16E02H501V', '1:23.666', 245, 365);
-
-
-INSERT INTO Settore (IdSettore, Nome, Budget, Capo, NumeroPersone) VALUES
-
+(1, 'C000000016', '2023-09-03', 'HAMILC44D01H501W', '1:24.555', 240, 360),
+(1, 'C000000016', '2023-09-03', 'LECCHR16E02H501V', '1:23.666', 245, 365);
