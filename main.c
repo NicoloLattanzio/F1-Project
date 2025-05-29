@@ -17,8 +17,8 @@ int isValidDateFormat(const char *date) {
     if (date[4] != '-' || date[7] != '-') return 0;
 
     for (int i = 0; i < 10; i++)
-        if ((i != 4 || i != 7) && !isdigit(date[i])) return 0;
-    printf(".....");
+        if (i != 4 && i != 7 && !isdigit(date[i])) return 0;
+    
     return 1;
 }
 
@@ -31,25 +31,44 @@ void checkresult(PGresult *res, const PGconn *conn){
 }
 
 PGresult* query_TM_contract_hiring(PGresult *res, PGconn *conn){
-    const char *query =     "SELECT tm.nome, tm.cognome, tm.data_nascita, tm.ruolo"
-                            "FROM team_member tm"
-                            "JOIN contratto c ON tm.cf = c.cf"
-                            "WHERE c.inizio > $1::date;";
+    const char *query =     "SELECT tm.nome, tm.cognome, tm.data_nascita, tm.ruolo\n"
+                            "FROM team_member tm\n"
+                            "JOIN contratto c ON tm.cf = c.cf_team\n"
+                            "WHERE c.inizio >= $1::date;";
 
-    PGresult *stmt = PQprepare(conn, "query", query, 1, NULL);
-    
-    //prepare parameter
-    char date[10];
-    printf("Inserire la data dalla quale si vuole sapere quali persone sono state assunte e in che ruolo: (YYYY-MM-DD)\n");
-    scanf("%s", date);
-    while(!isValidDateFormat(date)){
-        scanf("%s", date);
-        printf("----");
+    /*const char *query =     "SELECT tm.nome, tm.cognome, tm.data_nascita, tm.ruolo, 'team_member' AS tipo\n"
+                            "FROM team_member tm\n"
+                            "JOIN contratto c ON tm.cf = c.cf_team\n"
+                            "WHERE c.inizio > $1::date\n"
+                            "UNION\n"
+                            "SELECT p.nome, p.cognome, p.data_nascita, NULL AS ruolo, 'pilota' AS tipo\n"
+                            "FROM pilota p\n"
+                            "JOIN contratto c ON p.cf = c.cf_pilota\n"
+                            "WHERE c.inizio > $1::date;";
+*/
+    // First prepare the statement
+    res = PQprepare(conn, "query", query, 1, NULL);
+    if (PQresultStatus(res) != PGRES_COMMAND_OK) {
+        printf("Prepare failed: %s\n", PQerrorMessage(conn));
+        PQclear(res);
+        exit(1);
     }
-    printf("=====");
+    PQclear(res); // Clear the prepare result
+    
+    // Get the date parameter
+    char date[11]; // Increased size to accommodate null terminator
+    printf("Inserire la data dalla quale si vuole sapere quali persone sono state assunte e in che ruolo: (YYYY-MM-DD)\n");
+    scanf("%10s", date); // Limit input to 10 characters
+    while(!isValidDateFormat(date)) {
+        printf("Formato data non valido. Inserire nel formato YYYY-MM-DD: ");
+        scanf("%10s", date);
+    }
+
     const char* param = date;
 
+    // Execute the prepared statement
     res = PQexecPrepared(conn, "query", 1, &param, NULL, 0, 0);
+    
     return res;     
 }
 void printresult(PGresult *res){
@@ -80,6 +99,7 @@ int main(int argc , char ** argv){
     else{
         printf("Connection established\n");
         PGresult *res;
+
         /*
         char *query = "select \"ID\" from \"Piloti\" where \"Nome\"=$1::varchar";
         char name[20];
@@ -93,7 +113,7 @@ int main(int argc , char ** argv){
         //res = PQexec(conn, query);
 
         res = query_TM_contract_hiring(res, conn);
-        checkresult(res, conn);
+
         printresult(res);
         
         PQfinish(conn);
