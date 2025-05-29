@@ -136,7 +136,7 @@ INSERT INTO gara (pilota, id_circuito, data, posizione, tempo_totale) VALUES
 -- Popolamento tabella giro
 INSERT INTO giro (numero_giro, id_circuito, data, pilota, tempo, v_min, v_max) VALUES
 -- Bahrain
-(1, 'C000000001', '2023-03-05', 'HAMILC44D01H501W', '1:35.456', 210, 320),
+(1, 'C000000001', '2023-03-05', 'HAMILC44D01H501W', '00:01:35.456', 210, 320),
 (2, 'C000000001', '2023-03-05', 'HAMILC44D01H501W', '1:34.123', 215, 325),
 (1, 'C000000001', '2023-03-05', 'LECCHR16E02H501V', '1:33.789', 220, 330),
 (2, 'C000000001', '2023-03-05', 'LECCHR16E02H501V', '1:32.456', 225, 335),
