@@ -169,7 +169,7 @@ CREATE TABLE giro (
     data DATE NOT NULL,
     pilota CHAR(16) NOT NULL,
     tempo INTERVAL NOT NULL CHECK (tempo > INTERVAL '0'), --millisecondi
-    v_min DECIMAL(6,2) NOT NULL CHECK (v_min >= 0 and v_min > v_max),
+    v_min DECIMAL(6,2) NOT NULL CHECK (v_min >= 0 and v_min < v_max),
     v_max DECIMAL(6,2) NOT NULL CHECK (v_max >= 0 and v_max > v_min),
     PRIMARY KEY (numero_giro, id_circuito, data, pilota),
     FOREIGN KEY (pilota, id_circuito, data) REFERENCES gara(pilota, id_circuito, data)
