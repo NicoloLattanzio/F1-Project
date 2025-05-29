@@ -46,14 +46,14 @@ INSERT INTO contratto (id_contratto, inizio, fine, compenso, bonus_mensile, cf_t
 
 -- Popolamento tabella team_member
 INSERT INTO team_member (cf, nome, cognome, nazionalita, data_nascita, ruolo, specializzazione, laurea, anni_esp, settore) VALUES
-('RSSMRA80A01H501Z', 'Mario', 'Rossi', 'Italiana', '1980-01-01', 'Ingegnere', NULL, 'Ingegneria Aerospaziale', NULL, 'Aerodinamica'),
-('BNCLGU75B12H501Y', 'Luigi', 'Bianchi', 'Italiana', '1975-02-12', 'Ingegnere', NULL, 'Ingegneria Meccanica', NULL,'Ricerca e sviluppo'),
-('ARDGPP85C23H501X', 'Giuseppe', 'Verdi', 'Italiana', '1984-03-23', 'Ingegnere', NULL, 'Chimica', NULL, 'Gomme'),
-('BRDGPP85C23H501X', 'Leonardo', 'Esposito', 'Italiana', '1965-03-23', 'Management', NULL, NULL, 8, 'Pista'),
-('CRDGPP85C23H501X', 'Giuseppe', 'Rossi', 'Italiana', '1995-01-23', 'Management', NULL, NULL, 8, 'Ricerca e sviluppo'),
-('DRDGPP85C23H501X', 'Claudio', 'Bellio', 'Italiana', '1988-12-23', 'Management', NULL, NULL, 8, 'Aerodinamica'),
-('ERDGPP85C23H501X', 'Lorenzo', 'Ferro', 'Italiana', '1985-03-23', 'Meccanico', 'Freni', NULL, 8, 'Aerodinamica', 'Pista'),
-('FRDGPP85C23H501X', 'Alessio', 'Sella', 'Italiana', '1985-03-23', 'Meccanico', 'Carrozzeria', NULL, 10, 'Motori');
+('RSSMRA80A01H501Z', 'Mario', 'Rossi', 'Italiana', '1980-01-01', 'ingegnere', NULL, 'Ingegneria Aerospaziale', NULL, 'Aerodinamica'),
+('BNCLGU75B12H501Y', 'Luigi', 'Bianchi', 'Italiana', '1975-02-12', 'ingegnere', NULL, 'Ingegneria Meccanica', NULL,'Ricerca e sviluppo'),
+('ARDGPP85C23H501X', 'Giuseppe', 'Verdi', 'Italiana', '1984-03-23', 'ingegnere', NULL, 'Chimica', NULL, 'Gomme'),
+('BRDGPP85C23H501X', 'Leonardo', 'Esposito', 'Italiana', '1965-03-23', 'management', NULL, NULL, 8, 'Pista'),
+('CRDGPP85C23H501X', 'Giuseppe', 'Rossi', 'Italiana', '1995-01-23', 'manager', NULL, NULL, 8, 'Ricerca e sviluppo'),
+('DRDGPP85C23H501X', 'Claudio', 'Bellio', 'Italiana', '1988-12-23', 'manager', NULL, NULL, 8, 'Aerodinamica'),
+('ERDGPP85C23H501X', 'Lorenzo', 'Ferro', 'Italiana', '1985-03-23', 'meccanico', 'Freni', NULL, 8, 'Pista'),
+('FRDGPP85C23H501X', 'Alessio', 'Sella', 'Italiana', '1985-03-23', 'meccanico', 'Carrozzeria', NULL, 10, 'Motori');
 
 -- Popolamento tabella pilota
 INSERT INTO pilota (cf, nome, cognome, numero, nazionalita, data_nascita, peso, altezza, settore) VALUES
@@ -95,7 +95,7 @@ INSERT INTO circuito (id_circuito, nome, localita, paese, lunghezza, nr_curve) V
 ('C000000021', 'Autódromo José Carlos Pace', 'San Paolo', 'Brasile', 4309, 15),
 ('C000000022', 'Las Vegas Strip Circuit', 'Las Vegas', 'USA', 6120, 17),
 ('C000000023', 'Lusail International Circuit', 'Lusail', 'Qatar', 5410, 16),
-('C000000024', 'Yas Marina Circuit', 'Abu Dhabi', 'Emirati Arabi Uniti', 5281, 21)
+('C000000024', 'Yas Marina Circuit', 'Abu Dhabi', 'Emirati Arabi Uniti', 5281, 21);
 
 -- Popolamento tabella gp
 INSERT INTO gp (id_circuito, data, condizioni_meteo) VALUES
