@@ -18,7 +18,7 @@ CREATE TABLE fornitura (
 	prezzo DECIMAL(10,2) NOT NULL,
     strumento CHAR(10) NOT NULL,
     fornitore CHAR(10) NOT NULL,
-    FOREIGN KEY (strumento) REFERENCES strumento(id_strumento),
+    FOREIGN KEY (strumento) REFERENCES strumento(strumento),
     FOREIGN KEY (fornitore) REFERENCES fornitore(nome)
 );
 
@@ -139,12 +139,12 @@ CREATE TABLE circuito (
 
 --Tabella gp
 CREATE TABLE gp (
-    id_circuito CHAR(10) NOT NULL,
+    circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
 	--Data non UNIQUE poiché possono esserci più gran premi nella stessa data come per il caso della formula 2
     condizioni_meteo VARCHAR(50) NOT NULL,
-    PRIMARY KEY (id_circuito, data),
-    FOREIGN KEY (id_circuito) REFERENCES circuito(id_circuito)
+    PRIMARY KEY (circuito, data),
+    FOREIGN KEY (circuito) REFERENCES circuito(id_circuito)
 	--Non si possono eliminare i circuiti e nemmeno aggiornare perché non avrebbe senso in un database che
 	--funziona anche da cronologia di eventi per lo studio delle prestazioni della scuderia nel lungo periodo
 );
@@ -152,13 +152,13 @@ CREATE TABLE gp (
 --Tabella gara
 CREATE TABLE gara (
     pilota CHAR(16) NOT NULL,
-    id_circuito CHAR(10) NOT NULL,
+    circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0),
     tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > INTERVAL '0'),
     PRIMARY KEY (pilota, id_circuito, data),
     FOREIGN KEY (pilota) REFERENCES pilota(cf),
-    FOREIGN KEY (id_circuito, data) REFERENCES gp(id_circuito, data)
+    FOREIGN KEY (circuito, data) REFERENCES gp(circuito, data)
 	--Analogamente a circuiti non avrebbe senso eliminare i gp
 );
 
@@ -172,7 +172,7 @@ CREATE TABLE giro (
     v_min DECIMAL(6,2) NOT NULL CHECK (v_min >= 0 and v_min < v_max),
     v_max DECIMAL(6,2) NOT NULL CHECK (v_max >= 0 and v_max > v_min),
     PRIMARY KEY (numero_giro, id_circuito, data, pilota),
-    FOREIGN KEY (pilota, id_circuito, data) REFERENCES gara(pilota, id_circuito, data)
+    FOREIGN KEY (pilota, circuito, data) REFERENCES gara(pilota, circuito, data)
 );
 
 
