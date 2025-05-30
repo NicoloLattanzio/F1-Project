@@ -175,26 +175,26 @@ CREATE TABLE giro (
     PRIMARY KEY (numero_giro, circuito, data, pilota),
     FOREIGN KEY (pilota, circuito, data) REFERENCES gara(pilota, circuito, data)
 );
--- Popolamento tabella fornitore
+-- Tabella fornitore
 INSERT INTO fornitore (nome, settore) VALUES
 ('Pirelli', 'Gomme'),
 ('Ferrari', 'Motori'),
 ('Brembo', 'Freni'),
 ('Shell', 'Carburante');
 
--- Popolamento tabella strumento
+-- Tabella strumento
 INSERT INTO strumento (id_strumento, nome) VALUES
 ('ST00000001', 'Analizzatore dati'),
 ('ST00000002', 'Simulatore guida'),
 ('ST00000003', 'Banco prova motore');
 
--- Popolamento tabella fornitura
+-- Tabella fornitura
 INSERT INTO fornitura (id_fornitura, quantita, data, prezzo, strumento, fornitore) VALUES
 ('F000000001', 10, '2023-05-10', 5000.00, 'ST00000001', 'Pirelli'),
 ('F000000002', 3, '2023-06-15', 12000.00, 'ST00000002', 'Ferrari'),
 ('F000000003', 3, '2023-04-20', 8000.00, 'ST00000003', 'Brembo');
 
--- Popolamento tabella settore
+--Tabella settore
 INSERT INTO settore (nome, budget, capo, numero_persone) VALUES
 ('Aerodinamica', 1000000.00, 'RSSMRA80A01H501Z', 15),
 ('Motori', 1500000.00, 'FRDGPP85C23H501X', 20),
@@ -202,13 +202,13 @@ INSERT INTO settore (nome, budget, capo, numero_persone) VALUES
 ('Ricerca e sviluppo', 2000000.00, 'BNCLGU75B12H501Y', 5),
 ('Pista', 5000000.00, 'BRDGPP85C23H501X', 20);
 
--- Popolamento tabella utilizzo
+--Tabella utilizzo
 INSERT INTO utilizzo (strumento, settore, quantita) VALUES
 ('ST00000001', 'Aerodinamica', 5),
 ('ST00000002', 'Motori', 3),
 ('ST00000003', 'Gomme', 2);
 
--- Popolamento tabella contratto
+-- Tabella contratto
 INSERT INTO contratto (id_contratto, inizio, fine, compenso, bonus_mensile, cf_team, cf_pilota) VALUES
 ('CT00000001', '2023-01-01', '2025-12-31', 4000000.00, 150000.00, NULL, 'HAMILC44D01H501W'),  -- Hamilton
 ('CT00000002', '2023-01-01', '2026-12-31', 3000000.00, 120000.00, NULL, 'LECCHR16E02H501V'),   -- Leclerc
@@ -221,7 +221,7 @@ INSERT INTO contratto (id_contratto, inizio, fine, compenso, bonus_mensile, cf_t
 ('CT00000009', '2023-04-01', NULL, 4000000.00, NULL, 'ERDGPP85C23H501X', NULL),
 ('CT00000010', '2023-05-01', NULL, 4000000.00, 150000.00, 'FRDGPP85C23H501X', NULL);
 
--- Popolamento tabella team_member
+-- Tabella team_member
 INSERT INTO team_member (cf, nome, cognome, nazionalita, data_nascita, ruolo, specializzazione, laurea, anni_esp, settore) VALUES
 ('RSSMRA80A01H501Z', 'Mario', 'Rossi', 'Italiana', '1980-01-01', 'ingegnere', NULL, 'Ingegneria Aerospaziale', NULL, 'Aerodinamica'),
 ('BNCLGU75B12H501Y', 'Luigi', 'Bianchi', 'Italiana', '1975-02-12', 'ingegnere', NULL, 'Ingegneria Meccanica', NULL,'Ricerca e sviluppo'),
@@ -232,22 +232,22 @@ INSERT INTO team_member (cf, nome, cognome, nazionalita, data_nascita, ruolo, sp
 ('ERDGPP85C23H501X', 'Lorenzo', 'Ferro', 'Italiana', '1985-03-23', 'meccanico', 'Freni', NULL, 8, 'Pista'),
 ('FRDGPP85C23H501X', 'Alessio', 'Sella', 'Italiana', '1985-03-23', 'meccanico', 'Carrozzeria', NULL, 10, 'Motori');
 
--- Popolamento tabella pilota
+-- Tabella pilota
 INSERT INTO pilota (cf, nome, cognome, numero, nazionalita, data_nascita, peso, altezza, settore) VALUES
 ('HAMILC44D01H501W', 'Lewis', 'Hamilton', 44, 'Britannica', '1985-01-07', 68, 1.74, 'Pista'),
 ('LECCHR16E02H501V', 'Charles', 'Leclerc', 16, 'Monegasco', '1997-10-16', 70, 1.80, 'Pista');
 
--- Popolamento tabella motore
+-- Tabella motore
 INSERT INTO motore (id_motore, cilindri, peso, alimentazione, produttore) VALUES
 ('M000000001', 6, 150, 'ibrido', 'Ferrari'),
 ('M000000002', 6, 152, 'ibrido', 'Ferrari');
 
--- Popolamento tabella vettura
+-- Tabella vettura
 INSERT INTO vettura (id_vettura, modello, anno, peso, cf, id_motore) VALUES
 ('V000000001', 'F1-2023', 2023, 795, 'HAMILC44D01H501W', 'M000000001'),
 ('V000000002', 'F1-2023-B', 2023, 798, 'LECCHR16E02H501V', 'M000000002');
 
--- Popolamento tabella circuito
+-- Tabella circuito
 INSERT INTO circuito (id_circuito, nome, localita, paese, lunghezza, nr_curve) VALUES
 ('C000000001', 'Bahrain International Circuit', 'Sakhir', 'Bahrain', 5412, 15),
 ('C000000002', 'Jeddah Corniche Circuit', 'Gedda', 'Arabia Saudita', 6174, 27),
@@ -3218,6 +3218,71 @@ ALTER TABLE settoreAdd commentMore actions
 ADD FOREIGN KEY (capo)
 REFERENCES team_member(cf)
 on delete set null;
+
+--Query 1 
+SELECT
+    tm.nome,
+    tm.cognome,
+    tm.data_nascita,
+    tm.ruolo
+FROM team_member tm
+JOIN contratto c ON tm.cf = c.cf_team
+WHERE c.inizio > DATE '2022-01-01';
+
+--Query 2
+SELECT
+    g.circuito,
+    g.data,
+    g.numero_giro,
+    g.tempo
+FROM giro g
+JOIN pilota p ON p.cf = g.pilota
+JOIN circuito c ON c.id_circuito = g.circuito
+WHERE g.pilota = 'HAMILC44D01H501W' 
+  AND g.tempo <= ALL (
+      SELECT g1.tempo
+      FROM giro g1
+      WHERE g1.circuito = g.circuito
+        AND g1.data = g.data
+        AND g1.pilota = g.pilota
+  );
+
+--Query 3 
+SELECT
+    p.nome,
+    p.cognome,
+    m.alimentazione,
+    COUNT(v.id_vettura) AS nr_vetture
+FROM pilota p
+JOIN vettura v ON v.cf = p.cf
+JOIN motore m ON m.id_motore = v.id_motore
+WHERE m.produttore = 'Ferrari'
+GROUP BY p.cf, m.alimentazione;
+
+--Query 4
+SELECT
+    tm.ruolo,
+    AVG(c.compenso) AS compenso_medio
+FROM team_member tm
+JOIN contratto c ON c.cf = tm.cf
+WHERE EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita)) BETWEEN 30 AND 50
+GROUP BY tm.ruolo
+ORDER BY compenso_medio DESC;
+
+--Query 5
+SELECT
+    s.nome,
+    s.budget,
+    f.nome AS fornitore
+FROM settore s
+JOIN utilizzo u ON u.settore = s.nome
+JOIN strumento str ON str.id_strumento = u.strumento
+JOIN fornitura fnt ON fnt.strumento = str.id_strumento
+JOIN fornitore f ON fnt.fornitore = f.nome
+WHERE EXTRACT(YEAR FROM fnt.data) = 2023
+GROUP BY s.nome, s.budget, f.nome
+HAVING SUM(fnt.prezzo) <= s.budget
+ORDER BY s.budget DESC;
 
 CREATE INDEX idx_giro_1 ON giro(data);
 
