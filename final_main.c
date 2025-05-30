@@ -197,18 +197,18 @@ void printresult(PGresult *res) {
     int cols = PQnfields(res);
 
     for (int j = 0; j < cols; j++) {
-        printf("%-20s", PQfname(res, j));
+        printf("%-35s", PQfname(res, j));
     }
     printf("\n");
 
     for (int j = 0; j < cols; j++) {
-        printf("--------------------");
+        printf("-----------------------------------");
     }
     printf("\n");
 
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
-            printf("%-20s", PQgetvalue(res, i, j));
+            printf("%-35s", PQgetvalue(res, i, j));
         }
         printf("\n");
     }
