@@ -262,54 +262,56 @@ INSERT INTO circuito (id_circuito, nome, localita, paese, lunghezza, nr_curve) V
 ('C000000023', 'Lusail International Circuit', 'Lusail', 'Qatar', 5410, 16),
 ('C000000024', 'Yas Marina Circuit', 'Abu Dhabi', 'Emirati Arabi Uniti', 5281, 21);
 
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000001', '2023-05-18', 8, '01:34:05.403', 57);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000001', '2023-05-18', 2, '01:21:05.884', 57);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000002', '2023-04-05', 11, '01:28:28.183', 50);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000002', '2023-04-05', 12, '01:26:41.339', 50);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000003', '2023-11-03', 13, '01:25:45.515', 58);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000003', '2023-11-03', 7, '01:35:44.072', 58);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000004', '2023-03-14', 11, '01:28:33.088', 53);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000004', '2023-03-14', 12, '01:35:50.976', 53);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000005', '2023-10-23', 13, '01:42:10.842', 56);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000005', '2023-10-23', 19, '01:28:22.315', 56);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000006', '2023-11-06', 7, '01:33:50.625', 57);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000006', '2023-11-06', 16, '01:37:21.794', 57);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000007', '2023-11-01', 3, '01:34:41.077', 63);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000007', '2023-11-01', 16, '01:43:24.708', 63);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000008', '2023-08-24', 2, '01:58:02.898', 78);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000008', '2023-08-24', 18, '02:11:27.505', 78);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000009', '2023-07-11', 8, '01:57:17.017', 70);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000009', '2023-07-11', 4, '02:02:30.985', 70);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000010', '2023-05-25', 3, '01:45:42.772', 66);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000010', '2023-05-25', 15, '01:40:38.190', 66);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000011', '2023-05-22', 17, '02:05:41.420', 71);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000011', '2023-05-22', 10, '01:57:31.436', 71);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000012', '2023-04-01', 5, '01:20:03.250', 52);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000012', '2023-04-01', 12, '01:32:09.279', 52);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000013', '2023-08-10', 20, '01:42:39.152', 70);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000013', '2023-08-10', 16, '01:51:53.795', 70);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000014', '2023-08-22', 6, '01:18:46.302', 44);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000014', '2023-08-22', 3, '01:02:34.187', 44);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000015', '2023-08-21', 20, '02:10:18.938', 72);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000015', '2023-08-21', 20, '01:55:34.107', 72);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000016', '2023-07-05', 8, '01:18:59.350', 53);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000016', '2023-07-05', 20, '01:23:37.599', 53);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000017', '2023-06-25', 9, '01:25:13.218', 51);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000017', '2023-06-25', 3, '01:23:34.712', 51);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000018', '2023-07-23', 16, '01:39:04.845', 61);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000018', '2023-07-23', 19, '01:45:05.169', 61);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000019', '2023-09-23', 20, '01:21:58.017', 56);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000019', '2023-09-23', 12, '01:35:27.410', 56);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000020', '2023-08-22', 18, '01:49:03.682', 71);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000020', '2023-08-22', 3, '02:01:03.195', 71);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000021', '2023-03-22', 18, '02:02:08.840', 71);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000021', '2023-03-22', 17, '02:08:11.123', 71);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000022', '2023-08-17', 5, '01:28:47.589', 50);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000022', '2023-08-17', 11, '01:20:07.868', 50);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000023', '2023-05-07', 16, '01:34:49.626', 57);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000023', '2023-05-07', 4, '01:41:10.829', 57);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('HAMILC44D01H501W', 'C000000024', '2023-10-23', 16, '01:26:05.306', 58);
-INSERT INTO gara (pilota, circuito, data, posizione, tempo_totale, numero_giri) VALUES ('LECCHR16E02H501V', 'C000000024', '2023-10-23', 14, '01:29:56.804', 58);
+INSERT INTO gara (pilota, circuito, data, condizioni_meteo, posizione, tempo_totale, numero_giri) VALUES 
+('HAMILC44D01H501W', 'C000000001', '2023-05-18', 'Sereno', 8, '01:34:05.403', 57),
+('LECCHR16E02H501V', 'C000000001', '2023-05-18', 'Sereno', 2, '01:21:05.884', 57),
+('HAMILC44D01H501W', 'C000000002', '2023-04-05', 'Pioggia', 11, '01:28:28.183', 50),
+('LECCHR16E02H501V', 'C000000002', '2023-04-05', 'Pioggia', 12, '01:26:41.339', 50),
+('HAMILC44D01H501W', 'C000000003', '2023-11-03', 'Variabile', 13, '01:25:45.515', 58),
+('LECCHR16E02H501V', 'C000000003', '2023-11-03', 'Variabile', 7, '01:35:44.072', 58),
+('HAMILC44D01H501W', 'C000000004', '2023-03-14', 'Sereno', 11, '01:28:33.088', 53),
+('LECCHR16E02H501V', 'C000000004', '2023-03-14', 'Sereno', 12, '01:35:50.976', 53),
+('HAMILC44D01H501W', 'C000000005', '2023-10-23', 'Pioggia', 13, '01:42:10.842', 56),
+('LECCHR16E02H501V', 'C000000005', '2023-10-23', 'Pioggia', 19, '01:28:22.315', 56),
+('HAMILC44D01H501W', 'C000000006', '2023-11-06', 'Variabile', 7, '01:33:50.625', 57),
+('LECCHR16E02H501V', 'C000000006', '2023-11-06', 'Variabile', 16, '01:37:21.794', 57),
+('HAMILC44D01H501W', 'C000000007', '2023-11-01', 'Sereno', 3, '01:34:41.077', 63),
+('LECCHR16E02H501V', 'C000000007', '2023-11-01', 'Sereno', 16, '01:43:24.708', 63),
+('HAMILC44D01H501W', 'C000000008', '2023-08-24', 'Pioggia', 2, '01:58:02.898', 78),
+('LECCHR16E02H501V', 'C000000008', '2023-08-24', 'Pioggia', 18, '02:11:27.505', 78),
+('HAMILC44D01H501W', 'C000000009', '2023-07-11', 'Variabile', 8, '01:57:17.017', 70),
+('LECCHR16E02H501V', 'C000000009', '2023-07-11', 'Variabile', 4, '02:02:30.985', 70),
+('HAMILC44D01H501W', 'C000000010', '2023-05-25', 'Sereno', 3, '01:45:42.772', 66),
+('LECCHR16E02H501V', 'C000000010', '2023-05-25', 'Sereno', 15, '01:40:38.190', 66),
+('HAMILC44D01H501W', 'C000000011', '2023-05-22', 'Pioggia', 17, '02:05:41.420', 71),
+('LECCHR16E02H501V', 'C000000011', '2023-05-22', 'Pioggia', 10, '01:57:31.436', 71),
+('HAMILC44D01H501W', 'C000000012', '2023-04-01', 'Sereno', 5, '01:20:03.250', 52),
+('LECCHR16E02H501V', 'C000000012', '2023-04-01', 'Sereno', 12, '01:32:09.279', 52),
+('HAMILC44D01H501W', 'C000000013', '2023-08-10', 'Variabile', 20, '01:42:39.152', 70),
+('LECCHR16E02H501V', 'C000000013', '2023-08-10', 'Variabile', 16, '01:51:53.795', 70),
+('HAMILC44D01H501W', 'C000000014', '2023-08-22', 'Sereno', 6, '01:18:46.302', 44),
+('LECCHR16E02H501V', 'C000000014', '2023-08-22', 'Sereno', 3, '01:02:34.187', 44),
+('HAMILC44D01H501W', 'C000000015', '2023-08-21', 'Pioggia', 20, '02:10:18.938', 72),
+('LECCHR16E02H501V', 'C000000015', '2023-08-21', 'Pioggia', 20, '01:55:34.107', 72),
+('HAMILC44D01H501W', 'C000000016', '2023-07-05', 'Variabile', 8, '01:18:59.350', 53),
+('LECCHR16E02H501V', 'C000000016', '2023-07-05', 'Variabile', 20, '01:23:37.599', 53),
+('HAMILC44D01H501W', 'C000000017', '2023-06-25', 'Sereno', 9, '01:25:13.218', 51),
+('LECCHR16E02H501V', 'C000000017', '2023-06-25', 'Sereno', 3, '01:23:34.712', 51),
+('HAMILC44D01H501W', 'C000000018', '2023-07-23', 'Pioggia', 16, '01:39:04.845', 61),
+('LECCHR16E02H501V', 'C000000018', '2023-07-23', 'Pioggia', 19, '01:45:05.169', 61),
+('HAMILC44D01H501W', 'C000000019', '2023-09-23', 'Variabile', 20, '01:21:58.017', 56),
+('LECCHR16E02H501V', 'C000000019', '2023-09-23', 'Variabile', 12, '01:35:27.410', 56),
+('HAMILC44D01H501W', 'C000000020', '2023-08-22', 'Sereno', 18, '01:49:03.682', 71),
+('LECCHR16E02H501V', 'C000000020', '2023-08-22', 'Sereno', 3, '02:01:03.195', 71),
+('HAMILC44D01H501W', 'C000000021', '2023-03-22', 'Pioggia', 18, '02:02:08.840', 71),
+('LECCHR16E02H501V', 'C000000021', '2023-03-22', 'Pioggia', 17, '02:08:11.123', 71),
+('HAMILC44D01H501W', 'C000000022', '2023-08-17', 'Variabile', 5, '01:28:47.589', 50),
+('LECCHR16E02H501V', 'C000000022', '2023-08-17', 'Variabile', 11, '01:20:07.868', 50),
+('HAMILC44D01H501W', 'C000000023', '2023-05-07', 'Sereno', 16, '01:34:49.626', 57),
+('LECCHR16E02H501V', 'C000000023', '2023-05-07', 'Sereno', 4, '01:41:10.829', 57),
+('HAMILC44D01H501W', 'C000000024', '2023-10-23', 'Pioggia', 16, '01:26:05.306', 58),
+('LECCHR16E02H501V', 'C000000024', '2023-10-23', 'Pioggia', 14, '01:29:56.804', 58);
+
 
 INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:28.595', 215.33, 349.35);
 INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:38.432', 236.0, 343.98);
