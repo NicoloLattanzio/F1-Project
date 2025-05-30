@@ -156,10 +156,10 @@ CREATE TABLE gara (
     data DATE NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0),
     tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > INTERVAL '0'),
-    numero_giri INTEGER NOT NULL CHECK (numero_giri > 0)
+    numero_giri INTEGER NOT NULL CHECK (numero_giri > 0),
     PRIMARY KEY (pilota, circuito, data),
     FOREIGN KEY (pilota) REFERENCES pilota(cf),
-    FOREIGN KEY (circuito, data) REFERENCES gp(circuito, data)
+    FOREIGN KEY (circuito) REFERENCES circuito(id_circuito)
 	--Analogamente a circuiti non avrebbe senso eliminare i gp
 );
 
@@ -175,10 +175,3 @@ CREATE TABLE giro (
     PRIMARY KEY (numero_giro, circuito, data, pilota),
     FOREIGN KEY (pilota, circuito, data) REFERENCES gara(pilota, circuito, data)
 );
-
-
-
-ALTER TABLE settore
-ADD FOREIGN KEY (capo)
-REFERENCES team_member(cf)
-on delete set null;
