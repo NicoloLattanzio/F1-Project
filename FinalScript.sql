@@ -3432,7 +3432,7 @@ WHERE c.inizio > DATE '2022-01-01';
 
 --Query 2
 SELECT
-    g.circuito,
+    c.nome,
     g.data,
     g.numero_giro,
     g.tempo
