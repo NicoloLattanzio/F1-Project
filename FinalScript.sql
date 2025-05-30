@@ -3214,7 +3214,7 @@ INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALU
 INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.100', 248.85, 336.07);
 INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.598', 237.51, 340.75);
 
-ALTER TABLE settoreAdd commentMore actions
+ALTER TABLE settore
 ADD FOREIGN KEY (capo)
 REFERENCES team_member(cf)
 on delete set null;
