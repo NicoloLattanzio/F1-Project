@@ -31,6 +31,10 @@ circuiti_db = {
     'C000000024': {'nome': 'Yas Marina Circuit', 'localita': 'Abu Dhabi', 'paese': 'Emirati Arabi Uniti', 'lunghezza': 5281, 'nr_curve': 21}
 }
 
+# Aggiunta numero giri casuale per ogni circuito (tra 50 e 70)
+for circuito in circuiti_db.values():
+    circuito['giri'] = random.randint(50, 70)
+
 piloti_db = {
     44: 'HAMILC44D01H501W',
     16: 'LECCHR16E02H501V'
@@ -40,14 +44,13 @@ piloti_db = {
 def generate_gara_data():
     gara_data = []
     for circuit_id, circuit_info in circuiti_db.items():
-        numero_giri = circuit_info['giri']  # Usa il campo aggiunto
-
         race_date = datetime(2023, random.randint(3, 11), random.randint(1, 28))
+        numero_giri = circuit_info['giri']
 
         for driver_id, driver_cf in piloti_db.items():
             posizione = random.randint(1, 20)
 
-            # Tempo totale in secondi (basato su numero_giri e tempo medio a giro)
+            # Tempo totale in secondi e formato hh:mm:ss.mmm
             base_time = numero_giri * random.uniform(85, 110)
             ore = int(base_time // 3600)
             minuti = int((base_time % 3600) // 60)
@@ -57,7 +60,7 @@ def generate_gara_data():
 
             gara_data.append({
                 'pilota': driver_cf,
-                'circuito': circuit_id,
+                'id_circuito': circuit_id,
                 'data': race_date.strftime('%Y-%m-%d'),
                 'posizione': posizione,
                 'tempo_totale': tempo_totale,
@@ -65,24 +68,24 @@ def generate_gara_data():
             })
     return gara_data
 
-
 # Genera dati giro casuali
 def generate_giro_data():
     giro_data = []
     for circuit_id, circuit_info in circuiti_db.items():
         race_date = datetime(2023, random.randint(3, 11), random.randint(1, 28))
-        
+        numero_giri = circuit_info['giri']
+
         for driver_id, driver_cf in piloti_db.items():
-            for giro_num in range(1, circuit_info['giri'] + 1):
+            for giro_num in range(1, numero_giri + 1):
                 tempo_giro = random.uniform(75, 120)
                 min_sec = int(tempo_giro // 60)
                 sec = int(tempo_giro % 60)
                 millis = int((tempo_giro - int(tempo_giro)) * 1000)
                 tempo = f"00:{min_sec:02}:{sec:02}.{millis:03}"
-                
+
                 giro_data.append({
                     'numero_giro': giro_num,
-                    'circuito': circuit_id,
+                    'id_circuito': circuit_id,
                     'data': race_date.strftime('%Y-%m-%d'),
                     'pilota': driver_cf,
                     'tempo': tempo,
