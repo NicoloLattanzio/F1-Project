@@ -165,30 +165,26 @@ CREATE TABLE giro (
 );
 -- Tabella fornitore
 INSERT INTO fornitore (nome, settore) VALUES
-('Pirelli', 'Gomme'),
+('Marelli', 'Telaio'),
 ('Ferrari', 'Motori'),
-('Brembo', 'Freni'),
-('Shell', 'Carburante');
 
 -- Tabella strumento
 INSERT INTO strumento (id_strumento, nome) VALUES
 ('ST00000001', 'Analizzatore dati'),
 ('ST00000002', 'Simulatore guida'),
-('ST00000003', 'Banco prova motore');
 
 -- Tabella fornitura
 INSERT INTO fornitura (id_fornitura, quantita, data, prezzo, strumento, fornitore) VALUES
-('F000000001', 10, '2023-05-10', 5000.00, 'ST00000001', 'Pirelli'),
+('F000000001', 10, '2023-05-10', 5000.00, 'ST00000001', 'Marelli'),
 ('F000000002', 3, '2023-06-15', 12000.00, 'ST00000002', 'Ferrari'),
-('F000000003', 3, '2023-04-20', 8000.00, 'ST00000003', 'Brembo');
 
 --Tabella settore
 INSERT INTO settore (nome, budget, capo, numero_persone) VALUES
-('Aerodinamica', 1000000.00, 'RSSMRA80A01H501Z', 15),
-('Motori', 1500000.00, 'FRDGPP85C23H501X', 20),
-('Gomme', 800000.00, 'CRDGPP85C23H501X', 10),
-('Ricerca e sviluppo', 2000000.00, 'BNCLGU75B12H501Y', 5),
-('Pista', 5000000.00, 'BRDGPP85C23H501X', 20);
+('Aerodinamica', 1000000.00, 'ZBUSPR51H501T', 15),
+('Motori', 1500000.00, 'VWYTAR08H501Z', 20),
+('Telaio', 800000.00, 'JGISBO52H501T', 10),
+('Ricerca e sviluppo', 2000000.00, 'CJOWTV50H501W', 5),
+('Pista', 5000000.00, 'GHFKMD02H501Y', 20);
 
 --Tabella utilizzo
 INSERT INTO utilizzo (strumento, settore, quantita) VALUES
