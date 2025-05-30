@@ -3454,13 +3454,14 @@ GROUP BY p.cf, m.alimentazione;
 
 --Query 4
 SELECT
-    tm.ruolo,
-    AVG(c.compenso) AS compenso_medio
+	tm.ruolo,
+	AVG(c.compenso) as compenso_medio
 FROM team_member tm
-JOIN contratto c ON c.cf_team = tm.cf
-WHERE EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita)) BETWEEN 30 AND 50
+JOIN contratto c on c.cf_team = tm.cf
+WHERE FLOOR(EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita)))::integer >= 20 
+AND FLOOR(EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita)))::integer <= 70
 GROUP BY tm.ruolo
-ORDER BY compenso_medio DESC;
+ORDER BY AVG(c.compenso) DESC
 
 --Query 5
 SELECT
