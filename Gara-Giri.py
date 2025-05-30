@@ -60,7 +60,7 @@ def generate_gara_data():
 
             gara_data.append({
                 'pilota': driver_cf,
-                'id_circuito': circuit_id,
+                'circuito': circuit_id,
                 'data': race_date.strftime('%Y-%m-%d'),
                 'posizione': posizione,
                 'tempo_totale': tempo_totale,
