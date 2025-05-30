@@ -12,3 +12,4 @@ DROP TABLE fornitura CASCADE;
 DROP TABLE strumento CASCADE;
 DROP TABLE fornitore CASCADE;
 DROP TABLE settore CASCADE;
+DROP INDEX idx_giro_1
