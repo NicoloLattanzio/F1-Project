@@ -165,7 +165,7 @@ CREATE TABLE gara (
 --Tabella giro
 CREATE TABLE giro (
     numero_giro INTEGER NOT NULL CHECK (numero_giro > 0),
-    id_circuito CHAR(10) NOT NULL,
+    circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
     pilota CHAR(16) NOT NULL,
     tempo INTERVAL NOT NULL CHECK (tempo > INTERVAL '0'), --millisecondi
