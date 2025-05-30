@@ -74,7 +74,7 @@ def generate_giro_data():
                 tempo_giro = random.uniform(75, 120)
                 min_sec = int(tempo_giro // 60)
                 sec = int(tempo_giro % 60)
-                millis = int((tempo_giro - int(tempo_giro)) * 1000
+                millis = int((tempo_giro - int(tempo_giro)) * 1000)
                 tempo = f"00:{min_sec:02}:{sec:02}.{millis:03}"
                 
                 giro_data.append({
