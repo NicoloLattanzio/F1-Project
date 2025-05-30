@@ -3461,7 +3461,7 @@ JOIN contratto c on c.cf_team = tm.cf
 WHERE EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita))::integer >= 20 
 AND EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita))::integer <= 70
 GROUP BY tm.ruolo
-ORDER BY AVG(c.compenso) DESC
+ORDER BY AVG(c.compenso) DESC;
 
 --Query 5
 SELECT
