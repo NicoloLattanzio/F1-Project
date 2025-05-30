@@ -12,7 +12,7 @@ INSERT INTO strumento (id_strumento, nome) VALUES
 ('ST00000003', 'Banco prova motore');
 
 -- Popolamento tabella fornitura
-INSERT INTO fornitura (id_fornitura, quantita, data, prezzo_fnt, strumento, fornitore) VALUES
+INSERT INTO fornitura (id_fornitura, quantita, data, prezzo, strumento, fornitore) VALUES
 ('F000000001', 10, '2023-05-10', 5000.00, 'ST00000001', 'Pirelli'),
 ('F000000002', 3, '2023-06-15', 12000.00, 'ST00000002', 'Ferrari'),
 ('F000000003', 3, '2023-04-20', 8000.00, 'ST00000003', 'Brembo');
@@ -134,7 +134,7 @@ INSERT INTO gara (pilota, id_circuito, data, posizione, tempo_totale) VALUES
 ('LECCHR16E02H501V', 'C000000016', '2023-09-03', 4, '01:20:45.222');  -- Leclerc a Monza (4°)
 
 -- Popolamento tabella giro
-INSERT INTO giro (numero_giro, id_circuito, data, pilota, tempo, v_min, v_max) VALUES
+INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES
 -- Bahrain
 (1, 'C000000001', '2023-03-05', 'HAMILC44D01H501W', '00:01:35.456', 210, 320),
 (2, 'C000000001', '2023-03-05', 'HAMILC44D01H501W', '00:1:34.123', 215, 325),
