@@ -85,7 +85,7 @@ def generate_giro_data():
 
                 giro_data.append({
                     'numero_giro': giro_num,
-                    'id_circuito': circuit_id,
+                    'circuito': circuit_id,
                     'data': race_date.strftime('%Y-%m-%d'),
                     'pilota': driver_cf,
                     'tempo': tempo,
