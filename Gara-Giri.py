@@ -40,29 +40,31 @@ piloti_db = {
 def generate_gara_data():
     gara_data = []
     for circuit_id, circuit_info in circuiti_db.items():
-        # Data casuale nella stagione 2023
+        numero_giri = circuit_info['giri']  # Usa il campo aggiunto
+
         race_date = datetime(2023, random.randint(3, 11), random.randint(1, 28))
-        
+
         for driver_id, driver_cf in piloti_db.items():
             posizione = random.randint(1, 20)
-            
-            # Tempo totale basato su numero di giri
-            base_time = circuit_info['giri'] * random.uniform(85, 110)
+
+            # Tempo totale in secondi (basato su numero_giri e tempo medio a giro)
+            base_time = numero_giri * random.uniform(85, 110)
             ore = int(base_time // 3600)
             minuti = int((base_time % 3600) // 60)
             secondi = int(base_time % 60)
             millis = int((base_time - int(base_time)) * 1000)
             tempo_totale = f"{ore:02}:{minuti:02}:{secondi:02}.{millis:03}"
-            
+
             gara_data.append({
                 'pilota': driver_cf,
                 'circuito': circuit_id,
                 'data': race_date.strftime('%Y-%m-%d'),
                 'posizione': posizione,
-                'tempo_totale': tempo_totale
-                'numero_giri' : numero_giri
+                'tempo_totale': tempo_totale,
+                'numero_giri': numero_giri
             })
     return gara_data
+
 
 # Genera dati giro casuali
 def generate_giro_data():
