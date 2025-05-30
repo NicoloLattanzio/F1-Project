@@ -3481,7 +3481,7 @@ JOIN utilizzo u ON u.settore = s.nome
 JOIN strumento str ON str.id_strumento = u.strumento
 JOIN fornitura fnt ON fnt.strumento = str.id_strumento
 JOIN fornitore f ON fnt.fornitore = f.nome
-WHERE EXTRACT(YEAR FROM fnt.data) = 2023
+WHERE EXTRACT(YEAR FROM fnt.data)::integer = 2023
 GROUP BY s.nome, s.budget, f.nome
 HAVING SUM(fnt.prezzo) <= s.budget
 ORDER BY s.budget DESC;
