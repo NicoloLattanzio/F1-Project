@@ -313,2896 +313,2897 @@ INSERT INTO gara (pilota, circuito, data, condizioni_meteo, posizione, tempo_tot
 ('LECCHR16E02H501V', 'C000000024', '2023-10-23', 'Pioggia', 14, '01:29:56.804', 58);
 
 
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:28.595', 215.33, 349.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:38.432', 236.0, 343.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:35.891', 201.88, 342.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:55.307', 204.28, 336.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:46.006', 225.08, 338.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:16.505', 205.05, 346.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.174', 229.23, 323.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:32.554', 238.22, 303.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:26.954', 220.39, 335.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:56.721', 212.22, 300.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:17.644', 200.41, 332.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:39.917', 217.37, 323.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:26.865', 238.87, 348.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:57.642', 240.24, 302.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:58.425', 203.35, 349.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.082', 221.25, 308.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:34.591', 213.14, 306.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:18.303', 233.05, 311.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:50.101', 229.55, 351.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:36.103', 212.38, 303.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:30.571', 209.39, 342.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:53.995', 215.67, 311.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:23.362', 235.91, 308.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:59.306', 226.16, 352.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:56.794', 202.8, 357.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.261', 202.04, 300.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:51.536', 242.46, 344.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:52.422', 235.22, 341.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:26.930', 243.99, 328.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:58.932', 235.76, 343.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.013', 221.2, 352.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:53.710', 225.82, 317.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:18.462', 210.94, 313.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:51.484', 233.13, 358.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.211', 238.4, 311.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:49.941', 234.97, 341.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:31.587', 210.51, 320.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:52.139', 203.75, 320.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:57.580', 226.46, 338.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:56.141', 230.81, 349.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:41.743', 249.34, 355.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:30.049', 213.67, 359.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:17.975', 243.22, 320.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:48.266', 245.12, 358.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:37.274', 249.1, 321.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:42.412', 202.87, 329.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:22.145', 208.25, 347.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:29.976', 249.15, 349.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.617', 247.24, 357.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:55.363', 235.93, 344.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:30.713', 212.82, 330.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.306', 233.56, 303.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:54.157', 227.48, 357.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:21.564', 213.32, 345.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:38.769', 244.22, 331.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:48.268', 231.61, 334.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.641', 227.06, 301.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:27.514', 239.8, 343.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:45.733', 202.8, 318.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:34.051', 227.34, 341.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:21.587', 231.72, 305.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.902', 202.77, 345.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.679', 249.99, 316.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:47.353', 215.18, 349.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.929', 204.45, 342.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:30.606', 224.16, 331.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:47.181', 240.39, 345.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:35.766', 226.98, 302.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:43.607', 210.52, 331.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.546', 211.32, 322.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:21.626', 229.92, 311.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.150', 212.11, 346.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.330', 213.57, 303.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:33.088', 241.81, 326.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:40.192', 205.32, 316.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.030', 235.03, 337.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:38.433', 205.52, 335.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:16.939', 208.14, 348.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:18.541', 201.64, 314.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:43.461', 222.96, 355.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:51.152', 233.75, 347.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.871', 215.11, 301.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:35.864', 219.16, 357.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:41.881', 200.06, 313.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.011', 215.63, 358.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:30.169', 234.31, 313.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:55.667', 215.37, 317.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:20.956', 218.39, 342.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:49.487', 224.98, 306.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:30.810', 217.77, 312.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:53.106', 227.12, 356.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.739', 230.63, 347.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.954', 221.42, 345.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:52.583', 243.43, 338.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:47.103', 218.09, 307.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:53.344', 243.42, 314.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:22.814', 230.43, 310.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:28.121', 243.93, 354.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:27.125', 211.67, 325.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.300', 248.92, 325.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:28.708', 245.04, 344.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:26.030', 201.73, 334.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:40.404', 202.51, 334.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:34.420', 225.21, 306.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:39.929', 242.91, 346.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:29.366', 229.16, 314.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:42.697', 239.78, 342.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:58.844', 221.02, 312.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:38.638', 235.82, 316.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:48.322', 246.1, 325.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:44.549', 203.25, 350.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:22.838', 233.62, 354.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.741', 215.27, 333.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:50.369', 210.14, 356.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:37.139', 205.64, 318.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:52.092', 211.96, 319.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:33.782', 204.93, 348.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:18.447', 212.15, 338.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:43.751', 245.71, 342.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:50.877', 226.97, 332.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:56.309', 205.58, 324.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:44.683', 229.94, 338.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:34.101', 231.84, 329.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:44.645', 238.57, 349.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:20.622', 233.27, 349.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:26.116', 210.06, 344.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:34.336', 237.11, 356.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:24.550', 237.49, 329.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:49.508', 222.29, 311.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.716', 208.26, 329.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.055', 249.32, 330.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:18.156', 210.6, 315.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:43.900', 230.6, 301.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:20.719', 246.19, 358.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.972', 230.26, 352.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:56.811', 223.96, 340.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:24.842', 215.04, 315.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:21.583', 214.68, 325.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:26.763', 235.28, 311.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:37.063', 226.74, 308.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:19.168', 219.0, 354.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:27.679', 249.53, 351.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:17.139', 234.02, 340.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:21.753', 220.98, 343.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:40.767', 242.24, 331.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:39.817', 225.68, 317.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:48.389', 210.97, 300.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:35.517', 205.89, 357.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:38.849', 211.92, 350.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:39.533', 245.99, 339.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:56.645', 200.96, 308.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:19.790', 229.82, 340.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:20.731', 217.65, 325.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:47.002', 224.61, 355.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:41.192', 244.87, 322.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:19.549', 228.42, 322.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:38.214', 231.12, 334.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:15.241', 200.09, 347.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.174', 244.76, 351.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:29.933', 245.43, 354.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:26.465', 231.56, 333.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:38.581', 207.41, 355.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.091', 209.52, 352.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:45.125', 241.08, 319.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:37.883', 229.65, 347.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:25.941', 202.6, 324.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:28.885', 203.13, 338.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:54.743', 203.44, 321.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:55.237', 223.8, 334.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:29.436', 232.85, 348.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:22.294', 238.08, 307.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:23.815', 231.8, 340.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:20.265', 202.18, 304.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.256', 216.77, 359.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:15.934', 236.05, 357.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:21.837', 200.04, 306.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:24.543', 242.68, 346.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:30.063', 216.06, 302.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:50.771', 243.38, 314.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:28.076', 209.75, 317.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:45.592', 203.41, 355.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:51.148', 240.93, 359.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:55.645', 211.6, 354.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:51.590', 247.07, 300.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:21.013', 242.3, 338.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:23.787', 235.41, 335.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:25.748', 240.68, 323.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.993', 226.66, 318.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:58.559', 206.34, 343.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:36.967', 247.98, 349.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:57.961', 229.67, 323.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:47.878', 215.45, 340.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.149', 205.53, 339.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:29.251', 218.49, 320.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:26.606', 231.08, 354.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:22.299', 205.07, 353.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:42.587', 209.74, 357.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.190', 219.23, 358.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:39.619', 211.96, 307.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.721', 211.97, 308.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:27.371', 210.7, 303.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:58.746', 239.61, 305.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:53.222', 230.49, 357.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.211', 234.61, 352.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:24.568', 243.26, 317.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.747', 215.39, 312.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:44.325', 203.72, 346.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:42.394', 207.92, 329.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:15.278', 222.31, 358.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:15.797', 236.7, 305.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:45.401', 223.86, 300.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:44.193', 216.92, 315.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.832', 218.4, 340.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:36.717', 226.14, 341.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:52.467', 227.4, 312.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:56.553', 240.62, 347.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:52.787', 245.51, 309.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:45.060', 232.25, 302.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:49.501', 209.4, 325.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:31.952', 233.86, 308.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:40.789', 240.94, 325.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:47.246', 246.07, 302.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:28.162', 231.98, 346.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:49.675', 213.57, 332.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:24.503', 208.28, 356.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:44.066', 214.06, 347.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:16.559', 209.83, 305.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:16.150', 223.03, 309.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:23.375', 245.76, 328.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:56.792', 206.23, 319.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:55.066', 227.51, 334.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:21.922', 240.96, 350.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:17.526', 245.0, 338.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:45.718', 202.28, 302.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:25.780', 234.72, 320.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:39.568', 211.75, 343.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:15.400', 248.94, 339.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:38.360', 233.97, 314.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:32.465', 227.72, 353.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:57.222', 209.85, 313.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:58.693', 236.69, 319.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:35.555', 211.27, 348.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:28.995', 232.93, 336.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:54.669', 218.24, 322.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:51.242', 215.58, 337.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:50.896', 200.74, 313.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:42.950', 229.83, 348.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:17.681', 213.2, 339.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:31.060', 211.86, 329.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:26.476', 229.33, 319.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:56.806', 216.93, 332.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:29.241', 205.75, 353.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:58.875', 205.22, 356.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:39.548', 205.38, 329.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:32.812', 247.13, 346.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:39.396', 220.97, 307.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:35.860', 202.32, 336.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:27.245', 216.67, 334.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:27.042', 243.69, 357.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:30.110', 247.78, 333.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:42.676', 208.55, 306.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:53.802', 205.99, 358.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:51.039', 214.73, 302.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:27.427', 206.78, 325.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:23.449', 236.25, 309.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:43.740', 212.89, 320.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:16.058', 247.38, 311.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:25.780', 227.86, 331.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:35.641', 227.27, 332.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:20.690', 227.18, 304.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:44.920', 233.38, 307.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:15.637', 202.43, 311.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:29.568', 235.83, 344.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:41.704', 223.84, 359.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:48.993', 212.94, 359.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:54.297', 232.2, 303.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:17.642', 203.89, 345.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:30.143', 208.55, 310.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:38.890', 244.04, 338.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:44.241', 233.89, 302.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:39.298', 227.33, 331.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:22.475', 229.08, 337.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:33.650', 232.2, 337.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:53.397', 215.02, 318.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:20.237', 208.39, 337.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:22.877', 239.26, 325.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:58.393', 233.86, 311.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.175', 227.98, 309.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:39.222', 239.9, 327.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:55.184', 222.18, 321.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:31.883', 235.22, 348.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:48.991', 208.26, 336.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:54.142', 206.41, 317.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:54.322', 229.15, 307.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:24.242', 213.85, 321.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:40.002', 219.26, 350.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.898', 245.41, 314.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:45.174', 226.37, 339.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:41.388', 226.5, 312.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:58.583', 232.35, 346.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:41.974', 204.65, 332.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:52.433', 206.38, 348.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:35.126', 215.54, 321.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:59.121', 205.39, 357.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.018', 239.17, 310.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:47.427', 210.87, 352.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.874', 209.4, 318.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:59.423', 246.18, 354.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:44.555', 232.85, 330.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:47.122', 217.38, 318.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:22.992', 212.71, 346.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.752', 219.75, 315.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:35.815', 217.9, 359.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:44.972', 215.47, 303.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:57.258', 205.85, 343.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:36.842', 226.36, 358.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:16.810', 204.62, 303.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:33.097', 240.64, 356.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:57.633', 230.4, 331.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:51.201', 221.72, 355.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.520', 222.63, 330.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:21.368', 235.27, 328.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:30.509', 225.55, 304.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:29.616', 207.72, 305.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:23.536', 227.67, 322.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.456', 208.03, 316.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:56.420', 241.03, 305.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:53.681', 215.53, 316.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.373', 229.99, 347.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:19.151', 213.93, 313.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:32.329', 223.22, 328.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:25.604', 208.76, 359.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:27.086', 202.04, 345.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:20.008', 223.75, 330.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:41.838', 223.75, 310.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:30.247', 208.88, 331.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:37.503', 210.27, 352.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:24.343', 200.25, 316.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:56.962', 240.97, 342.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:48.774', 214.69, 334.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:26.479', 222.86, 305.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:41.844', 243.85, 350.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:36.829', 201.87, 345.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.839', 245.46, 310.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:26.816', 233.95, 308.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:24.840', 213.87, 335.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:53.796', 204.49, 314.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:53.791', 233.83, 344.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:54.154', 249.76, 317.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:51.718', 201.13, 322.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:50.237', 234.39, 317.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:35.243', 214.08, 301.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.029', 219.98, 320.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.392', 234.86, 314.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.185', 242.26, 301.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:30.651', 223.92, 329.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:54.001', 231.99, 335.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:33.511', 230.63, 309.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:44.704', 243.46, 304.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:55.297', 236.77, 300.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:54.839', 221.36, 348.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:22.491', 219.79, 311.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:17.960', 240.17, 355.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:50.539', 210.7, 306.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:18.223', 207.33, 307.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:49.971', 238.2, 343.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:28.819', 246.23, 301.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.522', 204.49, 330.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:48.724', 223.54, 348.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:46.216', 207.5, 317.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:44.330', 232.43, 301.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:34.245', 228.95, 334.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:35.069', 231.61, 326.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:51.725', 234.41, 322.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.277', 225.22, 341.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:19.464', 231.24, 320.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:46.040', 230.77, 339.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.173', 208.31, 310.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:26.988', 210.54, 323.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:36.601', 243.46, 311.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.848', 243.42, 319.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:33.261', 209.56, 328.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.184', 235.29, 330.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:45.112', 239.52, 345.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:46.144', 249.21, 332.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:29.634', 210.96, 328.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:20.474', 219.89, 339.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:20.649', 215.06, 331.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:44.932', 238.5, 331.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:33.353', 233.3, 307.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:40.609', 242.16, 355.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:18.544', 230.49, 359.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:35.839', 248.66, 337.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:47.443', 244.02, 312.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:35.390', 235.48, 341.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.933', 221.26, 306.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:39.576', 207.85, 352.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:40.924', 202.02, 320.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:37.002', 224.58, 325.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:51.556', 201.01, 336.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.547', 211.21, 319.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:50.239', 228.17, 310.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:32.798', 240.51, 343.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:28.210', 222.52, 312.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:25.133', 236.85, 302.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:37.168', 224.91, 329.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:36.182', 226.12, 356.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:59.586', 248.44, 300.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:45.128', 242.19, 357.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:24.832', 243.82, 350.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:41.718', 227.94, 356.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:44.155', 242.88, 312.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:49.093', 237.26, 353.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:24.669', 218.91, 342.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:33.868', 229.16, 319.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:28.916', 232.52, 327.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:52.769', 242.28, 350.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:48.964', 210.94, 329.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:30.980', 235.63, 330.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:40.191', 204.13, 323.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:54.685', 238.13, 349.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:59.423', 223.05, 346.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.063', 223.97, 310.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:20.701', 241.26, 336.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:25.675', 210.73, 322.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:30.579', 222.71, 307.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:26.088', 228.54, 340.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.414', 249.19, 353.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:57.792', 245.46, 339.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:21.421', 235.4, 319.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:49.920', 242.88, 301.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:37.773', 238.68, 341.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:46.857', 211.88, 329.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:21.380', 201.57, 349.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:38.112', 205.37, 331.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:56.225', 218.44, 358.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:56.548', 201.98, 328.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:19.490', 242.11, 302.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.470', 240.29, 329.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:17.743', 249.05, 353.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:32.370', 234.34, 322.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:18.156', 249.33, 338.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:16.515', 232.65, 328.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:19.009', 217.1, 304.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:43.764', 242.75, 326.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:18.135', 216.78, 311.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.432', 225.3, 322.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:34.781', 240.11, 316.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:26.000', 207.79, 304.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.274', 238.13, 331.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:16.133', 226.32, 314.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.054', 221.38, 347.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.674', 234.7, 347.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:27.228', 246.03, 303.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:24.614', 241.48, 349.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.287', 203.92, 335.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.637', 227.85, 353.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.918', 218.12, 349.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:28.972', 228.43, 355.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:39.600', 235.29, 321.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.825', 210.7, 347.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:21.219', 225.82, 344.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.101', 226.57, 332.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.617', 227.67, 306.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:45.266', 214.56, 355.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:43.549', 220.24, 324.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:54.522', 205.19, 321.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.600', 243.78, 300.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:28.622', 239.08, 353.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:59.802', 237.25, 333.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.932', 248.31, 300.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:35.412', 206.98, 339.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:42.240', 218.87, 322.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:40.711', 219.91, 350.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.561', 230.98, 328.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.591', 244.99, 309.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.535', 244.26, 356.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:43.297', 226.99, 348.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:49.651', 230.41, 317.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:58.330', 227.37, 329.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.641', 233.95, 315.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:20.527', 235.95, 310.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:46.698', 225.06, 327.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:46.252', 200.65, 344.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.449', 245.11, 323.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.728', 207.09, 319.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:58.401', 200.27, 340.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:21.399', 207.66, 328.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:42.139', 248.57, 303.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:24.389', 228.17, 340.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:21.199', 209.7, 320.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:17.871', 228.11, 302.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.727', 227.75, 308.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.794', 220.75, 303.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.679', 203.13, 324.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.077', 218.32, 325.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:17.596', 211.82, 352.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:46.684', 240.8, 330.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:29.978', 220.67, 348.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.665', 236.39, 304.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:18.450', 208.18, 351.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:44.033', 211.61, 330.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:54.961', 218.0, 329.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:54.584', 203.99, 319.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.592', 230.48, 304.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:17.791', 246.59, 315.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:57.747', 234.24, 345.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:59.063', 204.51, 346.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:37.211', 206.32, 318.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.041', 222.45, 345.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.446', 235.13, 314.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.522', 234.15, 322.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.258', 206.41, 311.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.428', 211.77, 354.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.360', 204.48, 311.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:18.891', 201.92, 341.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:17.007', 225.05, 329.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.441', 243.73, 339.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.091', 203.85, 355.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:44.839', 239.15, 349.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.379', 216.14, 348.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.611', 242.69, 352.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.441', 224.8, 324.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:15.119', 245.69, 315.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.546', 202.5, 333.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:25.601', 224.6, 353.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.972', 206.47, 315.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.211', 207.69, 345.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:57.714', 238.87, 343.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:22.447', 233.73, 356.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.747', 236.21, 344.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:26.902', 248.84, 337.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:27.532', 206.97, 306.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.331', 244.85, 345.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:47.680', 209.54, 355.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.788', 232.75, 303.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.193', 217.03, 338.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.443', 205.64, 338.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:33.390', 224.59, 347.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.847', 219.97, 357.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.168', 229.7, 301.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.284', 205.06, 310.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.322', 215.89, 351.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:29.584', 220.68, 336.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.000', 246.52, 333.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:15.771', 235.23, 353.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:53.702', 243.01, 315.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:39.704', 217.5, 332.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:48.573', 206.59, 359.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:30.526', 241.74, 312.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.561', 238.86, 324.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:27.222', 212.91, 358.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:46.449', 241.7, 304.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:22.741', 213.64, 350.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:21.835', 202.36, 332.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:52.398', 202.04, 323.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.043', 224.61, 318.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:25.457', 208.13, 351.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:33.058', 236.22, 312.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:29.880', 202.1, 318.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:26.940', 239.28, 358.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:22.494', 218.3, 306.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:35.954', 205.44, 341.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:23.768', 243.71, 323.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:31.210', 238.86, 300.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:31.702', 237.42, 314.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:45.889', 237.72, 327.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:52.146', 218.97, 344.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:46.521', 235.41, 338.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:50.725', 234.76, 356.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:30.185', 245.46, 325.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.718', 229.73, 325.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:49.615', 248.92, 325.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:16.462', 241.55, 356.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:39.175', 204.6, 331.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:28.466', 203.09, 359.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:55.858', 232.84, 302.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:44.300', 241.75, 347.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:38.665', 240.58, 323.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:24.429', 219.28, 355.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:56.763', 230.78, 358.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.244', 204.79, 326.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:25.826', 230.8, 311.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.211', 249.83, 327.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:37.191', 213.98, 335.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:47.352', 215.89, 317.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:43.988', 215.51, 358.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:34.435', 245.63, 310.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:19.136', 205.1, 348.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:30.617', 237.31, 338.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:20.887', 224.15, 334.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:20.760', 232.67, 344.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:57.362', 216.87, 340.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:53.552', 245.46, 349.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:46.227', 236.74, 308.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:57.769', 203.22, 323.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:19.566', 218.95, 350.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:34.036', 219.85, 300.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:51.537', 237.06, 327.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:20.876', 222.53, 336.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:53.090', 225.53, 318.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:49.068', 238.55, 336.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:44.555', 237.91, 320.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:45.464', 230.79, 320.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:52.359', 208.28, 316.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:26.850', 209.46, 342.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:46.475', 225.02, 317.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:21.384', 212.93, 332.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:57.194', 212.74, 353.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:44.396', 212.58, 348.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:21.656', 238.81, 319.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:52.818', 214.56, 350.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:25.839', 211.44, 324.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:38.142', 209.03, 309.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:47.720', 215.14, 350.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.034', 234.3, 313.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:57.819', 233.77, 322.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:18.260', 249.44, 348.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:47.897', 237.87, 309.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:31.926', 209.81, 313.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:16.753', 212.55, 322.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:49.785', 213.63, 351.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:22.975', 208.55, 339.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:38.723', 247.94, 305.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:26.743', 208.56, 352.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:53.882', 200.58, 336.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:45.538', 228.11, 306.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:36.492', 222.49, 354.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:43.902', 229.13, 328.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:20.482', 215.54, 326.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:54.294', 212.04, 324.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:30.551', 202.14, 300.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:50.493', 207.62, 347.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.639', 209.5, 353.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:50.332', 228.74, 301.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.289', 203.75, 306.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.878', 202.69, 305.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:19.791', 235.15, 341.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:58.008', 200.57, 358.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:51.183', 242.65, 320.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:49.039', 223.48, 315.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:35.878', 214.53, 327.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.707', 230.66, 356.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:47.344', 232.73, 300.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:18.039', 210.24, 344.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:50.559', 211.59, 350.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:49.517', 242.64, 341.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:54.764', 209.55, 330.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:18.447', 234.3, 353.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.443', 203.94, 344.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:40.166', 220.22, 320.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:17.841', 216.17, 319.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:57.594', 231.93, 324.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:20.305', 221.9, 314.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:46.528', 206.03, 347.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:21.650', 220.91, 303.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:46.988', 215.89, 336.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.661', 205.4, 338.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.785', 238.31, 321.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:15.053', 227.91, 328.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:30.950', 234.13, 340.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:35.181', 243.88, 332.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:50.605', 236.6, 341.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:24.119', 241.19, 310.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:32.206', 204.91, 359.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:40.769', 221.28, 338.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:24.534', 207.85, 331.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:50.796', 243.38, 324.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:31.818', 235.6, 330.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:50.590', 242.88, 358.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:22.433', 224.23, 356.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:25.312', 228.67, 355.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:59.485', 237.78, 343.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:49.026', 225.39, 310.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:42.419', 234.25, 341.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:21.557', 230.43, 302.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:18.069', 214.82, 321.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:46.075', 226.19, 349.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:49.542', 216.8, 329.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:56.221', 245.26, 319.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:55.346', 222.69, 338.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:34.527', 204.32, 343.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.245', 234.8, 336.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:21.229', 217.53, 358.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.287', 236.55, 331.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.821', 226.84, 315.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:56.397', 229.61, 323.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:48.424', 231.17, 305.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.195', 220.67, 353.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:30.478', 235.51, 332.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.277', 223.3, 309.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:27.427', 242.61, 320.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:37.901', 247.55, 342.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:36.303', 203.42, 350.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:29.788', 212.79, 353.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.871', 243.15, 303.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:45.940', 231.18, 345.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:31.424', 234.18, 340.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:44.140', 220.73, 310.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:31.047', 240.63, 348.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:15.290', 210.69, 338.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:17.482', 222.07, 336.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:45.544', 237.07, 302.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:54.260', 226.04, 318.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:20.474', 216.16, 311.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.620', 210.8, 357.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:45.473', 202.79, 358.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:54.876', 217.51, 307.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.102', 210.85, 313.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:16.811', 240.7, 350.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:38.226', 239.92, 336.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:29.223', 214.17, 352.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:27.498', 219.51, 356.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.046', 214.97, 345.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:38.414', 210.75, 309.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.404', 228.06, 334.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:19.426', 236.17, 351.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.425', 210.77, 358.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:54.900', 244.65, 304.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:32.256', 220.85, 308.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:17.971', 216.99, 320.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.042', 218.55, 339.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:29.284', 234.16, 328.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:37.455', 231.28, 326.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:46.884', 228.95, 341.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:31.407', 245.6, 357.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:23.301', 241.37, 344.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:39.132', 227.36, 323.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:33.782', 234.22, 326.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:52.308', 229.6, 322.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:19.310', 245.46, 349.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.586', 221.99, 303.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:20.686', 209.89, 327.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.087', 230.92, 311.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:19.658', 214.77, 352.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.223', 212.82, 337.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:24.290', 243.23, 340.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:28.142', 218.59, 332.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:50.870', 238.06, 307.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:33.722', 214.85, 348.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:21.823', 203.88, 316.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:18.689', 221.8, 359.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:53.079', 220.06, 346.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:52.329', 201.74, 341.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:37.946', 222.72, 303.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:57.083', 217.2, 305.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.166', 233.48, 349.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:35.207', 239.76, 335.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:50.595', 238.34, 332.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:39.597', 238.51, 336.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:55.036', 248.16, 332.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:59.027', 223.51, 324.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:30.337', 225.84, 315.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.636', 205.28, 354.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:33.540', 204.83, 319.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:39.472', 206.13, 306.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.846', 248.77, 358.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.974', 226.22, 336.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:41.259', 212.58, 350.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:47.318', 224.9, 331.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:52.586', 224.72, 317.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:15.308', 232.32, 316.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:20.015', 248.09, 323.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:28.926', 202.3, 305.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:35.277', 231.22, 332.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.869', 200.84, 304.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:16.048', 212.77, 342.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.009', 239.63, 307.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:16.427', 213.29, 342.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:28.097', 209.24, 329.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:46.740', 205.59, 302.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:49.088', 227.13, 321.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:57.879', 239.68, 310.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:54.581', 247.88, 331.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:21.964', 247.08, 322.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.898', 213.64, 314.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:32.433', 238.23, 357.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.710', 206.88, 325.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:40.260', 214.5, 353.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:21.639', 225.75, 310.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:47.072', 224.33, 353.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:16.624', 200.39, 332.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:46.059', 207.81, 337.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.513', 227.8, 305.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:17.911', 225.45, 339.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.082', 237.55, 331.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:38.070', 200.55, 346.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:25.653', 206.41, 357.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:53.737', 233.97, 327.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:31.700', 200.11, 318.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.965', 233.01, 331.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:21.530', 203.33, 340.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:56.984', 213.49, 346.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:58.718', 235.23, 323.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.515', 220.45, 328.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:44.623', 210.05, 307.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:57.510', 225.89, 325.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.202', 220.9, 312.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:57.696', 205.1, 330.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:36.120', 220.02, 328.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:42.451', 219.32, 330.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:18.733', 201.94, 341.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.034', 245.87, 343.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:17.922', 212.98, 342.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:54.503', 248.82, 340.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.401', 235.78, 342.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:57.949', 224.94, 329.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.849', 203.66, 321.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.598', 242.79, 302.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:44.905', 200.31, 338.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:35.258', 208.31, 300.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:34.436', 238.16, 310.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.676', 239.15, 332.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:28.670', 201.89, 308.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:58.674', 238.41, 313.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:22.521', 216.37, 314.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:48.335', 244.81, 345.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:22.338', 213.41, 335.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:25.110', 209.76, 335.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:33.356', 210.53, 349.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:53.567', 223.62, 333.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:21.827', 207.46, 317.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:42.318', 242.24, 343.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:45.419', 219.74, 345.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.100', 221.57, 321.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.712', 215.7, 322.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:27.437', 221.92, 353.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.961', 207.01, 308.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:36.619', 206.29, 332.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:23.287', 222.12, 354.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.708', 242.99, 310.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:16.964', 219.34, 307.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:33.430', 241.99, 317.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:51.527', 236.22, 302.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:53.557', 222.69, 320.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.455', 230.83, 337.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.856', 225.23, 317.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:50.514', 232.24, 339.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:26.673', 224.88, 339.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.292', 246.1, 334.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:39.217', 245.45, 317.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.190', 235.06, 348.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.013', 245.44, 356.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:24.977', 247.95, 313.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:41.842', 215.99, 353.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.237', 212.63, 344.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.475', 243.48, 328.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:37.086', 237.58, 313.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.225', 222.19, 309.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.950', 236.18, 334.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.448', 212.85, 324.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.153', 210.71, 348.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.130', 244.4, 336.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:28.833', 229.61, 311.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:58.353', 212.23, 344.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:15.667', 203.75, 336.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:34.103', 207.81, 320.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:25.500', 235.03, 317.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:28.766', 222.26, 303.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (72, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.878', 245.82, 300.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (73, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:38.135', 231.59, 317.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (74, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:20.948', 211.56, 303.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (75, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:17.018', 211.28, 302.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (76, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:38.387', 225.86, 336.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (77, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.904', 243.28, 316.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (78, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:26.744', 204.51, 317.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:54.104', 229.01, 312.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.527', 205.65, 327.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.298', 218.57, 351.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:16.093', 247.02, 316.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:22.119', 225.34, 358.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.591', 215.02, 302.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:21.252', 211.86, 347.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.992', 233.47, 342.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.404', 234.31, 329.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:29.972', 233.95, 335.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:40.287', 208.07, 315.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.952', 203.1, 356.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:49.584', 218.89, 351.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:32.785', 228.27, 346.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.107', 232.8, 354.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:32.363', 234.92, 341.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:56.573', 228.13, 307.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:47.658', 244.99, 321.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:51.422', 217.28, 336.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.508', 205.02, 355.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:23.056', 209.08, 324.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:15.579', 228.95, 347.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:26.522', 220.45, 345.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:27.687', 203.75, 337.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:34.925', 233.66, 311.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:28.380', 215.39, 327.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:27.207', 232.01, 328.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:23.684', 225.71, 316.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.882', 229.08, 325.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:43.544', 229.16, 341.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:27.661', 230.53, 310.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:25.015', 224.89, 300.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:50.419', 233.6, 352.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.622', 231.21, 348.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:59.464', 205.69, 310.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:47.576', 207.99, 343.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:44.420', 213.95, 336.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:48.101', 215.21, 353.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:41.988', 205.51, 345.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.132', 236.0, 332.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:59.236', 217.18, 335.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:58.414', 232.85, 358.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:54.903', 213.72, 353.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:42.784', 204.26, 353.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:48.207', 235.23, 329.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:40.305', 209.48, 349.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:49.875', 207.51, 322.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:28.968', 210.55, 312.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:26.108', 226.34, 355.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:41.814', 226.75, 306.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:21.807', 238.23, 344.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.663', 204.96, 338.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:29.998', 245.95, 347.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:34.961', 249.94, 325.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:57.762', 214.18, 302.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:26.716', 217.84, 307.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.524', 223.62, 333.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.793', 247.43, 337.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:20.773', 221.56, 305.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:22.867', 217.37, 319.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:56.494', 212.27, 338.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:17.952', 244.76, 312.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:48.298', 201.22, 330.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:40.119', 214.9, 354.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:50.655', 212.2, 359.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:49.881', 233.07, 316.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:17.793', 246.17, 325.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:23.037', 218.5, 321.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.442', 222.05, 352.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:24.296', 210.17, 324.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:51.377', 209.21, 327.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (72, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:22.894', 211.06, 305.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (73, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.404', 203.8, 325.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (74, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:56.755', 200.48, 337.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (75, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:28.403', 204.8, 341.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (76, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:15.188', 241.26, 333.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (77, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:57.614', 238.39, 352.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (78, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:38.377', 219.13, 322.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:38.608', 248.65, 342.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:48.612', 210.5, 357.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.368', 230.89, 336.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.613', 247.1, 355.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.696', 230.89, 326.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:41.476', 200.5, 332.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:55.948', 240.29, 351.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.235', 217.12, 334.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:25.683', 249.08, 338.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.434', 235.58, 324.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:46.868', 248.32, 310.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:51.886', 213.22, 300.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:32.684', 248.32, 354.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:33.337', 208.69, 348.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.867', 227.55, 336.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:20.719', 204.72, 354.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:36.465', 211.74, 340.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:40.695', 242.67, 325.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:19.804', 239.16, 348.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:35.917', 243.5, 346.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:27.386', 204.58, 331.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:41.941', 221.58, 352.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:31.584', 245.87, 304.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:45.624', 230.74, 354.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:27.766', 249.64, 359.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:15.856', 237.06, 310.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:30.357', 207.59, 351.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:57.168', 236.95, 343.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:54.905', 227.81, 322.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:57.155', 212.14, 355.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:58.126', 237.15, 332.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.957', 247.97, 319.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:18.823', 227.43, 342.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.814', 210.03, 332.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:19.986', 200.73, 347.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:36.789', 209.76, 315.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:31.823', 219.41, 307.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:46.367', 214.64, 347.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:22.594', 212.33, 308.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:18.029', 239.85, 347.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:28.490', 236.77, 323.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:55.434', 231.68, 335.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:42.794', 214.58, 331.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:15.339', 209.33, 348.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.173', 201.33, 301.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:20.573', 248.26, 334.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:45.318', 200.65, 312.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.061', 209.66, 311.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:31.637', 205.63, 326.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:23.046', 218.14, 324.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.383', 233.21, 320.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:32.405', 226.37, 321.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:47.770', 231.84, 350.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:34.975', 229.06, 337.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:43.718', 244.11, 325.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:56.510', 246.32, 310.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:54.455', 235.11, 314.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.371', 237.77, 353.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:30.608', 241.17, 302.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:41.955', 207.5, 350.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:55.736', 241.18, 339.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.717', 248.04, 343.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:37.884', 203.91, 312.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:52.940', 226.14, 351.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:56.259', 212.3, 316.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:22.702', 227.92, 302.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.496', 210.59, 315.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.664', 219.41, 341.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:29.642', 224.68, 336.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.572', 244.92, 307.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:47.036', 212.55, 307.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.729', 224.37, 307.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:54.688', 202.97, 341.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:37.887', 229.69, 324.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:28.873', 224.15, 317.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:27.791', 222.69, 343.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:30.347', 222.68, 338.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.015', 213.41, 326.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:49.710', 234.73, 335.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.304', 213.05, 313.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.412', 207.26, 347.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:55.018', 215.8, 304.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:24.105', 217.47, 315.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:20.569', 225.89, 320.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:17.496', 231.28, 349.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.394', 230.84, 300.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:16.947', 231.87, 347.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.836', 203.84, 343.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:50.090', 226.58, 318.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:40.228', 222.0, 309.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:29.839', 222.4, 339.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:18.084', 239.46, 342.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.579', 211.83, 319.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:23.896', 206.02, 337.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.315', 219.1, 347.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:19.903', 201.89, 321.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:38.708', 216.08, 304.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:52.373', 232.0, 321.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.678', 242.49, 348.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:27.454', 234.71, 319.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:22.964', 232.74, 354.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.669', 247.47, 338.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.964', 223.76, 351.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:47.641', 229.92, 341.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:44.159', 215.14, 329.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.676', 209.4, 311.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:37.849', 205.43, 323.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:20.760', 206.2, 346.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:22.785', 227.47, 304.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.645', 233.33, 337.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:25.774', 224.72, 326.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:38.898', 228.29, 328.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:47.835', 216.84, 356.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:53.276', 204.42, 337.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:23.397', 200.98, 343.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:30.234', 204.14, 336.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.250', 232.4, 306.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:15.596', 201.92, 300.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:36.745', 238.49, 314.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.564', 241.59, 310.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:59.480', 207.67, 311.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:56.058', 234.88, 318.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:24.708', 228.42, 304.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:22.884', 222.21, 312.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:32.091', 225.48, 332.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:53.239', 208.9, 319.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:39.586', 201.81, 357.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.943', 213.88, 339.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:44.183', 217.07, 339.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:23.099', 202.99, 302.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:15.679', 238.16, 302.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:50.906', 239.71, 355.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:15.620', 212.22, 300.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:24.662', 200.14, 324.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:59.683', 242.48, 302.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:36.528', 228.99, 337.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:48.282', 213.88, 341.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:48.504', 206.48, 302.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:48.843', 243.36, 350.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:58.295', 229.91, 306.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:48.072', 230.85, 350.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:28.842', 240.09, 333.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:55.240', 213.95, 350.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:32.398', 223.83, 333.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:16.542', 246.89, 349.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:44.920', 207.07, 324.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:28.504', 208.17, 328.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:46.443', 219.48, 352.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:52.446', 219.84, 305.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:58.997', 232.31, 312.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.538', 247.95, 349.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:16.298', 227.5, 318.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:22.224', 234.67, 351.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:54.218', 204.52, 340.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:23.412', 204.44, 343.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:41.187', 236.52, 304.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.054', 229.15, 339.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.601', 233.65, 357.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:36.681', 244.64, 311.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.538', 227.34, 349.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.627', 225.12, 353.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.642', 248.13, 341.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:58.130', 226.33, 351.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:56.737', 206.19, 330.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:27.463', 232.13, 348.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:50.913', 245.03, 333.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:25.161', 244.72, 315.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:38.047', 245.82, 342.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:56.567', 217.03, 349.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:34.103', 244.42, 357.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:43.909', 235.81, 325.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:22.619', 221.01, 300.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:45.082', 217.96, 340.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:53.213', 212.73, 333.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:24.172', 202.3, 312.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.607', 219.08, 333.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:55.959', 218.44, 356.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:40.122', 244.44, 348.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:49.250', 247.76, 305.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:55.700', 231.62, 348.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:24.399', 214.73, 334.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:43.836', 239.66, 332.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:30.811', 235.14, 348.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:35.619', 222.78, 345.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:41.314', 214.12, 345.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:41.248', 245.05, 344.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:38.302', 212.21, 317.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:45.359', 232.55, 335.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.884', 203.07, 350.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:54.464', 204.77, 340.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:23.848', 247.61, 334.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:46.488', 234.59, 341.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.848', 215.6, 338.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:45.988', 238.71, 316.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:35.384', 236.9, 330.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:51.551', 216.66, 342.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:36.388', 239.33, 336.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.078', 237.85, 359.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:54.649', 235.41, 333.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:40.578', 242.87, 331.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:40.824', 220.37, 321.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.075', 237.29, 307.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:46.175', 248.02, 318.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.648', 221.99, 321.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:18.239', 235.46, 316.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:53.034', 210.68, 303.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:23.078', 247.21, 312.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:57.277', 213.06, 315.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:38.413', 212.91, 347.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:45.865', 232.96, 307.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.956', 200.0, 328.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:27.191', 212.45, 322.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:25.091', 204.65, 344.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:17.108', 204.03, 351.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:48.907', 231.26, 355.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:47.369', 209.89, 311.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:45.788', 209.32, 333.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:22.498', 204.38, 303.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:45.922', 231.29, 337.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:47.548', 248.66, 352.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:21.678', 208.94, 355.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:58.814', 236.09, 300.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:39.444', 230.56, 329.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.739', 235.0, 346.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:18.381', 228.11, 341.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:19.720', 225.07, 339.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:39.443', 213.96, 356.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:24.137', 208.68, 336.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.578', 222.04, 315.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:32.833', 233.99, 332.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:46.164', 215.76, 340.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:50.786', 211.85, 320.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:53.933', 200.69, 313.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:19.001', 221.11, 319.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:21.804', 230.04, 339.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:18.421', 211.06, 321.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:41.415', 246.49, 337.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:25.731', 203.19, 303.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:38.286', 226.9, 322.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:17.778', 216.47, 325.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.592', 249.72, 358.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:41.452', 231.83, 337.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.946', 217.18, 328.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:48.290', 233.18, 315.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:19.111', 201.57, 342.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:27.026', 229.78, 351.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:37.183', 208.09, 324.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.861', 247.81, 333.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:29.231', 218.02, 310.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:32.874', 223.2, 324.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.020', 203.95, 355.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:38.423', 210.05, 350.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:44.311', 223.88, 330.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:51.303', 226.24, 346.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.441', 200.58, 343.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:35.337', 203.87, 335.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:52.919', 215.82, 315.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:20.589', 211.47, 331.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:34.450', 246.61, 346.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:24.205', 223.18, 332.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:52.249', 207.1, 339.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.079', 233.88, 308.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:22.975', 231.51, 341.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.421', 228.85, 354.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:42.555', 206.93, 303.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:50.776', 242.54, 345.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:32.060', 231.67, 310.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.322', 223.92, 306.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:40.520', 245.08, 326.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:29.294', 209.81, 342.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.149', 207.9, 349.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:15.038', 243.71, 345.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:54.658', 241.86, 334.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:39.781', 217.8, 333.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.155', 238.44, 316.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:23.155', 224.97, 320.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:17.171', 234.43, 345.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:46.686', 246.14, 316.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:24.482', 210.11, 313.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:26.320', 229.33, 337.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:30.109', 223.96, 319.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:59.665', 215.53, 336.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:46.276', 209.98, 317.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:58.060', 244.5, 311.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:21.923', 243.0, 338.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.617', 201.48, 314.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:21.846', 221.67, 324.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:47.639', 216.1, 324.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:42.212', 227.44, 342.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:39.823', 205.13, 359.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.357', 212.1, 317.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:30.252', 200.64, 358.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:22.189', 229.78, 349.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:29.245', 202.84, 337.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:17.839', 202.18, 310.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:15.082', 244.76, 358.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:34.035', 247.09, 332.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:38.101', 238.95, 322.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:44.417', 216.21, 307.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:16.761', 207.7, 352.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:42.218', 238.93, 305.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:21.984', 239.05, 335.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:25.056', 203.56, 349.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:35.092', 203.84, 358.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:50.357', 212.16, 334.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:57.544', 212.67, 344.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:29.198', 242.36, 353.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:18.344', 226.84, 330.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:55.960', 229.27, 335.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:28.303', 224.91, 346.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:28.120', 201.92, 324.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:37.128', 208.81, 357.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:32.217', 247.69, 354.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:54.583', 245.39, 331.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:30.591', 216.48, 303.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:35.728', 216.35, 344.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.905', 243.48, 325.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:50.607', 211.68, 316.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:55.330', 237.11, 324.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:20.711', 232.42, 330.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:25.331', 223.55, 351.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:31.119', 222.03, 303.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:23.939', 226.51, 307.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:18.210', 231.71, 333.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:15.084', 207.63, 311.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:44.833', 229.21, 343.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:51.890', 222.53, 315.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:31.723', 207.83, 341.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:43.262', 216.29, 355.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:51.768', 231.3, 343.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:40.678', 218.63, 355.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:17.053', 239.2, 312.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:49.778', 242.22, 351.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:35.716', 228.39, 356.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:49.246', 235.35, 324.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:23.212', 221.06, 323.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:15.675', 222.79, 341.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:27.112', 210.02, 320.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:24.196', 232.22, 359.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:18.774', 249.63, 341.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:16.704', 201.7, 342.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:24.051', 228.47, 341.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:54.750', 239.89, 313.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:18.084', 226.22, 302.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:36.493', 239.14, 310.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.747', 211.24, 336.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:54.197', 243.25, 327.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:58.147', 213.49, 303.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:33.860', 214.33, 305.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:48.524', 211.7, 300.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:39.224', 213.12, 349.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:15.933', 231.25, 345.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:41.532', 201.3, 350.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:24.853', 246.39, 312.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.090', 208.03, 339.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.599', 219.19, 338.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:49.241', 226.36, 338.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:41.462', 217.09, 355.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:45.136', 244.39, 351.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.288', 241.27, 357.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:39.182', 227.06, 356.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:59.103', 200.65, 315.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:21.638', 209.25, 300.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.324', 210.55, 301.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:22.931', 205.15, 339.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:51.673', 243.19, 339.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:16.292', 218.54, 311.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:19.481', 222.72, 318.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:31.078', 206.11, 332.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:18.237', 220.95, 346.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:30.909', 200.37, 351.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:25.819', 234.21, 340.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:17.122', 224.96, 307.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:53.318', 245.13, 329.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.154', 227.65, 319.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:30.720', 206.84, 305.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.764', 218.54, 352.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:58.288', 228.79, 336.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:43.926', 216.29, 310.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:34.668', 244.63, 314.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:29.069', 245.08, 300.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:23.187', 225.49, 304.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:54.168', 215.29, 333.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:34.218', 218.43, 340.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:51.456', 203.5, 339.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:17.974', 245.83, 312.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:56.960', 209.7, 326.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:35.402', 211.92, 315.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:58.028', 248.03, 319.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:33.611', 225.37, 353.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:31.473', 200.64, 335.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:49.202', 232.16, 358.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:25.817', 233.15, 346.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:45.866', 227.33, 315.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:16.817', 228.27, 359.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:31.519', 243.76, 336.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:21.284', 236.81, 346.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:20.979', 239.81, 327.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.015', 233.69, 359.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.202', 218.96, 330.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:21.241', 206.01, 346.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:32.184', 240.49, 313.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:33.716', 246.87, 349.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.724', 221.44, 344.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.909', 242.75, 314.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:51.400', 227.26, 342.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:45.154', 238.85, 309.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.662', 238.44, 332.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:24.122', 229.36, 347.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:17.713', 208.13, 341.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:49.953', 236.76, 315.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:25.207', 216.43, 323.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:22.790', 212.02, 323.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:37.711', 220.18, 325.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:34.616', 205.12, 326.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:41.261', 242.01, 348.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:40.870', 212.03, 318.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.211', 217.23, 352.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:37.236', 241.31, 349.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:15.507', 210.01, 313.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:16.205', 201.59, 359.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:30.519', 216.01, 313.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.384', 221.1, 341.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:41.922', 201.84, 338.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.274', 212.17, 307.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.496', 231.78, 346.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:49.046', 239.4, 323.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:58.254', 205.44, 302.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:26.016', 216.29, 324.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:30.142', 233.31, 353.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:43.088', 228.13, 313.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:49.919', 224.86, 315.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:59.059', 201.3, 342.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:28.125', 230.0, 355.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:29.037', 226.35, 310.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:38.252', 238.86, 324.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:39.211', 242.71, 304.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:23.169', 246.24, 327.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:49.877', 212.5, 316.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:53.895', 246.9, 318.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.042', 221.81, 329.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:25.161', 221.18, 321.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:54.778', 233.85, 318.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:47.285', 243.91, 359.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:40.912', 237.92, 306.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:25.938', 245.14, 314.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:21.423', 201.1, 356.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:27.685', 208.3, 311.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:28.707', 200.19, 331.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:26.129', 205.34, 335.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:27.062', 212.46, 310.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:25.786', 249.61, 338.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:35.820', 237.02, 328.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:42.325', 243.09, 318.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:45.351', 233.81, 334.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:51.307', 224.18, 302.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:50.192', 208.99, 338.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:29.296', 208.2, 324.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:39.441', 222.46, 303.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:52.113', 244.39, 316.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:58.241', 209.9, 350.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:34.187', 207.61, 349.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:43.129', 245.39, 339.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:34.560', 245.43, 307.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:30.533', 242.8, 347.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:17.860', 200.59, 353.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:41.642', 241.3, 351.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:24.659', 249.3, 352.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:55.359', 240.99, 335.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.654', 238.98, 353.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:48.860', 232.02, 336.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:46.765', 226.04, 307.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:56.331', 245.06, 341.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:48.435', 204.36, 356.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:30.617', 214.18, 323.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:26.661', 201.54, 334.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.072', 224.43, 311.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:50.229', 208.85, 337.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.345', 207.44, 315.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:45.217', 205.89, 307.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:32.294', 223.21, 327.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:51.182', 205.29, 301.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.696', 209.86, 324.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:25.772', 228.53, 357.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:32.343', 230.76, 320.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:31.234', 232.08, 326.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:58.055', 232.8, 359.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:23.263', 213.62, 313.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:51.924', 239.25, 347.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:56.086', 231.51, 325.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.085', 243.41, 307.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:50.416', 229.98, 336.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:39.336', 249.5, 306.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:26.071', 244.25, 304.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.444', 223.57, 325.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:45.961', 244.43, 323.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:58.845', 208.01, 302.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:39.902', 223.36, 339.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:15.754', 211.29, 347.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:23.402', 218.59, 302.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.086', 224.44, 339.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:56.906', 214.61, 319.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:58.992', 227.32, 308.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:38.101', 204.44, 338.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:21.391', 206.01, 320.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:59.745', 205.76, 350.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:16.932', 200.52, 334.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:16.726', 243.73, 341.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:42.375', 249.41, 346.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:18.676', 243.16, 324.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:50.391', 213.0, 340.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.785', 225.3, 324.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:26.202', 239.52, 321.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:57.917', 243.05, 350.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:25.744', 216.13, 307.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:35.853', 208.34, 334.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:48.867', 230.07, 359.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:31.788', 211.61, 339.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:48.747', 205.43, 357.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:22.393', 246.99, 337.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:20.104', 238.9, 310.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:30.301', 224.52, 358.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.016', 243.97, 312.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.811', 217.91, 339.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:30.444', 234.93, 351.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.451', 230.63, 344.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:47.092', 235.02, 306.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:21.140', 211.21, 305.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:39.888', 223.96, 318.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:43.528', 247.99, 312.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:29.333', 233.31, 328.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:49.252', 238.46, 320.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:23.061', 227.46, 312.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:16.106', 214.4, 350.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:42.366', 240.99, 345.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:32.745', 220.5, 312.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:38.676', 240.16, 325.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:22.013', 227.78, 327.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:57.253', 234.88, 355.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.874', 234.56, 322.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:54.313', 219.5, 338.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:46.343', 233.41, 300.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:46.096', 212.18, 329.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:37.005', 229.55, 345.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:35.087', 230.93, 300.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:31.820', 224.84, 301.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:47.605', 243.9, 349.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:15.133', 212.18, 356.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:56.975', 249.62, 351.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:56.484', 247.25, 309.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:27.002', 224.09, 359.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:15.418', 214.35, 319.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:40.840', 235.07, 328.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:32.564', 221.73, 308.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.113', 247.55, 326.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.756', 211.89, 307.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:19.372', 222.32, 355.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:52.719', 205.82, 342.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:26.126', 246.64, 349.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:31.959', 214.86, 329.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:37.405', 208.74, 312.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:38.976', 207.24, 323.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:55.620', 212.44, 301.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:21.530', 245.21, 334.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:25.629', 202.96, 331.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:39.605', 245.99, 300.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.377', 201.67, 359.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:59.627', 232.88, 303.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:26.121', 239.61, 335.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:58.539', 239.17, 326.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:23.100', 249.41, 305.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:39.166', 230.14, 342.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:42.672', 242.24, 307.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:17.735', 232.38, 326.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:41.352', 234.65, 340.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:35.437', 247.68, 340.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:27.344', 209.06, 305.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.006', 237.02, 313.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:26.811', 230.48, 326.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:46.361', 205.05, 311.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:25.637', 248.79, 333.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:54.250', 203.85, 307.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:42.237', 216.29, 347.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:54.196', 219.65, 338.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:38.941', 227.74, 312.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:33.692', 214.45, 334.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:31.102', 244.03, 309.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:16.872', 216.64, 303.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:53.853', 212.29, 315.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:17.568', 202.1, 322.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:22.567', 214.03, 332.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:56.913', 220.22, 302.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:34.805', 221.09, 347.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:49.400', 215.29, 333.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.241', 245.17, 353.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:41.508', 216.93, 348.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:26.213', 218.17, 326.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:23.567', 249.77, 356.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:47.588', 224.4, 345.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:19.957', 227.11, 333.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:21.770', 227.66, 318.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.700', 223.27, 314.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:44.486', 209.58, 340.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:50.262', 212.03, 356.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:56.971', 213.02, 359.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:17.638', 229.19, 329.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:53.429', 242.5, 300.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:18.206', 244.68, 358.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:22.972', 233.32, 312.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:57.696', 223.56, 304.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:18.070', 218.5, 308.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:25.606', 206.64, 337.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:51.172', 227.83, 359.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:56.496', 218.47, 323.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:29.997', 239.91, 305.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.413', 220.29, 330.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:57.824', 243.08, 307.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:15.327', 216.37, 317.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:34.849', 230.87, 342.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:41.310', 221.72, 359.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:16.916', 220.21, 300.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:48.705', 222.95, 310.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:18.196', 202.61, 325.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:36.966', 204.66, 316.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:59.949', 221.34, 323.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:54.968', 236.09, 349.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:59.071', 200.99, 308.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:51.978', 232.24, 321.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:32.749', 219.92, 358.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:19.558', 204.4, 303.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:22.526', 249.32, 349.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:58.055', 204.71, 304.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.248', 230.56, 327.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:31.971', 235.18, 359.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:47.314', 219.15, 300.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.578', 200.71, 319.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:49.016', 249.19, 310.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.534', 205.08, 324.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:24.155', 229.81, 339.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:57.715', 239.3, 323.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:20.926', 239.09, 335.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:19.495', 246.02, 344.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:33.074', 224.28, 343.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:41.086', 235.49, 321.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:26.909', 204.22, 327.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:25.171', 202.16, 328.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:54.626', 245.61, 358.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:23.613', 215.9, 321.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:47.596', 225.86, 353.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.595', 227.04, 309.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:20.966', 231.79, 355.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:42.359', 245.91, 326.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:49.228', 208.26, 348.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:17.548', 240.93, 322.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:42.519', 242.79, 302.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:52.847', 245.0, 310.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.629', 248.57, 346.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:21.032', 243.29, 329.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.216', 242.97, 347.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.028', 231.07, 334.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.975', 211.91, 336.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.801', 241.08, 345.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.584', 226.85, 359.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:59.096', 246.6, 334.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.432', 207.01, 351.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:49.819', 201.59, 353.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.380', 243.38, 325.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:26.810', 234.22, 345.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.149', 226.31, 319.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.219', 224.93, 321.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.524', 227.37, 342.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:56.920', 230.9, 359.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:37.736', 242.3, 324.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.411', 211.35, 309.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.221', 212.1, 342.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.846', 222.42, 358.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.544', 204.52, 316.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.467', 227.68, 326.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.845', 219.56, 300.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:57.046', 245.88, 345.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:57.771', 228.4, 308.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:27.656', 233.19, 312.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:38.668', 215.12, 307.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.887', 203.22, 317.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:45.726', 229.08, 357.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.282', 232.44, 358.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.203', 216.97, 323.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:32.994', 207.11, 320.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.095', 210.2, 341.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.104', 237.63, 325.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.822', 239.08, 312.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.314', 229.87, 326.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.347', 230.9, 331.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.654', 207.34, 357.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.563', 248.0, 321.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.738', 239.25, 356.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:19.103', 238.65, 315.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:47.158', 241.14, 348.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:46.034', 234.3, 305.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:25.799', 247.43, 300.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.069', 232.54, 311.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.087', 246.79, 323.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.763', 231.73, 311.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:51.642', 206.39, 348.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:35.463', 203.96, 338.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:57.250', 243.35, 317.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.235', 239.99, 333.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.044', 239.77, 350.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:59.914', 239.16, 338.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:17.785', 232.54, 359.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:18.190', 211.72, 331.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.351', 220.45, 341.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:47.473', 207.42, 313.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:48.078', 202.81, 312.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:16.243', 231.12, 314.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:48.817', 211.49, 303.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:51.294', 240.45, 323.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:40.749', 247.68, 301.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:30.229', 209.5, 300.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:51.214', 225.4, 303.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.188', 242.84, 337.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:30.176', 221.14, 326.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.040', 203.42, 349.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.525', 237.19, 348.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:41.893', 225.06, 358.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:15.370', 201.97, 333.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:45.107', 207.65, 312.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:17.973', 204.48, 304.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:16.293', 207.14, 315.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.703', 204.99, 349.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.350', 245.14, 341.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.911', 234.96, 322.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:31.563', 205.9, 310.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:50.515', 234.36, 304.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.227', 210.71, 311.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:37.849', 243.81, 312.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.392', 229.3, 336.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:57.877', 214.49, 355.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:37.175', 249.31, 326.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.464', 238.62, 325.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:16.366', 246.36, 327.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:20.478', 219.64, 334.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:45.103', 237.32, 344.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:27.436', 221.62, 328.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:32.460', 247.62, 340.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:28.413', 242.48, 347.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:58.636', 211.06, 311.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.216', 228.76, 302.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:35.353', 243.67, 324.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:26.920', 223.18, 357.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:20.277', 221.53, 335.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:28.201', 207.31, 322.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:50.050', 209.96, 357.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.639', 229.12, 329.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:47.163', 209.49, 334.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:22.197', 207.59, 321.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:19.814', 203.72, 339.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:29.695', 204.77, 304.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:57.809', 229.38, 334.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:45.087', 232.52, 328.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:22.455', 218.15, 303.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:21.989', 243.12, 339.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:48.496', 241.77, 334.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:48.709', 201.77, 334.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:33.982', 203.88, 301.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:55.977', 206.46, 358.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:21.055', 203.09, 316.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:36.555', 229.83, 316.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:58.344', 225.03, 324.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:19.000', 232.76, 349.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:42.491', 218.85, 335.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.924', 228.46, 325.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.710', 248.71, 301.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:31.576', 249.86, 320.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:50.903', 239.36, 318.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:29.592', 230.93, 327.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.102', 207.19, 351.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:53.105', 212.54, 322.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:30.230', 240.65, 339.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:40.894', 237.41, 343.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:58.245', 245.31, 327.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:54.894', 238.35, 312.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:17.194', 222.9, 351.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:16.727', 217.3, 340.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:20.751', 218.94, 332.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:40.693', 206.75, 300.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:17.796', 224.69, 306.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:45.663', 241.92, 352.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:26.500', 248.19, 307.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:38.706', 231.78, 308.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.186', 218.83, 312.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:53.173', 237.05, 314.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:35.305', 235.97, 320.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:27.853', 249.55, 315.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:33.290', 223.32, 306.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.145', 241.84, 328.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:17.336', 222.09, 355.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:36.506', 209.54, 354.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:34.907', 208.11, 352.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:42.850', 201.62, 335.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.071', 228.01, 355.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:25.953', 208.04, 322.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:25.924', 204.24, 332.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:24.223', 225.02, 311.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:53.515', 220.21, 350.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:55.741', 237.39, 351.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:24.036', 225.53, 353.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:29.463', 241.5, 328.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:38.599', 234.81, 322.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:20.029', 247.31, 324.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:43.194', 218.33, 300.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:18.584', 204.17, 333.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:50.724', 235.63, 346.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:16.147', 210.51, 339.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:41.817', 221.62, 303.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.872', 242.04, 316.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:23.390', 215.47, 311.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (72, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.491', 207.4, 311.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:54.816', 248.44, 322.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.023', 216.28, 321.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:18.530', 209.48, 332.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.923', 245.16, 322.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.119', 226.14, 352.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:15.686', 241.85, 350.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.828', 210.12, 335.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:56.099', 232.1, 312.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:40.178', 205.61, 318.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:42.311', 232.5, 355.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.598', 246.83, 319.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:52.988', 221.15, 359.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:39.812', 237.22, 324.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:20.145', 210.5, 354.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.459', 222.01, 354.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:25.075', 208.61, 358.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.085', 245.23, 310.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:56.849', 236.82, 315.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.594', 218.27, 350.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:35.643', 238.46, 352.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:16.454', 230.36, 318.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:34.367', 216.13, 359.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:33.029', 233.97, 357.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:34.835', 217.04, 332.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.266', 247.92, 333.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.837', 236.37, 326.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:20.475', 224.31, 315.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:40.667', 203.39, 313.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:48.008', 208.98, 333.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:21.009', 231.32, 314.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:29.539', 249.28, 323.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:54.884', 239.88, 337.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:57.934', 209.09, 353.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:28.655', 222.5, 324.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.589', 224.04, 348.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:15.875', 219.41, 307.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.418', 227.84, 327.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:55.963', 248.37, 341.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.000', 218.88, 338.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:41.117', 247.75, 317.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.388', 235.95, 313.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.639', 201.52, 345.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:22.131', 244.93, 303.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:33.139', 206.59, 334.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:28.937', 205.01, 345.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:28.038', 204.65, 355.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.075', 206.95, 307.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:56.046', 235.18, 352.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:48.213', 227.65, 348.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:29.754', 246.3, 316.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:48.906', 203.47, 350.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:43.866', 226.9, 349.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:54.176', 247.1, 347.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:49.791', 217.01, 304.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:20.178', 219.65, 337.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.053', 222.88, 316.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.660', 207.29, 322.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:35.529', 249.08, 358.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:15.365', 237.09, 312.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:25.153', 220.92, 331.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.414', 221.61, 315.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.955', 203.41, 356.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:29.256', 248.01, 339.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:27.663', 233.53, 352.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:22.877', 230.67, 344.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:26.324', 233.42, 349.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.391', 234.36, 321.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.295', 202.63, 350.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:30.652', 214.72, 307.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.079', 219.39, 333.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.583', 238.57, 359.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (72, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:42.118', 246.57, 323.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:26.428', 233.46, 343.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:54.428', 205.99, 330.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:39.822', 229.0, 309.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:21.959', 243.33, 344.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:38.486', 221.0, 350.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:21.984', 236.31, 340.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:22.784', 232.49, 333.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:54.248', 218.22, 351.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:41.344', 216.94, 318.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:59.079', 215.77, 308.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:43.507', 201.49, 343.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:39.560', 249.82, 328.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:19.460', 200.77, 358.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:22.250', 232.66, 301.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:27.720', 238.56, 354.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:33.229', 249.52, 312.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:17.997', 221.75, 304.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:32.526', 232.98, 300.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.144', 210.57, 310.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:17.308', 200.29, 344.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:20.694', 240.57, 306.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:50.542', 202.92, 326.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:35.030', 202.2, 343.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:46.204', 221.02, 328.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.671', 202.78, 351.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:29.045', 233.07, 355.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.937', 249.6, 305.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:45.425', 217.58, 303.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:41.675', 203.44, 305.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:16.676', 205.34, 326.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:36.430', 222.99, 300.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:36.826', 210.44, 358.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:48.303', 214.97, 301.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.591', 211.93, 302.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:42.803', 245.35, 334.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:17.216', 220.72, 338.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:50.806', 203.96, 330.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:46.436', 227.29, 307.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:29.379', 244.86, 350.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:25.636', 231.82, 346.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:42.750', 238.36, 328.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:18.842', 234.9, 334.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:30.898', 205.46, 340.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:45.954', 241.06, 350.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:52.941', 210.81, 346.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:52.847', 235.53, 334.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:26.600', 205.95, 300.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:16.571', 223.89, 326.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:50.902', 224.41, 303.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:45.236', 210.48, 310.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:23.693', 201.12, 338.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:20.929', 200.44, 352.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:51.954', 242.17, 306.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:16.222', 220.57, 318.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:35.901', 211.08, 301.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:24.250', 226.46, 310.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:18.379', 247.94, 324.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:19.098', 234.68, 352.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:17.276', 238.47, 308.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:53.450', 203.66, 308.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:54.750', 211.83, 309.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.937', 218.13, 327.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:28.001', 203.32, 346.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:17.934', 245.04, 342.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:33.873', 240.96, 323.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:21.701', 217.81, 325.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:53.414', 242.33, 308.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:29.068', 242.91, 341.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:30.723', 226.21, 301.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:38.615', 229.15, 326.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:36.924', 209.44, 326.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:45.142', 241.19, 308.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:57.652', 246.68, 351.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:53.562', 206.98, 311.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:45.396', 241.18, 329.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:23.619', 245.77, 304.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:46.285', 238.65, 305.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:49.126', 217.96, 341.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:46.614', 225.15, 327.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:19.892', 217.95, 358.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:15.562', 236.69, 320.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.549', 248.91, 356.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:27.235', 216.95, 313.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:33.534', 237.89, 323.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:26.382', 203.91, 338.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:18.277', 202.39, 345.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:50.604', 235.26, 332.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:15.572', 244.83, 320.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:54.209', 218.54, 342.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.462', 241.46, 329.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:55.985', 200.18, 337.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:55.193', 212.07, 305.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:30.094', 202.65, 354.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:50.542', 232.41, 345.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.983', 225.27, 304.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:29.060', 225.44, 317.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:37.589', 228.24, 307.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:38.771', 237.11, 318.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:49.630', 241.25, 339.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:38.760', 246.7, 307.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:43.510', 239.44, 307.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.983', 241.37, 340.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:27.884', 241.37, 342.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:18.785', 204.39, 309.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:29.199', 209.26, 323.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:30.966', 223.09, 331.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.327', 245.52, 354.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:51.230', 244.71, 304.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:37.161', 210.26, 338.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:18.584', 227.11, 322.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:42.999', 244.58, 339.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:18.470', 239.93, 309.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:58.588', 212.59, 351.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:48.610', 212.34, 312.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:17.521', 245.23, 318.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:47.720', 230.16, 346.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:15.479', 221.75, 314.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:35.863', 202.25, 350.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.188', 232.43, 333.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:30.229', 211.86, 306.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:34.361', 209.26, 358.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:55.225', 217.98, 329.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:55.670', 249.15, 301.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:43.593', 244.7, 354.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:46.585', 214.25, 348.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:45.687', 243.59, 314.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:26.410', 239.34, 335.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:17.134', 209.57, 330.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:38.694', 214.82, 300.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:54.894', 213.61, 352.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:48.871', 249.9, 353.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:30.249', 206.55, 344.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:16.289', 210.13, 325.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:57.534', 200.71, 309.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:17.848', 245.15, 303.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.994', 216.69, 352.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.370', 234.26, 304.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:50.057', 235.39, 312.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:47.968', 249.83, 347.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:38.735', 221.23, 357.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:44.131', 203.26, 352.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:45.842', 244.56, 323.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:44.579', 237.91, 312.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:29.577', 230.26, 353.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:23.629', 248.2, 320.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:23.307', 245.4, 324.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.451', 233.94, 325.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:37.371', 228.31, 341.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:27.117', 201.34, 300.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:59.551', 223.97, 321.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:56.702', 204.58, 307.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:58.301', 219.15, 314.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:51.170', 244.54, 330.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:33.105', 248.56, 325.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:41.184', 228.12, 302.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:56.509', 204.74, 312.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.952', 202.78, 330.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.756', 226.09, 359.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:35.982', 217.68, 326.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:23.393', 225.43, 317.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:28.891', 221.5, 335.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.905', 236.59, 351.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:33.659', 248.62, 337.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:16.016', 212.44, 352.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:59.206', 205.4, 353.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:27.682', 230.78, 300.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:50.697', 230.15, 321.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:47.134', 244.14, 312.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:38.456', 211.03, 335.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:42.613', 248.39, 332.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:44.695', 236.55, 339.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:45.204', 224.6, 303.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:34.104', 208.51, 337.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:55.533', 207.74, 315.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:43.307', 230.61, 327.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:40.442', 210.18, 316.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:32.376', 215.62, 359.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:34.031', 237.93, 358.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.541', 200.68, 313.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:31.881', 228.96, 303.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:58.518', 205.22, 303.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:42.715', 206.02, 306.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:39.298', 217.79, 330.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:23.402', 206.14, 329.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:26.542', 229.48, 352.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:58.955', 234.65, 308.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:15.514', 218.87, 327.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:55.890', 204.69, 308.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:50.880', 246.04, 337.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:21.771', 209.8, 345.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:18.242', 218.44, 313.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:27.042', 221.24, 314.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.740', 226.12, 355.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:52.493', 240.85, 306.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:41.716', 236.31, 355.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:24.707', 244.61, 330.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:21.069', 212.31, 343.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:55.143', 235.45, 307.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:40.472', 230.83, 344.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:52.822', 223.79, 318.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:47.712', 244.24, 340.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:45.496', 213.64, 349.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:35.176', 234.23, 356.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:39.934', 221.11, 316.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:35.171', 249.22, 347.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:43.056', 218.23, 300.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:16.280', 246.54, 302.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:54.960', 222.15, 312.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:50.531', 208.29, 358.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:49.396', 210.88, 300.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.516', 249.05, 349.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:18.526', 238.27, 306.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.046', 226.1, 308.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:24.836', 203.36, 356.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:40.916', 206.72, 310.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:47.367', 215.27, 307.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.362', 243.99, 354.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:56.897', 243.79, 359.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:54.748', 234.17, 307.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:37.774', 220.54, 332.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:52.801', 204.21, 300.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:40.459', 201.72, 326.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:56.020', 227.74, 349.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:22.789', 201.14, 302.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:21.585', 232.2, 336.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:45.699', 204.44, 304.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:29.931', 228.77, 319.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:50.351', 218.32, 349.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:26.605', 231.78, 301.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:41.791', 235.75, 325.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:24.561', 213.19, 304.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:22.334', 231.08, 328.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.119', 237.84, 332.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:35.462', 223.49, 349.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:55.680', 244.48, 316.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:57.605', 215.38, 318.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:44.632', 213.87, 318.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:46.582', 203.74, 316.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:37.479', 245.22, 341.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:51.235', 229.39, 317.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:59.746', 224.97, 352.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:47.135', 209.97, 329.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:18.619', 209.74, 319.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:59.085', 245.47, 342.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.210', 214.62, 342.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:39.779', 246.66, 305.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:21.291', 222.83, 358.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:27.746', 210.67, 331.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:39.616', 203.83, 306.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:52.249', 208.1, 351.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:50.048', 249.35, 332.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:45.136', 200.81, 305.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.408', 230.6, 307.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:34.501', 206.4, 350.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:59.552', 211.29, 334.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:56.750', 214.04, 301.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:43.821', 221.38, 302.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:26.121', 203.04, 300.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:30.753', 203.47, 318.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:19.498', 224.86, 312.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.665', 238.0, 307.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.079', 240.29, 327.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:39.221', 241.33, 325.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:45.219', 214.64, 331.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:31.284', 213.13, 351.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:19.509', 222.54, 347.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:25.089', 223.27, 315.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:28.146', 239.28, 332.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:37.929', 220.74, 300.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.252', 206.64, 304.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:49.683', 238.59, 330.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:56.162', 232.79, 356.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.492', 206.05, 325.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:41.819', 215.04, 310.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:49.323', 246.37, 312.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:57.380', 201.46, 334.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:49.418', 230.05, 357.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:22.697', 223.06, 309.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:42.064', 204.93, 308.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.005', 244.48, 319.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.485', 218.24, 303.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:27.609', 240.3, 315.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:28.845', 216.45, 312.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:25.684', 202.59, 313.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.332', 215.75, 352.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:34.232', 249.19, 344.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:36.811', 248.55, 319.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:50.078', 246.47, 352.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:40.305', 247.81, 332.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:28.526', 209.04, 308.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.258', 226.43, 325.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:32.758', 228.36, 323.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:32.401', 213.68, 336.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:46.235', 204.75, 341.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:33.257', 237.9, 340.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:58.680', 247.31, 309.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.671', 249.64, 310.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:21.808', 221.15, 337.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:48.430', 225.89, 319.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:39.797', 210.48, 308.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:36.023', 221.24, 311.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:24.172', 216.28, 352.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:29.941', 248.59, 347.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:29.468', 221.84, 310.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:35.695', 242.77, 354.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.252', 220.41, 340.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.366', 244.06, 356.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:58.080', 249.2, 339.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:42.353', 236.76, 359.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:22.867', 209.66, 317.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:30.353', 224.54, 308.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.460', 240.81, 355.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:24.136', 245.79, 326.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:46.478', 241.75, 348.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:31.573', 248.84, 352.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.578', 238.4, 304.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:46.499', 244.33, 348.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:19.461', 223.05, 304.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:20.353', 221.2, 322.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:15.890', 215.66, 307.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:43.750', 242.08, 356.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.135', 233.98, 329.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:29.668', 204.84, 351.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:21.291', 233.18, 352.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.140', 227.83, 303.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:57.980', 223.48, 304.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:23.858', 204.54, 327.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:36.623', 221.08, 354.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:24.308', 221.86, 358.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:50.660', 249.84, 321.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.352', 225.18, 359.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:32.141', 246.9, 343.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:43.421', 220.19, 328.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.075', 224.09, 356.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:24.210', 221.89, 322.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:30.237', 242.69, 311.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:50.056', 241.21, 308.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:39.420', 236.25, 320.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:52.435', 244.41, 354.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:58.800', 236.33, 301.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:51.919', 220.23, 343.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:41.545', 240.2, 319.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:24.833', 210.73, 332.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:35.589', 206.93, 345.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:34.574', 209.38, 304.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:49.243', 247.9, 342.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:36.287', 230.72, 301.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:17.223', 216.83, 354.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.608', 245.29, 321.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.352', 242.04, 350.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:37.262', 230.82, 355.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.104', 222.21, 341.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.671', 245.03, 330.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.852', 210.58, 355.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:47.806', 216.92, 300.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:30.310', 221.2, 359.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.761', 221.02, 307.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.603', 226.76, 345.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:32.379', 246.05, 320.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:55.325', 208.7, 300.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:19.246', 242.74, 347.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:54.341', 218.2, 340.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:48.826', 237.64, 300.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:49.650', 237.64, 352.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:31.140', 242.48, 313.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:18.883', 221.03, 303.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:52.698', 215.91, 332.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:58.183', 224.29, 322.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:53.210', 248.48, 306.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:58.393', 215.16, 346.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:28.629', 231.57, 326.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:47.043', 222.74, 320.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:17.175', 228.12, 350.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:35.887', 212.04, 311.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:46.777', 229.08, 306.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:34.455', 225.27, 303.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:59.474', 238.42, 321.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.735', 238.83, 357.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:20.504', 240.05, 301.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:55.068', 232.62, 346.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:24.007', 234.47, 302.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.488', 206.79, 319.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:37.870', 219.14, 328.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:33.958', 228.58, 348.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.840', 232.41, 318.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:35.251', 237.12, 316.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:27.014', 218.56, 337.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:17.254', 240.71, 319.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:38.797', 235.7, 304.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.229', 205.68, 307.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:44.446', 238.03, 323.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:15.149', 231.31, 351.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.283', 233.97, 311.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:17.705', 219.1, 320.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:36.419', 209.07, 358.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.208', 248.41, 311.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:30.883', 233.13, 333.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:58.758', 234.65, 306.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:35.777', 203.61, 349.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:15.024', 237.0, 302.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:55.176', 249.73, 309.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:59.000', 224.17, 358.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:39.417', 240.71, 335.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:34.828', 243.57, 319.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:54.316', 217.03, 323.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:54.300', 238.57, 339.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:17.634', 236.34, 313.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:40.993', 234.75, 313.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:32.135', 244.35, 327.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:36.378', 239.47, 340.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:18.112', 248.84, 359.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.243', 245.9, 326.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:57.134', 201.13, 314.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:48.524', 239.15, 323.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:47.368', 247.72, 345.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:49.081', 219.79, 332.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:37.410', 215.24, 310.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:20.665', 247.92, 326.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:28.801', 220.48, 319.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:40.899', 218.88, 337.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:37.235', 202.47, 334.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:55.721', 215.91, 341.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:32.189', 245.82, 311.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:53.025', 237.75, 314.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:22.692', 216.0, 357.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:50.009', 209.32, 358.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:15.972', 204.65, 345.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:55.912', 246.67, 353.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:41.243', 246.93, 355.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:28.900', 209.16, 332.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:43.813', 211.93, 321.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:24.125', 227.67, 333.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:19.170', 214.91, 305.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:37.737', 204.83, 335.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:58.412', 219.02, 334.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:21.977', 248.63, 316.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:38.224', 248.78, 324.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:50.602', 223.69, 322.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:28.805', 237.73, 322.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:45.789', 218.35, 331.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:59.672', 212.68, 338.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:33.915', 226.53, 321.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:54.880', 234.03, 349.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:42.357', 202.15, 307.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:18.148', 207.05, 316.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.379', 229.58, 322.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:46.816', 235.68, 356.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:33.380', 242.95, 331.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.874', 233.65, 351.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:26.449', 225.02, 330.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:45.819', 237.21, 320.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:47.276', 234.92, 339.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.451', 227.96, 314.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.877', 223.36, 333.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:32.582', 232.8, 325.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:22.605', 212.97, 351.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:31.979', 217.13, 351.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:55.981', 249.69, 346.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.947', 229.93, 348.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:54.436', 232.99, 305.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.621', 222.58, 318.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:30.143', 206.54, 331.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.211', 240.13, 358.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.640', 231.02, 328.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:22.962', 222.28, 348.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.677', 220.25, 326.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.948', 247.21, 315.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.416', 207.63, 328.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.486', 206.62, 307.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.828', 238.72, 303.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:19.545', 226.33, 340.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.528', 245.53, 345.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.662', 245.56, 318.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.851', 211.87, 306.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.432', 220.22, 357.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.314', 235.36, 345.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:18.113', 243.62, 304.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:43.326', 220.27, 336.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:57.149', 246.5, 359.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:24.399', 242.87, 334.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.478', 237.78, 330.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:49.118', 226.09, 331.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.751', 221.62, 345.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.529', 212.43, 327.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.421', 222.03, 314.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.972', 210.21, 355.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:37.243', 227.51, 326.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.863', 237.52, 344.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.035', 240.38, 300.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.555', 229.05, 327.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.632', 217.04, 302.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:45.624', 230.3, 359.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:25.349', 242.19, 318.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.367', 216.03, 353.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.743', 231.17, 355.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.499', 218.89, 306.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.982', 246.03, 358.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:25.299', 211.33, 321.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:19.346', 218.46, 319.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:49.871', 203.61, 308.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:42.785', 247.22, 355.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.851', 205.35, 305.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.449', 223.1, 315.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.831', 237.68, 354.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.715', 204.34, 315.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.526', 232.0, 340.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.764', 208.42, 342.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:47.514', 217.59, 334.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.004', 216.49, 322.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:37.448', 225.39, 351.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:46.662', 225.08, 309.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:31.079', 221.77, 352.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.655', 232.14, 325.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:35.856', 215.23, 335.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:40.110', 216.09, 320.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.834', 247.19, 354.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.608', 203.94, 316.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.117', 237.05, 351.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.932', 245.55, 318.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:56.447', 231.08, 319.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.895', 230.09, 302.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.685', 203.76, 357.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:24.040', 247.65, 348.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.975', 214.5, 310.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:43.962', 214.12, 329.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.118', 221.82, 316.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:50.723', 230.75, 300.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:36.262', 224.03, 301.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:47.007', 240.36, 325.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.908', 204.5, 352.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:21.269', 210.69, 317.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:59.078', 241.43, 329.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:38.129', 238.13, 305.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:49.014', 222.41, 355.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:27.650', 243.13, 345.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.385', 217.58, 309.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:20.248', 228.01, 307.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:56.546', 240.88, 334.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.579', 245.25, 320.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:59.767', 234.05, 329.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:49.282', 220.5, 332.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.428', 240.98, 308.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:25.105', 215.92, 302.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.930', 224.18, 355.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.635', 229.82, 314.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.852', 218.9, 329.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.385', 224.24, 346.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:21.435', 224.07, 359.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.117', 233.93, 358.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:54.788', 203.79, 323.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.449', 207.83, 335.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.523', 213.61, 339.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:23.852', 236.2, 353.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:24.666', 214.28, 323.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.949', 249.84, 329.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.035', 226.48, 347.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.938', 217.12, 337.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:50.665', 229.73, 351.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.594', 233.85, 317.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.323', 227.19, 316.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:18.087', 213.27, 312.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:47.610', 221.8, 341.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:19.330', 239.46, 336.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:41.701', 240.84, 349.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:57.854', 218.09, 301.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:45.392', 235.3, 335.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:28.853', 204.32, 359.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:36.657', 222.81, 308.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:23.629', 216.42, 324.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.969', 205.23, 307.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:29.204', 203.06, 347.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.526', 209.9, 356.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:29.648', 236.24, 318.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.384', 246.11, 307.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.970', 219.94, 310.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:40.195', 213.08, 328.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:49.848', 220.98, 334.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:32.659', 222.45, 301.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:31.863', 200.11, 320.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.210', 232.16, 336.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:30.870', 227.47, 311.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.316', 226.71, 333.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:17.650', 224.67, 301.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.575', 223.37, 331.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.682', 225.55, 317.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:41.376', 205.69, 353.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:35.641', 226.32, 339.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:18.066', 237.87, 304.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:44.887', 214.75, 309.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:25.152', 240.58, 315.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:52.925', 211.6, 357.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:49.355', 201.29, 343.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.450', 207.89, 340.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:34.852', 244.93, 312.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:55.766', 245.14, 322.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:21.984', 239.46, 318.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:19.000', 227.41, 322.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.688', 215.01, 334.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:15.745', 218.0, 317.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:21.408', 239.27, 345.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:51.991', 225.09, 351.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:53.610', 239.67, 355.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:47.134', 244.43, 336.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:26.537', 215.34, 328.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:45.474', 200.46, 306.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:24.468', 203.79, 303.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.897', 233.93, 328.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.582', 204.69, 307.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:53.781', 248.63, 333.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.179', 229.73, 345.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.242', 218.23, 354.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.100', 211.83, 310.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.152', 224.13, 329.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:55.261', 224.37, 333.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:44.620', 209.37, 329.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:22.061', 203.14, 329.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:22.036', 202.68, 351.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:16.653', 223.31, 348.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.735', 240.17, 344.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:39.134', 225.78, 323.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:51.742', 218.66, 317.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:37.208', 210.22, 346.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.666', 219.78, 312.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:24.732', 230.62, 325.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:42.463', 234.22, 312.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.124', 208.1, 343.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.734', 222.74, 329.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:58.954', 229.97, 315.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.513', 241.56, 355.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:54.773', 225.09, 304.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:37.125', 229.53, 331.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:59.664', 242.47, 303.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:42.882', 221.75, 359.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:50.863', 202.58, 320.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:50.601', 220.95, 309.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:20.481', 201.98, 305.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.942', 245.47, 321.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:32.749', 246.46, 312.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:30.842', 225.95, 342.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:56.096', 207.74, 335.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:31.765', 236.22, 346.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:38.106', 237.93, 328.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.383', 204.49, 300.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:33.684', 213.54, 341.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:34.565', 204.03, 324.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:51.070', 205.32, 332.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:22.185', 225.03, 317.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:42.031', 207.52, 312.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:24.226', 248.96, 353.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:50.545', 225.98, 323.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.243', 234.92, 300.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.777', 225.03, 322.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:36.852', 215.67, 322.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:37.373', 217.52, 339.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:23.803', 244.32, 349.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.828', 216.79, 329.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:29.723', 221.96, 328.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:37.764', 242.96, 320.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:53.214', 222.75, 354.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:21.613', 207.67, 301.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:56.681', 218.36, 340.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:21.302', 227.28, 322.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:44.742', 238.65, 344.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:51.518', 227.47, 351.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:22.542', 247.81, 346.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:26.848', 203.59, 316.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:46.652', 214.44, 359.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:26.689', 219.28, 357.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:31.215', 236.87, 354.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:48.787', 201.16, 301.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:42.524', 209.87, 306.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.334', 200.31, 324.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:38.549', 217.87, 356.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:28.408', 210.9, 311.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:35.616', 235.64, 316.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:22.056', 243.39, 334.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:59.841', 249.52, 322.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:19.095', 240.94, 319.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:56.018', 230.31, 305.44);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:41.435', 218.73, 350.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:58.658', 222.12, 343.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:16.855', 214.39, 303.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:56.751', 231.59, 300.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:47.626', 223.75, 317.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:37.175', 202.81, 355.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:39.989', 222.12, 352.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:49.489', 215.67, 342.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:46.530', 249.92, 314.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:27.038', 238.12, 343.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:31.330', 208.93, 323.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:16.183', 208.33, 300.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:30.839', 221.75, 355.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:38.039', 207.16, 315.57);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:48.633', 215.67, 303.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:17.162', 222.43, 343.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:54.043', 249.56, 303.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:27.325', 236.27, 350.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:44.539', 215.63, 351.23);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:53.327', 229.09, 315.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:41.290', 247.59, 345.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:35.577', 219.86, 313.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:20.552', 233.81, 332.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:34.403', 240.14, 356.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:36.047', 247.56, 312.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:27.679', 219.11, 338.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:39.051', 217.29, 327.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:54.863', 221.46, 346.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:33.570', 207.54, 338.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:32.592', 222.3, 304.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:24.014', 217.03, 305.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:59.065', 243.77, 345.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:23.800', 248.37, 330.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:24.003', 223.54, 305.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (59, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:37.372', 203.2, 334.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (60, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:28.203', 216.51, 352.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (61, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:33.895', 218.13, 335.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (62, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:26.933', 247.96, 324.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (63, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:32.842', 228.59, 308.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (64, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.425', 208.62, 318.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (65, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.397', 209.79, 350.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (66, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:29.722', 216.62, 324.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (67, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:47.775', 223.7, 344.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (68, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:42.086', 216.58, 336.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (69, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:36.147', 231.88, 348.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (70, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:50.208', 226.0, 359.01);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (71, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:16.853', 236.06, 337.06);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:47.622', 207.45, 352.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:59.556', 230.25, 307.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.481', 206.89, 326.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:54.010', 227.13, 325.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:28.777', 248.46, 338.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:53.675', 201.61, 318.73);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:56.657', 202.87, 332.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:50.001', 243.51, 305.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:46.367', 243.62, 335.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:38.849', 234.86, 316.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:34.588', 228.43, 321.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:32.662', 227.16, 314.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:31.395', 232.51, 310.17);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.941', 215.76, 349.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:28.706', 227.73, 343.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:43.402', 231.74, 321.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:46.472', 227.0, 328.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:45.015', 218.61, 335.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:17.978', 220.92, 333.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:24.900', 218.84, 357.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.136', 240.28, 326.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:58.448', 238.55, 304.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:44.804', 232.55, 342.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:36.681', 217.78, 300.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:48.186', 205.22, 341.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.852', 221.97, 300.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.352', 248.96, 320.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:45.101', 210.15, 344.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:43.940', 203.11, 302.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.748', 229.39, 309.36);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:31.995', 212.8, 352.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:57.907', 201.02, 343.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:18.555', 221.54, 349.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:46.145', 202.94, 350.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:24.990', 227.46, 320.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:36.851', 236.37, 328.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:27.229', 234.76, 342.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:52.754', 235.26, 358.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.724', 211.91, 325.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:19.634', 217.49, 320.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:57.674', 218.13, 314.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:48.936', 220.8, 341.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:49.127', 210.71, 323.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:17.145', 202.22, 355.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.112', 221.29, 325.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:31.735', 203.35, 334.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:53.506', 247.79, 309.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:51.601', 205.94, 345.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:49.842', 215.27, 354.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:20.192', 227.97, 330.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:38.032', 242.09, 321.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:42.414', 207.38, 342.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:57.984', 219.74, 334.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.640', 206.71, 352.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:19.436', 249.23, 344.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:41.263', 238.48, 346.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:43.764', 248.52, 302.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:55.097', 200.59, 307.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:50.442', 237.97, 343.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.436', 226.37, 313.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:16.006', 200.19, 321.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.180', 215.76, 356.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:54.899', 227.53, 320.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:33.595', 214.69, 359.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:16.452', 207.36, 308.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:50.252', 203.23, 319.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:55.322', 242.75, 339.32);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:59.517', 220.19, 345.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.543', 217.77, 342.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:23.189', 233.18, 354.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:15.393', 214.05, 338.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.254', 220.01, 329.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:19.710', 222.85, 322.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:42.428', 226.3, 356.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:34.047', 248.46, 308.47);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:22.673', 246.53, 315.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:17.009', 219.67, 308.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:17.624', 201.9, 305.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:28.399', 234.21, 348.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.370', 206.33, 353.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:17.611', 234.15, 314.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:57.232', 217.71, 323.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:21.208', 237.48, 345.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:47.182', 212.68, 321.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:20.636', 205.81, 318.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:42.868', 232.33, 351.81);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:20.675', 220.33, 315.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:36.809', 218.04, 345.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:21.852', 209.41, 328.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:21.760', 200.11, 318.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:34.404', 209.1, 329.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:46.563', 202.74, 345.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:37.254', 215.96, 310.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:36.617', 220.46, 304.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:25.516', 232.96, 343.16);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:30.204', 206.34, 304.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.699', 227.37, 356.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:15.835', 220.36, 348.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.648', 244.83, 323.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:43.568', 201.04, 344.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:30.735', 228.97, 334.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:57.374', 219.36, 313.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:23.481', 244.54, 358.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:48.134', 225.54, 321.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:28.841', 219.37, 304.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:25.019', 241.95, 335.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:52.108', 216.69, 324.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:30.967', 227.54, 348.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:27.571', 205.4, 337.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:56.359', 212.51, 318.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:37.967', 213.69, 354.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:41.107', 216.44, 317.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:36.184', 214.78, 336.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:47.535', 242.76, 343.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:44.802', 202.63, 351.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:40.705', 244.04, 326.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:51.810', 226.46, 345.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:22.797', 221.49, 319.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:40.320', 235.15, 338.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:53.432', 226.44, 326.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:49.030', 203.92, 342.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:46.766', 224.63, 320.52);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:18.214', 210.77, 318.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:31.749', 235.24, 320.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:27.649', 205.05, 345.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:46.512', 236.23, 316.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:46.885', 218.55, 358.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:25.299', 231.71, 309.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:50.669', 233.95, 300.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:51.701', 240.59, 318.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:23.547', 201.04, 317.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:19.155', 207.24, 352.63);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:44.634', 242.66, 348.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:31.415', 216.39, 312.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:22.533', 246.83, 315.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:50.905', 200.49, 304.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:54.352', 205.14, 344.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:54.044', 241.76, 315.98);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:21.850', 239.12, 345.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:45.210', 227.64, 324.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:50.356', 241.14, 302.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:16.024', 216.83, 345.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:48.413', 224.55, 342.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:34.613', 231.56, 341.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:49.042', 212.84, 316.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:23.494', 210.07, 309.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:26.992', 218.0, 353.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:56.670', 208.25, 305.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:17.946', 223.55, 350.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:38.745', 236.23, 330.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:32.987', 236.0, 358.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:44.576', 207.99, 301.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:41.676', 239.53, 355.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:56.866', 217.77, 318.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:37.822', 227.22, 332.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:39.305', 212.08, 359.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:58.498', 210.84, 325.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:30.352', 224.99, 317.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:47.994', 224.28, 321.4);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:55.505', 205.59, 328.94);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.092', 231.5, 328.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:36.434', 248.82, 334.74);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:46.214', 241.5, 355.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:19.335', 215.14, 301.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:29.537', 214.23, 338.42);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:56.414', 218.26, 328.26);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:33.543', 222.09, 329.49);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:28.459', 201.17, 318.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.962', 235.09, 312.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:43.638', 210.34, 314.29);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:44.600', 213.63, 300.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.312', 245.42, 346.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:57.829', 240.89, 321.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:31.795', 230.54, 309.78);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:35.955', 221.06, 342.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:56.444', 208.48, 311.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:27.571', 225.87, 346.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:59.366', 232.35, 324.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:38.307', 226.39, 315.46);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.669', 241.74, 358.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:35.897', 220.97, 332.89);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:35.028', 235.43, 356.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:57.671', 231.7, 338.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:25.653', 236.8, 351.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:50.668', 209.6, 305.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:38.952', 200.77, 325.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:20.482', 247.92, 331.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:24.981', 234.73, 341.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:24.712', 209.84, 312.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:27.743', 207.27, 333.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:22.258', 206.52, 315.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:20.061', 215.52, 341.14);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:41.113', 224.75, 348.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:38.946', 233.02, 306.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:17.149', 234.9, 329.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:46.005', 215.89, 336.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:18.705', 211.12, 319.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:58.316', 230.77, 320.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:51.088', 220.05, 315.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:27.487', 222.1, 350.77);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:44.482', 212.97, 302.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:42.321', 220.42, 308.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:43.373', 205.6, 334.12);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:55.605', 229.58, 356.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:42.069', 207.22, 328.37);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:37.512', 240.58, 353.18);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:54.438', 241.74, 312.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:17.743', 231.28, 351.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:23.250', 231.66, 354.51);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:52.471', 212.68, 357.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:24.207', 227.46, 326.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:43.131', 220.04, 332.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:15.354', 206.04, 344.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:49.192', 225.58, 337.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.921', 215.15, 321.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:59.072', 236.97, 308.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:28.599', 210.04, 354.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:31.348', 224.73, 349.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:54.030', 208.15, 340.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:38.662', 226.83, 356.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.767', 224.45, 325.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:40.839', 209.84, 355.15);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:33.727', 238.08, 321.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.995', 205.68, 352.39);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:50.858', 236.03, 329.03);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:53.966', 225.35, 333.7);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.840', 202.25, 305.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:57.135', 248.2, 320.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:41.103', 228.41, 307.08);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:22.637', 202.63, 332.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:49.402', 227.0, 303.96);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:35.686', 238.37, 334.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:51.916', 235.96, 338.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:59.504', 248.5, 301.09);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.078', 221.0, 300.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.504', 204.72, 353.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:58.112', 218.04, 318.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:27.824', 212.6, 315.45);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.089', 201.68, 323.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.996', 236.95, 330.02);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:27.793', 219.59, 309.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.385', 237.58, 352.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:31.399', 207.98, 350.56);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:56.876', 236.21, 359.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:55.029', 214.74, 320.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:18.846', 201.36, 320.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.092', 224.17, 327.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:35.213', 218.02, 303.86);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:57.316', 210.2, 325.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:46.559', 228.31, 334.69);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.535', 210.24, 342.8);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.166', 219.2, 356.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.555', 235.8, 307.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:34.484', 247.82, 334.62);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:54.928', 209.45, 311.1);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:24.873', 227.53, 301.79);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:38.567', 241.46, 333.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.233', 246.11, 307.72);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.063', 221.85, 307.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:50.788', 218.28, 326.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:22.142', 221.7, 328.43);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.897', 236.22, 316.92);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:32.478', 229.03, 311.38);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.739', 209.47, 357.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:20.692', 233.55, 349.04);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:55.310', 212.18, 336.84);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:57.566', 208.7, 355.35);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.129', 234.56, 309.3);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.749', 235.49, 309.58);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.830', 247.81, 354.22);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.708', 200.4, 322.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:26.993', 247.1, 356.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (1, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:41.485', 239.58, 349.99);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (2, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:38.416', 236.86, 318.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (3, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:33.692', 214.97, 354.34);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (4, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:38.348', 224.7, 317.21);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (5, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.540', 226.08, 303.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (6, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.632', 236.61, 358.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (7, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:43.848', 219.64, 342.13);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (8, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:16.869', 223.46, 330.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (9, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.167', 200.37, 346.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (10, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.610', 216.02, 358.33);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (11, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:25.385', 239.05, 352.61);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (12, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:46.258', 236.11, 337.05);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (13, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:43.355', 214.68, 339.54);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (14, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:34.340', 240.62, 332.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (15, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:15.214', 225.51, 323.76);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (16, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:22.139', 237.91, 323.71);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (17, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.066', 218.27, 302.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (18, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.146', 214.41, 359.64);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (19, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.343', 211.07, 334.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (20, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.907', 228.64, 322.53);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (21, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:34.019', 215.6, 315.9);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (22, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:34.017', 201.21, 359.82);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (23, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:24.136', 205.67, 351.11);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (24, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.350', 212.49, 343.59);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (25, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.214', 204.05, 351.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (26, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:37.528', 208.85, 333.27);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (27, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:37.809', 207.99, 317.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (28, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.006', 240.29, 319.5);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (29, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:59.931', 241.28, 321.88);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (30, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.316', 200.09, 342.83);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (31, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:27.376', 238.83, 313.67);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (32, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.045', 230.07, 349.95);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (33, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.015', 202.82, 304.28);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (34, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.617', 202.29, 339.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (35, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:42.027', 232.2, 355.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (36, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.555', 214.46, 308.65);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (37, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.590', 203.83, 300.68);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (38, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:24.093', 205.03, 342.0);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (39, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:20.023', 221.84, 318.87);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (40, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:39.654', 234.73, 311.31);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (41, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:24.212', 235.85, 351.25);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (42, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.188', 243.95, 314.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (43, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:20.526', 217.36, 300.2);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (44, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:33.643', 226.09, 328.48);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (45, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:52.751', 236.84, 339.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (46, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:53.244', 212.87, 345.19);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (47, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:59.092', 235.36, 308.24);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (48, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:25.286', 206.47, 338.97);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (49, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.499', 249.87, 312.85);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (50, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.830', 224.14, 330.91);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (51, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.984', 214.55, 308.75);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (52, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.047', 201.23, 320.41);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (53, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:29.080', 233.13, 334.6);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (54, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.685', 208.96, 318.55);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (55, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:18.953', 214.16, 359.93);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (56, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:57.897', 202.23, 332.66);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (57, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.100', 248.85, 336.07);
-INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES (58, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.598', 237.51, 340.75);
+INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES 
+(1, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:28.595', 215.33, 349.35),
+(2, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:38.432', 236.0, 343.98),
+(3, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:35.891', 201.88, 342.33),
+(4, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:55.307', 204.28, 336.87),
+(5, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:46.006', 225.08, 338.0),
+(6, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:16.505', 205.05, 346.03),
+(7, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.174', 229.23, 323.11),
+(8, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:32.554', 238.22, 303.27),
+(9, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:26.954', 220.39, 335.82),
+(10, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:56.721', 212.22, 300.29),
+(11, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:17.644', 200.41, 332.5),
+(12, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:39.917', 217.37, 323.55),
+(13, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:26.865', 238.87, 348.12),
+(14, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:57.642', 240.24, 302.81),
+(15, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:58.425', 203.35, 349.96),
+(16, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.082', 221.25, 308.4),
+(17, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:34.591', 213.14, 306.1),
+(18, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:18.303', 233.05, 311.74),
+(19, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:50.101', 229.55, 351.99),
+(20, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:36.103', 212.38, 303.12),
+(21, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:30.571', 209.39, 342.67),
+(22, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:53.995', 215.67, 311.51),
+(23, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:23.362', 235.91, 308.43),
+(24, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:59.306', 226.16, 352.64),
+(25, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:56.794', 202.8, 357.35),
+(26, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.261', 202.04, 300.33),
+(27, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:51.536', 242.46, 344.83),
+(28, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:52.422', 235.22, 341.58),
+(29, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:26.930', 243.99, 328.33),
+(30, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:58.932', 235.76, 343.96),
+(31, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.013', 221.2, 352.04),
+(32, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:53.710', 225.82, 317.14),
+(33, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:18.462', 210.94, 313.53),
+(34, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:51.484', 233.13, 358.58),
+(35, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.211', 238.4, 311.84),
+(36, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:49.941', 234.97, 341.03),
+(37, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:31.587', 210.51, 320.77),
+(38, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:52.139', 203.75, 320.56),
+(39, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:57.580', 226.46, 338.18),
+(40, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:56.141', 230.81, 349.65),
+(41, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:41.743', 249.34, 355.59),
+(42, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:30.049', 213.67, 359.37),
+(43, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:17.975', 243.22, 320.81),
+(44, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:48.266', 245.12, 358.59),
+(45, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:37.274', 249.1, 321.95),
+(46, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:42.412', 202.87, 329.83),
+(47, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:22.145', 208.25, 347.98),
+(48, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:29.976', 249.15, 349.61),
+(49, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:25.617', 247.24, 357.31),
+(50, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:55.363', 235.93, 344.78),
+(51, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:30.713', 212.82, 330.63),
+(52, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.306', 233.56, 303.5),
+(53, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:54.157', 227.48, 357.03),
+(54, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:21.564', 213.32, 345.11),
+(55, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:38.769', 244.22, 331.72),
+(56, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:48.268', 231.61, 334.93),
+(57, 'C000000001', '2023-05-18', 'HAMILC44D01H501W', '00:01:27.641', 227.06, 301.81),
+(1, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:27.514', 239.8, 343.57),
+(2, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:45.733', 202.8, 318.54),
+(3, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:34.051', 227.34, 341.86),
+(4, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:21.587', 231.72, 305.61),
+(5, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.902', 202.77, 345.32),
+(6, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.679', 249.99, 316.11),
+(7, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:47.353', 215.18, 349.49),
+(8, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.929', 204.45, 342.21),
+(9, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:30.606', 224.16, 331.15),
+(10, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:47.181', 240.39, 345.0),
+(11, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:35.766', 226.98, 302.16),
+(12, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:43.607', 210.52, 331.34),
+(13, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.546', 211.32, 322.55),
+(14, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:21.626', 229.92, 311.54),
+(15, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.150', 212.11, 346.22),
+(16, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.330', 213.57, 303.2),
+(17, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:33.088', 241.81, 326.01),
+(18, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:40.192', 205.32, 316.33),
+(19, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.030', 235.03, 337.64),
+(20, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:38.433', 205.52, 335.93),
+(21, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:16.939', 208.14, 348.34),
+(22, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:18.541', 201.64, 314.08),
+(23, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:43.461', 222.96, 355.45),
+(24, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:51.152', 233.75, 347.75),
+(25, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.871', 215.11, 301.97),
+(26, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:35.864', 219.16, 357.37),
+(27, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:41.881', 200.06, 313.6),
+(28, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.011', 215.63, 358.44),
+(29, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:30.169', 234.31, 313.02),
+(30, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:55.667', 215.37, 317.07),
+(31, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:20.956', 218.39, 342.04),
+(32, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:49.487', 224.98, 306.26),
+(33, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:30.810', 217.77, 312.5),
+(34, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:53.106', 227.12, 356.95),
+(35, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:25.739', 230.63, 347.39),
+(36, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.954', 221.42, 345.17),
+(37, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:52.583', 243.43, 338.84),
+(38, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:47.103', 218.09, 307.93),
+(39, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:53.344', 243.42, 314.33),
+(40, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:22.814', 230.43, 310.17),
+(41, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:28.121', 243.93, 354.22),
+(42, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:27.125', 211.67, 325.09),
+(43, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:32.300', 248.92, 325.56),
+(44, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:28.708', 245.04, 344.92),
+(45, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:26.030', 201.73, 334.81),
+(46, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:40.404', 202.51, 334.02),
+(47, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:34.420', 225.21, 306.28),
+(48, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:39.929', 242.91, 346.59),
+(49, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:29.366', 229.16, 314.98),
+(50, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:42.697', 239.78, 342.84),
+(51, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:58.844', 221.02, 312.06),
+(52, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:38.638', 235.82, 316.75),
+(53, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:48.322', 246.1, 325.19),
+(54, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:44.549', 203.25, 350.9),
+(55, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:22.838', 233.62, 354.3),
+(56, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:24.741', 215.27, 333.17),
+(57, 'C000000001', '2023-05-18', 'LECCHR16E02H501V', '00:01:50.369', 210.14, 356.28),
+(1, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:37.139', 205.64, 318.63),
+(2, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:52.092', 211.96, 319.44),
+(3, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:33.782', 204.93, 348.17),
+(4, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:18.447', 212.15, 338.38),
+(5, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:43.751', 245.71, 342.02),
+(6, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:50.877', 226.97, 332.85),
+(7, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:56.309', 205.58, 324.69),
+(8, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:44.683', 229.94, 338.8),
+(9, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:34.101', 231.84, 329.44),
+(10, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:44.645', 238.57, 349.77),
+(11, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:20.622', 233.27, 349.89),
+(12, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:26.116', 210.06, 344.88),
+(13, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:34.336', 237.11, 356.94),
+(14, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:24.550', 237.49, 329.26),
+(15, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:49.508', 222.29, 311.38),
+(16, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.716', 208.26, 329.92),
+(17, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.055', 249.32, 330.69),
+(18, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:18.156', 210.6, 315.17),
+(19, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:43.900', 230.6, 301.46),
+(20, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:20.719', 246.19, 358.02),
+(21, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.972', 230.26, 352.06),
+(22, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:56.811', 223.96, 340.15),
+(23, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:24.842', 215.04, 315.49),
+(24, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:21.583', 214.68, 325.23),
+(25, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:26.763', 235.28, 311.88),
+(26, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:37.063', 226.74, 308.36),
+(27, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:19.168', 219.0, 354.05),
+(28, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:27.679', 249.53, 351.31),
+(29, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:17.139', 234.02, 340.56),
+(30, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:21.753', 220.98, 343.03),
+(31, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:40.767', 242.24, 331.35),
+(32, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:39.817', 225.68, 317.64),
+(33, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:48.389', 210.97, 300.88),
+(34, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:35.517', 205.89, 357.11),
+(35, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:38.849', 211.92, 350.58),
+(36, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:39.533', 245.99, 339.78),
+(37, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:56.645', 200.96, 308.46),
+(38, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:19.790', 229.82, 340.41),
+(39, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:20.731', 217.65, 325.21),
+(40, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:47.002', 224.61, 355.6),
+(41, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:41.192', 244.87, 322.99),
+(42, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:19.549', 228.42, 322.57),
+(43, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:38.214', 231.12, 334.57),
+(44, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:15.241', 200.09, 347.67),
+(45, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.174', 244.76, 351.6),
+(46, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:29.933', 245.43, 354.6),
+(47, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:26.465', 231.56, 333.79),
+(48, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:38.581', 207.41, 355.87),
+(49, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:54.091', 209.52, 352.5),
+(50, 'C000000002', '2023-04-05', 'HAMILC44D01H501W', '00:01:45.125', 241.08, 319.67),
+(1, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:37.883', 229.65, 347.59),
+(2, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:25.941', 202.6, 324.04),
+(3, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:28.885', 203.13, 338.79),
+(4, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:54.743', 203.44, 321.91),
+(5, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:55.237', 223.8, 334.53),
+(6, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:29.436', 232.85, 348.91),
+(7, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:22.294', 238.08, 307.6),
+(8, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:23.815', 231.8, 340.91),
+(9, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:20.265', 202.18, 304.65),
+(10, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.256', 216.77, 359.54),
+(11, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:15.934', 236.05, 357.58),
+(12, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:21.837', 200.04, 306.39),
+(13, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:24.543', 242.68, 346.3),
+(14, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:30.063', 216.06, 302.31),
+(15, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:50.771', 243.38, 314.11),
+(16, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:28.076', 209.75, 317.19),
+(17, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:45.592', 203.41, 355.12),
+(18, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:51.148', 240.93, 359.82),
+(19, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:55.645', 211.6, 354.39),
+(20, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:51.590', 247.07, 300.91),
+(21, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:21.013', 242.3, 338.71),
+(22, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:23.787', 235.41, 335.38),
+(23, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:25.748', 240.68, 323.19),
+(24, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.993', 226.66, 318.14),
+(25, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:58.559', 206.34, 343.41),
+(26, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:36.967', 247.98, 349.7),
+(27, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:57.961', 229.67, 323.87),
+(28, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:47.878', 215.45, 340.71),
+(29, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.149', 205.53, 339.74),
+(30, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:29.251', 218.49, 320.24),
+(31, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:26.606', 231.08, 354.87),
+(32, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:22.299', 205.07, 353.7),
+(33, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:42.587', 209.74, 357.72),
+(34, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.190', 219.23, 358.57),
+(35, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:39.619', 211.96, 307.63),
+(36, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.721', 211.97, 308.55),
+(37, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:27.371', 210.7, 303.48),
+(38, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:58.746', 239.61, 305.73),
+(39, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:53.222', 230.49, 357.29),
+(40, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.211', 234.61, 352.52),
+(41, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:24.568', 243.26, 317.58),
+(42, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:32.747', 215.39, 312.35),
+(43, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:44.325', 203.72, 346.85),
+(44, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:42.394', 207.92, 329.0),
+(45, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:15.278', 222.31, 358.73),
+(46, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:15.797', 236.7, 305.69),
+(47, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:45.401', 223.86, 300.98),
+(48, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:44.193', 216.92, 315.24),
+(49, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:46.832', 218.4, 340.41),
+(50, 'C000000002', '2023-04-05', 'LECCHR16E02H501V', '00:01:36.717', 226.14, 341.4),
+(1, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:52.467', 227.4, 312.81),
+(2, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:56.553', 240.62, 347.82),
+(3, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:52.787', 245.51, 309.42),
+(4, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:45.060', 232.25, 302.97),
+(5, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:49.501', 209.4, 325.25),
+(6, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:31.952', 233.86, 308.11),
+(7, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:40.789', 240.94, 325.09),
+(8, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:47.246', 246.07, 302.38),
+(9, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:28.162', 231.98, 346.29),
+(10, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:49.675', 213.57, 332.93),
+(11, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:24.503', 208.28, 356.46),
+(12, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:44.066', 214.06, 347.38),
+(13, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:16.559', 209.83, 305.49),
+(14, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:16.150', 223.03, 309.22),
+(15, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:23.375', 245.76, 328.76),
+(16, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:56.792', 206.23, 319.0),
+(17, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:55.066', 227.51, 334.99),
+(18, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:21.922', 240.96, 350.97),
+(19, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:17.526', 245.0, 338.2),
+(20, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:45.718', 202.28, 302.19),
+(21, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:25.780', 234.72, 320.84),
+(22, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:39.568', 211.75, 343.58),
+(23, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:15.400', 248.94, 339.79),
+(24, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:38.360', 233.97, 314.5),
+(25, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:32.465', 227.72, 353.76),
+(26, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:57.222', 209.85, 313.73),
+(27, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:58.693', 236.69, 319.05),
+(28, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:35.555', 211.27, 348.57),
+(29, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:28.995', 232.93, 336.86),
+(30, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:54.669', 218.24, 322.81),
+(31, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:51.242', 215.58, 337.54),
+(32, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:50.896', 200.74, 313.39),
+(33, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:42.950', 229.83, 348.73),
+(34, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:17.681', 213.2, 339.24),
+(35, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:31.060', 211.86, 329.6),
+(36, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:26.476', 229.33, 319.04),
+(37, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:56.806', 216.93, 332.96),
+(38, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:29.241', 205.75, 353.66),
+(39, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:58.875', 205.22, 356.72),
+(40, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:39.548', 205.38, 329.52),
+(41, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:32.812', 247.13, 346.08),
+(42, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:39.396', 220.97, 307.0),
+(43, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:35.860', 202.32, 336.79),
+(44, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:27.245', 216.67, 334.92),
+(45, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:27.042', 243.69, 357.17),
+(46, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:30.110', 247.78, 333.91),
+(47, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:42.676', 208.55, 306.15),
+(48, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:53.802', 205.99, 358.8),
+(49, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:51.039', 214.73, 302.83),
+(50, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:27.427', 206.78, 325.31),
+(51, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:23.449', 236.25, 309.66),
+(52, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:43.740', 212.89, 320.63),
+(53, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:16.058', 247.38, 311.96),
+(54, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:25.780', 227.86, 331.64),
+(55, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:35.641', 227.27, 332.42),
+(56, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:20.690', 227.18, 304.18),
+(57, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:44.920', 233.38, 307.5),
+(58, 'C000000003', '2023-11-03', 'HAMILC44D01H501W', '00:01:15.637', 202.43, 311.89),
+(1, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:29.568', 235.83, 344.02),
+(2, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:41.704', 223.84, 359.38),
+(3, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:48.993', 212.94, 359.24),
+(4, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:54.297', 232.2, 303.92),
+(5, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:17.642', 203.89, 345.61),
+(6, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:30.143', 208.55, 310.82),
+(7, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:38.890', 244.04, 338.25),
+(8, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:44.241', 233.89, 302.82),
+(9, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:39.298', 227.33, 331.85),
+(10, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:22.475', 229.08, 337.1),
+(11, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:33.650', 232.2, 337.1),
+(12, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:53.397', 215.02, 318.41),
+(13, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:20.237', 208.39, 337.47),
+(14, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:22.877', 239.26, 325.72),
+(15, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:58.393', 233.86, 311.06),
+(16, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.175', 227.98, 309.79),
+(17, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:39.222', 239.9, 327.22),
+(18, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:55.184', 222.18, 321.92),
+(19, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:31.883', 235.22, 348.22),
+(20, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:48.991', 208.26, 336.67),
+(21, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:54.142', 206.41, 317.67),
+(22, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:54.322', 229.15, 307.78),
+(23, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:24.242', 213.85, 321.29),
+(24, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:40.002', 219.26, 350.35),
+(25, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.898', 245.41, 314.57),
+(26, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:45.174', 226.37, 339.85),
+(27, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:41.388', 226.5, 312.86),
+(28, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:58.583', 232.35, 346.51),
+(29, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:41.974', 204.65, 332.97),
+(30, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:52.433', 206.38, 348.03),
+(31, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:35.126', 215.54, 321.73),
+(32, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:59.121', 205.39, 357.1),
+(33, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.018', 239.17, 310.34),
+(34, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:47.427', 210.87, 352.68),
+(35, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.874', 209.4, 318.37),
+(36, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:59.423', 246.18, 354.2),
+(37, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:44.555', 232.85, 330.36),
+(38, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:47.122', 217.38, 318.85),
+(39, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:22.992', 212.71, 346.38),
+(40, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.752', 219.75, 315.86),
+(41, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:35.815', 217.9, 359.58),
+(42, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:44.972', 215.47, 303.47),
+(43, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:57.258', 205.85, 343.9),
+(44, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:36.842', 226.36, 358.02),
+(45, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:16.810', 204.62, 303.54),
+(46, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:33.097', 240.64, 356.68),
+(47, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:57.633', 230.4, 331.07),
+(48, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:51.201', 221.72, 355.86),
+(49, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:46.520', 222.63, 330.98),
+(50, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:21.368', 235.27, 328.97),
+(51, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:30.509', 225.55, 304.86),
+(52, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:29.616', 207.72, 305.69),
+(53, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:23.536', 227.67, 322.6),
+(54, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.456', 208.03, 316.57),
+(55, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:56.420', 241.03, 305.68),
+(56, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:53.681', 215.53, 316.43),
+(57, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:27.373', 229.99, 347.65),
+(58, 'C000000003', '2023-11-03', 'LECCHR16E02H501V', '00:01:19.151', 213.93, 313.14),
+(1, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:32.329', 223.22, 328.29),
+(2, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:25.604', 208.76, 359.11),
+(3, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:27.086', 202.04, 345.84),
+(4, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:20.008', 223.75, 330.96),
+(5, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:41.838', 223.75, 310.08),
+(6, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:30.247', 208.88, 331.89),
+(7, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:37.503', 210.27, 352.82),
+(8, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:24.343', 200.25, 316.37),
+(9, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:56.962', 240.97, 342.77),
+(10, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:48.774', 214.69, 334.6),
+(11, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:26.479', 222.86, 305.69),
+(12, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:41.844', 243.85, 350.66),
+(13, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:36.829', 201.87, 345.6),
+(14, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.839', 245.46, 310.02),
+(15, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:26.816', 233.95, 308.2),
+(16, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:24.840', 213.87, 335.79),
+(17, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:53.796', 204.49, 314.36),
+(18, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:53.791', 233.83, 344.43),
+(19, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:54.154', 249.76, 317.75),
+(20, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:51.718', 201.13, 322.68),
+(21, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:50.237', 234.39, 317.14),
+(22, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:35.243', 214.08, 301.72),
+(23, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.029', 219.98, 320.83),
+(24, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.392', 234.86, 314.77),
+(25, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.185', 242.26, 301.74),
+(26, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:30.651', 223.92, 329.35),
+(27, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:54.001', 231.99, 335.96),
+(28, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:33.511', 230.63, 309.7),
+(29, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:44.704', 243.46, 304.6),
+(30, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:55.297', 236.77, 300.73),
+(31, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:54.839', 221.36, 348.58),
+(32, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:22.491', 219.79, 311.12),
+(33, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:17.960', 240.17, 355.24),
+(34, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:50.539', 210.7, 306.54),
+(35, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:18.223', 207.33, 307.55),
+(36, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:49.971', 238.2, 343.82),
+(37, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:28.819', 246.23, 301.59),
+(38, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.522', 204.49, 330.02),
+(39, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:48.724', 223.54, 348.21),
+(40, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:46.216', 207.5, 317.44),
+(41, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:44.330', 232.43, 301.4),
+(42, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:34.245', 228.95, 334.91),
+(43, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:35.069', 231.61, 326.4),
+(44, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:51.725', 234.41, 322.94),
+(45, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.277', 225.22, 341.19),
+(46, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:19.464', 231.24, 320.81),
+(47, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:46.040', 230.77, 339.82),
+(48, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:21.173', 208.31, 310.13),
+(49, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:26.988', 210.54, 323.03),
+(50, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:36.601', 243.46, 311.59),
+(51, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.848', 243.42, 319.27),
+(52, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:33.261', 209.56, 328.77),
+(53, 'C000000004', '2023-03-14', 'HAMILC44D01H501W', '00:01:52.184', 235.29, 330.93),
+(1, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:45.112', 239.52, 345.21),
+(2, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:46.144', 249.21, 332.44),
+(3, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:29.634', 210.96, 328.5),
+(4, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:20.474', 219.89, 339.52),
+(5, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:20.649', 215.06, 331.54),
+(6, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:44.932', 238.5, 331.84),
+(7, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:33.353', 233.3, 307.81),
+(8, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:40.609', 242.16, 355.21),
+(9, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:18.544', 230.49, 359.64),
+(10, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:35.839', 248.66, 337.84),
+(11, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:47.443', 244.02, 312.32),
+(12, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:35.390', 235.48, 341.63),
+(13, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.933', 221.26, 306.56),
+(14, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:39.576', 207.85, 352.75),
+(15, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:40.924', 202.02, 320.96),
+(16, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:37.002', 224.58, 325.23),
+(17, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:51.556', 201.01, 336.1),
+(18, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.547', 211.21, 319.45),
+(19, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:50.239', 228.17, 310.7),
+(20, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:32.798', 240.51, 343.65),
+(21, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:28.210', 222.52, 312.4),
+(22, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:25.133', 236.85, 302.87),
+(23, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:37.168', 224.91, 329.78),
+(24, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:36.182', 226.12, 356.36),
+(25, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:59.586', 248.44, 300.45),
+(26, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:45.128', 242.19, 357.47),
+(27, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:24.832', 243.82, 350.15),
+(28, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:41.718', 227.94, 356.35),
+(29, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:44.155', 242.88, 312.3),
+(30, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:49.093', 237.26, 353.99),
+(31, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:24.669', 218.91, 342.41),
+(32, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:33.868', 229.16, 319.29),
+(33, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:28.916', 232.52, 327.22),
+(34, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:52.769', 242.28, 350.37),
+(35, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:48.964', 210.94, 329.63),
+(36, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:30.980', 235.63, 330.64),
+(37, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:40.191', 204.13, 323.68),
+(38, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:54.685', 238.13, 349.05),
+(39, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:59.423', 223.05, 346.42),
+(40, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.063', 223.97, 310.63),
+(41, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:20.701', 241.26, 336.05),
+(42, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:25.675', 210.73, 322.38),
+(43, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:30.579', 222.71, 307.69),
+(44, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:26.088', 228.54, 340.93),
+(45, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:31.414', 249.19, 353.01),
+(46, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:57.792', 245.46, 339.96),
+(47, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:21.421', 235.4, 319.67),
+(48, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:49.920', 242.88, 301.84),
+(49, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:37.773', 238.68, 341.86),
+(50, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:46.857', 211.88, 329.05),
+(51, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:21.380', 201.57, 349.61),
+(52, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:38.112', 205.37, 331.17),
+(53, 'C000000004', '2023-03-14', 'LECCHR16E02H501V', '00:01:56.225', 218.44, 358.34),
+(1, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:56.548', 201.98, 328.67),
+(2, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:19.490', 242.11, 302.16),
+(3, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.470', 240.29, 329.05),
+(4, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:17.743', 249.05, 353.17),
+(5, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:32.370', 234.34, 322.5),
+(6, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:18.156', 249.33, 338.55),
+(7, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:16.515', 232.65, 328.66),
+(8, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:19.009', 217.1, 304.73),
+(9, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:43.764', 242.75, 326.57),
+(10, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:18.135', 216.78, 311.69),
+(11, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.432', 225.3, 322.44),
+(12, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:34.781', 240.11, 316.74),
+(13, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:26.000', 207.79, 304.13),
+(14, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.274', 238.13, 331.72),
+(15, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:16.133', 226.32, 314.7),
+(16, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.054', 221.38, 347.82),
+(17, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.674', 234.7, 347.55),
+(18, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:27.228', 246.03, 303.35),
+(19, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:24.614', 241.48, 349.63),
+(20, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.287', 203.92, 335.84),
+(21, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.637', 227.85, 353.03),
+(22, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.918', 218.12, 349.06),
+(23, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:28.972', 228.43, 355.29),
+(24, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:39.600', 235.29, 321.89),
+(25, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.825', 210.7, 347.99),
+(26, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:21.219', 225.82, 344.44),
+(27, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.101', 226.57, 332.66),
+(28, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.617', 227.67, 306.02),
+(29, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:45.266', 214.56, 355.64),
+(30, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:43.549', 220.24, 324.27),
+(31, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:54.522', 205.19, 321.87),
+(32, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.600', 243.78, 300.5),
+(33, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:28.622', 239.08, 353.21),
+(34, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:59.802', 237.25, 333.32),
+(35, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.932', 248.31, 300.02),
+(36, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:35.412', 206.98, 339.11),
+(37, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:42.240', 218.87, 322.2),
+(38, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:40.711', 219.91, 350.78),
+(39, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.561', 230.98, 328.3),
+(40, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.591', 244.99, 309.57),
+(41, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.535', 244.26, 356.28),
+(42, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:43.297', 226.99, 348.49),
+(43, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:49.651', 230.41, 317.12),
+(44, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:58.330', 227.37, 329.74),
+(45, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.641', 233.95, 315.12),
+(46, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:20.527', 235.95, 310.11),
+(47, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:46.698', 225.06, 327.32),
+(48, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:46.252', 200.65, 344.04),
+(49, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.449', 245.11, 323.71),
+(50, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.728', 207.09, 319.63),
+(51, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:58.401', 200.27, 340.39),
+(52, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:21.399', 207.66, 328.46),
+(53, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:42.139', 248.57, 303.14),
+(54, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:24.389', 228.17, 340.61),
+(55, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:21.199', 209.7, 320.27),
+(56, 'C000000005', '2023-10-23', 'HAMILC44D01H501W', '00:01:17.871', 228.11, 302.32),
+(1, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.727', 227.75, 308.79),
+(2, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.794', 220.75, 303.07),
+(3, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.679', 203.13, 324.18),
+(4, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.077', 218.32, 325.86),
+(5, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:17.596', 211.82, 352.09),
+(6, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:46.684', 240.8, 330.59),
+(7, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:29.978', 220.67, 348.88),
+(8, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.665', 236.39, 304.96),
+(9, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:18.450', 208.18, 351.83),
+(10, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:44.033', 211.61, 330.37),
+(11, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:54.961', 218.0, 329.27),
+(12, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:54.584', 203.99, 319.91),
+(13, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.592', 230.48, 304.04),
+(14, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:17.791', 246.59, 315.44),
+(15, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:57.747', 234.24, 345.67),
+(16, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:59.063', 204.51, 346.48),
+(17, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:37.211', 206.32, 318.3),
+(18, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.041', 222.45, 345.86),
+(19, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.446', 235.13, 314.41),
+(20, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.522', 234.15, 322.47),
+(21, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.258', 206.41, 311.28),
+(22, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.428', 211.77, 354.33),
+(23, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.360', 204.48, 311.36),
+(24, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:18.891', 201.92, 341.69),
+(25, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:17.007', 225.05, 329.34),
+(26, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.441', 243.73, 339.94),
+(27, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.091', 203.85, 355.07),
+(28, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:44.839', 239.15, 349.98),
+(29, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.379', 216.14, 348.79),
+(30, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.611', 242.69, 352.85),
+(31, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.441', 224.8, 324.73),
+(32, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:15.119', 245.69, 315.59),
+(33, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.546', 202.5, 333.01),
+(34, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:25.601', 224.6, 353.94),
+(35, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.972', 206.47, 315.67),
+(36, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.211', 207.69, 345.03),
+(37, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:57.714', 238.87, 343.53),
+(38, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:22.447', 233.73, 356.51),
+(39, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.747', 236.21, 344.56),
+(40, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:26.902', 248.84, 337.33),
+(41, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:27.532', 206.97, 306.86),
+(42, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.331', 244.85, 345.32),
+(43, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:47.680', 209.54, 355.48),
+(44, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.788', 232.75, 303.13),
+(45, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.193', 217.03, 338.36),
+(46, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.443', 205.64, 338.6),
+(47, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:33.390', 224.59, 347.52),
+(48, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.847', 219.97, 357.83),
+(49, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.168', 229.7, 301.36),
+(50, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.284', 205.06, 310.5),
+(51, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.322', 215.89, 351.19),
+(52, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:29.584', 220.68, 336.7),
+(53, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:23.000', 246.52, 333.88),
+(54, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:15.771', 235.23, 353.1),
+(55, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:53.702', 243.01, 315.87),
+(56, 'C000000005', '2023-10-23', 'LECCHR16E02H501V', '00:01:39.704', 217.5, 332.74),
+(1, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:48.573', 206.59, 359.73),
+(2, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:30.526', 241.74, 312.22),
+(3, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.561', 238.86, 324.68),
+(4, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:27.222', 212.91, 358.89),
+(5, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:46.449', 241.7, 304.02),
+(6, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:22.741', 213.64, 350.16),
+(7, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:21.835', 202.36, 332.4),
+(8, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:52.398', 202.04, 323.15),
+(9, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.043', 224.61, 318.66),
+(10, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:25.457', 208.13, 351.4),
+(11, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:33.058', 236.22, 312.32),
+(12, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:29.880', 202.1, 318.46),
+(13, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:26.940', 239.28, 358.36),
+(14, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:22.494', 218.3, 306.81),
+(15, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:35.954', 205.44, 341.55),
+(16, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:23.768', 243.71, 323.78),
+(17, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:31.210', 238.86, 300.25),
+(18, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:31.702', 237.42, 314.1),
+(19, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:45.889', 237.72, 327.35),
+(20, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:52.146', 218.97, 344.96),
+(21, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:46.521', 235.41, 338.92),
+(22, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:50.725', 234.76, 356.34),
+(23, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:30.185', 245.46, 325.76),
+(24, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.718', 229.73, 325.17),
+(25, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:49.615', 248.92, 325.14),
+(26, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:16.462', 241.55, 356.33),
+(27, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:39.175', 204.6, 331.29),
+(28, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:28.466', 203.09, 359.51),
+(29, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:55.858', 232.84, 302.12),
+(30, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:44.300', 241.75, 347.39),
+(31, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:38.665', 240.58, 323.33),
+(32, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:24.429', 219.28, 355.15),
+(33, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:56.763', 230.78, 358.27),
+(34, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.244', 204.79, 326.05),
+(35, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:25.826', 230.8, 311.27),
+(36, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:40.211', 249.83, 327.83),
+(37, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:37.191', 213.98, 335.53),
+(38, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:47.352', 215.89, 317.19),
+(39, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:43.988', 215.51, 358.27),
+(40, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:34.435', 245.63, 310.72),
+(41, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:19.136', 205.1, 348.19),
+(42, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:30.617', 237.31, 338.44),
+(43, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:20.887', 224.15, 334.79),
+(44, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:20.760', 232.67, 344.85),
+(45, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:57.362', 216.87, 340.24),
+(46, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:53.552', 245.46, 349.05),
+(47, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:46.227', 236.74, 308.01),
+(48, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:57.769', 203.22, 323.24),
+(49, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:19.566', 218.95, 350.5),
+(50, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:34.036', 219.85, 300.71),
+(51, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:51.537', 237.06, 327.25),
+(52, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:20.876', 222.53, 336.05),
+(53, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:53.090', 225.53, 318.79),
+(54, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:49.068', 238.55, 336.27),
+(55, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:44.555', 237.91, 320.55),
+(56, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:45.464', 230.79, 320.36),
+(57, 'C000000006', '2023-11-06', 'HAMILC44D01H501W', '00:01:52.359', 208.28, 316.51),
+(1, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:26.850', 209.46, 342.32),
+(2, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:46.475', 225.02, 317.35),
+(3, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:21.384', 212.93, 332.86),
+(4, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:57.194', 212.74, 353.35),
+(5, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:44.396', 212.58, 348.31),
+(6, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:21.656', 238.81, 319.39),
+(7, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:52.818', 214.56, 350.2),
+(8, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:25.839', 211.44, 324.75),
+(9, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:38.142', 209.03, 309.79),
+(10, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:47.720', 215.14, 350.35),
+(11, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.034', 234.3, 313.94),
+(12, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:57.819', 233.77, 322.79),
+(13, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:18.260', 249.44, 348.95),
+(14, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:47.897', 237.87, 309.57),
+(15, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:31.926', 209.81, 313.03),
+(16, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:16.753', 212.55, 322.58),
+(17, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:49.785', 213.63, 351.2),
+(18, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:22.975', 208.55, 339.62),
+(19, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:38.723', 247.94, 305.91),
+(20, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:26.743', 208.56, 352.95),
+(21, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:53.882', 200.58, 336.82),
+(22, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:45.538', 228.11, 306.03),
+(23, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:36.492', 222.49, 354.88),
+(24, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:43.902', 229.13, 328.99),
+(25, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:20.482', 215.54, 326.76),
+(26, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:54.294', 212.04, 324.25),
+(27, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:30.551', 202.14, 300.69),
+(28, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:50.493', 207.62, 347.2),
+(29, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.639', 209.5, 353.77),
+(30, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:50.332', 228.74, 301.49),
+(31, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.289', 203.75, 306.45),
+(32, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.878', 202.69, 305.65),
+(33, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:19.791', 235.15, 341.36),
+(34, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:58.008', 200.57, 358.96),
+(35, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:51.183', 242.65, 320.29),
+(36, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:49.039', 223.48, 315.98),
+(37, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:35.878', 214.53, 327.67),
+(38, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:32.707', 230.66, 356.75),
+(39, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:47.344', 232.73, 300.35),
+(40, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:18.039', 210.24, 344.47),
+(41, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:50.559', 211.59, 350.74),
+(42, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:49.517', 242.64, 341.4),
+(43, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:54.764', 209.55, 330.4),
+(44, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:18.447', 234.3, 353.0),
+(45, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.443', 203.94, 344.6),
+(46, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:40.166', 220.22, 320.73),
+(47, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:17.841', 216.17, 319.04),
+(48, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:57.594', 231.93, 324.21),
+(49, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:20.305', 221.9, 314.02),
+(50, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:46.528', 206.03, 347.56),
+(51, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:21.650', 220.91, 303.73),
+(52, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:46.988', 215.89, 336.18),
+(53, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.661', 205.4, 338.56),
+(54, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:27.785', 238.31, 321.18),
+(55, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:15.053', 227.91, 328.15),
+(56, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:30.950', 234.13, 340.23),
+(57, 'C000000006', '2023-11-06', 'LECCHR16E02H501V', '00:01:35.181', 243.88, 332.36),
+(1, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:50.605', 236.6, 341.36),
+(2, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:24.119', 241.19, 310.15),
+(3, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:32.206', 204.91, 359.86),
+(4, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:40.769', 221.28, 338.88),
+(5, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:24.534', 207.85, 331.3),
+(6, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:50.796', 243.38, 324.05),
+(7, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:31.818', 235.6, 330.43),
+(8, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:50.590', 242.88, 358.13),
+(9, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:22.433', 224.23, 356.09),
+(10, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:25.312', 228.67, 355.59),
+(11, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:59.485', 237.78, 343.7),
+(12, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:49.026', 225.39, 310.49),
+(13, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:42.419', 234.25, 341.55),
+(14, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:21.557', 230.43, 302.48),
+(15, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:18.069', 214.82, 321.32),
+(16, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:46.075', 226.19, 349.05),
+(17, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:49.542', 216.8, 329.11),
+(18, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:56.221', 245.26, 319.84),
+(19, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:55.346', 222.69, 338.27),
+(20, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:34.527', 204.32, 343.73),
+(21, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.245', 234.8, 336.52),
+(22, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:21.229', 217.53, 358.96),
+(23, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.287', 236.55, 331.21),
+(24, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.821', 226.84, 315.84),
+(25, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:56.397', 229.61, 323.63),
+(26, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:48.424', 231.17, 305.54),
+(27, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.195', 220.67, 353.38),
+(28, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:30.478', 235.51, 332.25),
+(29, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.277', 223.3, 309.74),
+(30, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:27.427', 242.61, 320.95),
+(31, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:37.901', 247.55, 342.41),
+(32, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:36.303', 203.42, 350.05),
+(33, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:29.788', 212.79, 353.4),
+(34, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.871', 243.15, 303.94),
+(35, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:45.940', 231.18, 345.79),
+(36, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:31.424', 234.18, 340.47),
+(37, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:44.140', 220.73, 310.47),
+(38, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:31.047', 240.63, 348.84),
+(39, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:15.290', 210.69, 338.88),
+(40, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:17.482', 222.07, 336.24),
+(41, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:45.544', 237.07, 302.94),
+(42, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:54.260', 226.04, 318.59),
+(43, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:20.474', 216.16, 311.4),
+(44, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:28.620', 210.8, 357.24),
+(45, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:45.473', 202.79, 358.25),
+(46, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:54.876', 217.51, 307.69),
+(47, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.102', 210.85, 313.2),
+(48, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:16.811', 240.7, 350.22),
+(49, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:38.226', 239.92, 336.71),
+(50, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:29.223', 214.17, 352.34),
+(51, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:27.498', 219.51, 356.53),
+(52, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.046', 214.97, 345.7),
+(53, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:38.414', 210.75, 309.55),
+(54, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.404', 228.06, 334.68),
+(55, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:19.426', 236.17, 351.34),
+(56, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:39.425', 210.77, 358.91),
+(57, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:54.900', 244.65, 304.79),
+(58, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:32.256', 220.85, 308.59),
+(59, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:17.971', 216.99, 320.89),
+(60, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:53.042', 218.55, 339.49),
+(61, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:29.284', 234.16, 328.77),
+(62, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:37.455', 231.28, 326.06),
+(63, 'C000000007', '2023-11-01', 'HAMILC44D01H501W', '00:01:46.884', 228.95, 341.69),
+(1, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:31.407', 245.6, 357.88),
+(2, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:23.301', 241.37, 344.01),
+(3, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:39.132', 227.36, 323.1),
+(4, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:33.782', 234.22, 326.21),
+(5, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:52.308', 229.6, 322.26),
+(6, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:19.310', 245.46, 349.71),
+(7, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.586', 221.99, 303.77),
+(8, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:20.686', 209.89, 327.75),
+(9, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.087', 230.92, 311.54),
+(10, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:19.658', 214.77, 352.18),
+(11, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.223', 212.82, 337.69),
+(12, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:24.290', 243.23, 340.5),
+(13, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:28.142', 218.59, 332.31),
+(14, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:50.870', 238.06, 307.59),
+(15, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:33.722', 214.85, 348.09),
+(16, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:21.823', 203.88, 316.08),
+(17, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:18.689', 221.8, 359.9),
+(18, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:53.079', 220.06, 346.64),
+(19, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:52.329', 201.74, 341.13),
+(20, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:37.946', 222.72, 303.38),
+(21, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:57.083', 217.2, 305.73),
+(22, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.166', 233.48, 349.56),
+(23, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:35.207', 239.76, 335.54),
+(24, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:50.595', 238.34, 332.55),
+(25, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:39.597', 238.51, 336.64),
+(26, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:55.036', 248.16, 332.93),
+(27, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:59.027', 223.51, 324.81),
+(28, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:30.337', 225.84, 315.8),
+(29, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.636', 205.28, 354.18),
+(30, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:33.540', 204.83, 319.6),
+(31, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:39.472', 206.13, 306.14),
+(32, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.846', 248.77, 358.32),
+(33, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.974', 226.22, 336.52),
+(34, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:41.259', 212.58, 350.26),
+(35, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:47.318', 224.9, 331.52),
+(36, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:52.586', 224.72, 317.33),
+(37, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:15.308', 232.32, 316.09),
+(38, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:20.015', 248.09, 323.17),
+(39, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:28.926', 202.3, 305.53),
+(40, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:35.277', 231.22, 332.61),
+(41, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.869', 200.84, 304.31),
+(42, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:16.048', 212.77, 342.33),
+(43, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.009', 239.63, 307.35),
+(44, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:16.427', 213.29, 342.53),
+(45, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:28.097', 209.24, 329.51),
+(46, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:46.740', 205.59, 302.4),
+(47, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:49.088', 227.13, 321.32),
+(48, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:57.879', 239.68, 310.52),
+(49, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:54.581', 247.88, 331.34),
+(50, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:21.964', 247.08, 322.15),
+(51, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.898', 213.64, 314.18),
+(52, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:32.433', 238.23, 357.48),
+(53, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:36.710', 206.88, 325.0),
+(54, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:40.260', 214.5, 353.0),
+(55, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:21.639', 225.75, 310.53),
+(56, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:47.072', 224.33, 353.44),
+(57, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:16.624', 200.39, 332.95),
+(58, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:46.059', 207.81, 337.33),
+(59, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:48.513', 227.8, 305.23),
+(60, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:17.911', 225.45, 339.15),
+(61, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:42.082', 237.55, 331.11),
+(62, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:38.070', 200.55, 346.55),
+(63, 'C000000007', '2023-11-01', 'LECCHR16E02H501V', '00:01:25.653', 206.41, 357.49),
+(1, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:53.737', 233.97, 327.37),
+(2, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:31.700', 200.11, 318.21),
+(3, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.965', 233.01, 331.67),
+(4, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:21.530', 203.33, 340.4),
+(5, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:56.984', 213.49, 346.05),
+(6, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:58.718', 235.23, 323.27),
+(7, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.515', 220.45, 328.31),
+(8, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:44.623', 210.05, 307.06),
+(9, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:57.510', 225.89, 325.82),
+(10, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.202', 220.9, 312.45),
+(11, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:57.696', 205.1, 330.05),
+(12, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:36.120', 220.02, 328.65),
+(13, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:42.451', 219.32, 330.39),
+(14, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:18.733', 201.94, 341.27),
+(15, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.034', 245.87, 343.58),
+(16, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:17.922', 212.98, 342.26),
+(17, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:54.503', 248.82, 340.28),
+(18, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.401', 235.78, 342.12),
+(19, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:57.949', 224.94, 329.22),
+(20, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.849', 203.66, 321.9),
+(21, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.598', 242.79, 302.07),
+(22, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:44.905', 200.31, 338.5),
+(23, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:35.258', 208.31, 300.43),
+(24, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:34.436', 238.16, 310.58),
+(25, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.676', 239.15, 332.53),
+(26, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:28.670', 201.89, 308.69),
+(27, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:58.674', 238.41, 313.46),
+(28, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:22.521', 216.37, 314.03),
+(29, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:48.335', 244.81, 345.74),
+(30, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:22.338', 213.41, 335.34),
+(31, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:25.110', 209.76, 335.03),
+(32, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:33.356', 210.53, 349.65),
+(33, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:53.567', 223.62, 333.92),
+(34, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:21.827', 207.46, 317.57),
+(35, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:42.318', 242.24, 343.94),
+(36, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:45.419', 219.74, 345.41),
+(37, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.100', 221.57, 321.87),
+(38, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.712', 215.7, 322.3),
+(39, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:27.437', 221.92, 353.47),
+(40, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.961', 207.01, 308.83),
+(41, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:36.619', 206.29, 332.89),
+(42, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:23.287', 222.12, 354.5),
+(43, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.708', 242.99, 310.43),
+(44, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:16.964', 219.34, 307.39),
+(45, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:33.430', 241.99, 317.7),
+(46, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:51.527', 236.22, 302.53),
+(47, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:53.557', 222.69, 320.65),
+(48, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.455', 230.83, 337.26),
+(49, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.856', 225.23, 317.45),
+(50, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:50.514', 232.24, 339.62),
+(51, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:26.673', 224.88, 339.54),
+(52, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.292', 246.1, 334.72),
+(53, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:39.217', 245.45, 317.19),
+(54, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.190', 235.06, 348.32),
+(55, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.013', 245.44, 356.75),
+(56, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:24.977', 247.95, 313.63),
+(57, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:41.842', 215.99, 353.4),
+(58, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.237', 212.63, 344.67),
+(59, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.475', 243.48, 328.73),
+(60, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:37.086', 237.58, 313.93),
+(61, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.225', 222.19, 309.64),
+(62, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.950', 236.18, 334.54),
+(63, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:46.448', 212.85, 324.68),
+(64, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:40.153', 210.71, 348.81),
+(65, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:49.130', 244.4, 336.16),
+(66, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:28.833', 229.61, 311.49),
+(67, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:58.353', 212.23, 344.54),
+(68, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:15.667', 203.75, 336.07),
+(69, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:34.103', 207.81, 320.86),
+(70, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:25.500', 235.03, 317.38),
+(71, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:28.766', 222.26, 303.29),
+(72, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:29.878', 245.82, 300.27),
+(73, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:38.135', 231.59, 317.9),
+(74, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:20.948', 211.56, 303.09),
+(75, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:17.018', 211.28, 302.35),
+(76, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:38.387', 225.86, 336.66),
+(77, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:59.904', 243.28, 316.99),
+(78, 'C000000008', '2023-08-24', 'HAMILC44D01H501W', '00:01:26.744', 204.51, 317.04),
+(1, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:54.104', 229.01, 312.57),
+(2, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.527', 205.65, 327.87),
+(3, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.298', 218.57, 351.42),
+(4, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:16.093', 247.02, 316.28),
+(5, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:22.119', 225.34, 358.53),
+(6, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.591', 215.02, 302.98),
+(7, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:21.252', 211.86, 347.53),
+(8, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.992', 233.47, 342.79),
+(9, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.404', 234.31, 329.34),
+(10, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:29.972', 233.95, 335.06),
+(11, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:40.287', 208.07, 315.34),
+(12, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.952', 203.1, 356.56),
+(13, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:49.584', 218.89, 351.88),
+(14, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:32.785', 228.27, 346.85),
+(15, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.107', 232.8, 354.08),
+(16, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:32.363', 234.92, 341.98),
+(17, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:56.573', 228.13, 307.67),
+(18, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:47.658', 244.99, 321.76),
+(19, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:51.422', 217.28, 336.38),
+(20, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.508', 205.02, 355.58),
+(21, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:23.056', 209.08, 324.82),
+(22, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:15.579', 228.95, 347.72),
+(23, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:26.522', 220.45, 345.12),
+(24, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:27.687', 203.75, 337.63),
+(25, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:34.925', 233.66, 311.31),
+(26, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:28.380', 215.39, 327.3),
+(27, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:27.207', 232.01, 328.65),
+(28, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:23.684', 225.71, 316.74),
+(29, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.882', 229.08, 325.25),
+(30, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:43.544', 229.16, 341.05),
+(31, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:27.661', 230.53, 310.06),
+(32, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:25.015', 224.89, 300.38),
+(33, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:50.419', 233.6, 352.21),
+(34, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.622', 231.21, 348.29),
+(35, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:59.464', 205.69, 310.62),
+(36, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:47.576', 207.99, 343.65),
+(37, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:44.420', 213.95, 336.72),
+(38, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:48.101', 215.21, 353.13),
+(39, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:41.988', 205.51, 345.28),
+(40, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.132', 236.0, 332.25),
+(41, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:59.236', 217.18, 335.78),
+(42, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:58.414', 232.85, 358.21),
+(43, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:54.903', 213.72, 353.29),
+(44, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:42.784', 204.26, 353.34),
+(45, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:48.207', 235.23, 329.84),
+(46, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:40.305', 209.48, 349.88),
+(47, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:49.875', 207.51, 322.04),
+(48, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:28.968', 210.55, 312.12),
+(49, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:26.108', 226.34, 355.13),
+(50, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:41.814', 226.75, 306.27),
+(51, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:21.807', 238.23, 344.81),
+(52, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:39.663', 204.96, 338.42),
+(53, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:29.998', 245.95, 347.88),
+(54, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:34.961', 249.94, 325.39),
+(55, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:57.762', 214.18, 302.39),
+(56, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:26.716', 217.84, 307.71),
+(57, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.524', 223.62, 333.85),
+(58, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:55.793', 247.43, 337.14),
+(59, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:20.773', 221.56, 305.65),
+(60, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:22.867', 217.37, 319.39),
+(61, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:56.494', 212.27, 338.02),
+(62, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:17.952', 244.76, 312.05),
+(63, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:48.298', 201.22, 330.56),
+(64, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:40.119', 214.9, 354.72),
+(65, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:50.655', 212.2, 359.8),
+(66, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:49.881', 233.07, 316.0),
+(67, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:17.793', 246.17, 325.33),
+(68, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:23.037', 218.5, 321.54),
+(69, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.442', 222.05, 352.57),
+(70, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:24.296', 210.17, 324.86),
+(71, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:51.377', 209.21, 327.94),
+(72, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:22.894', 211.06, 305.11),
+(73, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:45.404', 203.8, 325.81),
+(74, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:56.755', 200.48, 337.73),
+(75, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:28.403', 204.8, 341.35),
+(76, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:15.188', 241.26, 333.66),
+(77, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:57.614', 238.39, 352.88),
+(78, 'C000000008', '2023-08-24', 'LECCHR16E02H501V', '00:01:38.377', 219.13, 322.93),
+(1, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:38.608', 248.65, 342.21),
+(2, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:48.612', 210.5, 357.12),
+(3, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.368', 230.89, 336.94),
+(4, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.613', 247.1, 355.83),
+(5, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.696', 230.89, 326.78),
+(6, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:41.476', 200.5, 332.01),
+(7, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:55.948', 240.29, 351.2),
+(8, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.235', 217.12, 334.98),
+(9, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:25.683', 249.08, 338.01),
+(10, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.434', 235.58, 324.5),
+(11, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:46.868', 248.32, 310.96),
+(12, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:51.886', 213.22, 300.47),
+(13, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:32.684', 248.32, 354.78),
+(14, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:33.337', 208.69, 348.44),
+(15, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.867', 227.55, 336.03),
+(16, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:20.719', 204.72, 354.2),
+(17, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:36.465', 211.74, 340.22),
+(18, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:40.695', 242.67, 325.7),
+(19, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:19.804', 239.16, 348.51),
+(20, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:35.917', 243.5, 346.72),
+(21, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:27.386', 204.58, 331.84),
+(22, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:41.941', 221.58, 352.52),
+(23, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:31.584', 245.87, 304.22),
+(24, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:45.624', 230.74, 354.19),
+(25, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:27.766', 249.64, 359.52),
+(26, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:15.856', 237.06, 310.35),
+(27, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:30.357', 207.59, 351.45),
+(28, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:57.168', 236.95, 343.99),
+(29, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:54.905', 227.81, 322.06),
+(30, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:57.155', 212.14, 355.92),
+(31, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:58.126', 237.15, 332.07),
+(32, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.957', 247.97, 319.85),
+(33, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:18.823', 227.43, 342.69),
+(34, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.814', 210.03, 332.13),
+(35, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:19.986', 200.73, 347.94),
+(36, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:36.789', 209.76, 315.47),
+(37, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:31.823', 219.41, 307.18),
+(38, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:46.367', 214.64, 347.51),
+(39, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:22.594', 212.33, 308.29),
+(40, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:18.029', 239.85, 347.27),
+(41, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:28.490', 236.77, 323.8),
+(42, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:55.434', 231.68, 335.49),
+(43, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:42.794', 214.58, 331.2),
+(44, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:15.339', 209.33, 348.61),
+(45, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.173', 201.33, 301.22),
+(46, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:20.573', 248.26, 334.18),
+(47, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:45.318', 200.65, 312.89),
+(48, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.061', 209.66, 311.36),
+(49, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:31.637', 205.63, 326.73),
+(50, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:23.046', 218.14, 324.49),
+(51, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:49.383', 233.21, 320.36),
+(52, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:32.405', 226.37, 321.85),
+(53, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:47.770', 231.84, 350.89),
+(54, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:34.975', 229.06, 337.42),
+(55, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:43.718', 244.11, 325.23),
+(56, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:56.510', 246.32, 310.24),
+(57, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:54.455', 235.11, 314.5),
+(58, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.371', 237.77, 353.4),
+(59, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:30.608', 241.17, 302.42),
+(60, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:41.955', 207.5, 350.61),
+(61, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:55.736', 241.18, 339.56),
+(62, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.717', 248.04, 343.61),
+(63, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:37.884', 203.91, 312.13),
+(64, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:52.940', 226.14, 351.52),
+(65, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:56.259', 212.3, 316.83),
+(66, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:22.702', 227.92, 302.59),
+(67, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:53.496', 210.59, 315.89),
+(68, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:50.664', 219.41, 341.92),
+(69, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:29.642', 224.68, 336.51),
+(70, 'C000000009', '2023-07-11', 'HAMILC44D01H501W', '00:01:39.572', 244.92, 307.87),
+(1, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:47.036', 212.55, 307.18),
+(2, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.729', 224.37, 307.48),
+(3, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:54.688', 202.97, 341.24),
+(4, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:37.887', 229.69, 324.94),
+(5, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:28.873', 224.15, 317.66),
+(6, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:27.791', 222.69, 343.09),
+(7, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:30.347', 222.68, 338.18),
+(8, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.015', 213.41, 326.77),
+(9, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:49.710', 234.73, 335.02),
+(10, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.304', 213.05, 313.06),
+(11, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.412', 207.26, 347.39),
+(12, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:55.018', 215.8, 304.82),
+(13, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:24.105', 217.47, 315.17),
+(14, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:20.569', 225.89, 320.95),
+(15, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:17.496', 231.28, 349.35),
+(16, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.394', 230.84, 300.33),
+(17, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:16.947', 231.87, 347.89),
+(18, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.836', 203.84, 343.44),
+(19, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:50.090', 226.58, 318.78),
+(20, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:40.228', 222.0, 309.41),
+(21, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:29.839', 222.4, 339.62),
+(22, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:18.084', 239.46, 342.15),
+(23, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.579', 211.83, 319.44),
+(24, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:23.896', 206.02, 337.71),
+(25, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.315', 219.1, 347.62),
+(26, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:19.903', 201.89, 321.17),
+(27, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:38.708', 216.08, 304.76),
+(28, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:52.373', 232.0, 321.41),
+(29, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:26.678', 242.49, 348.94),
+(30, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:27.454', 234.71, 319.27),
+(31, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:22.964', 232.74, 354.22),
+(32, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.669', 247.47, 338.2),
+(33, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.964', 223.76, 351.65),
+(34, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:47.641', 229.92, 341.81),
+(35, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:44.159', 215.14, 329.02),
+(36, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.676', 209.4, 311.46),
+(37, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:37.849', 205.43, 323.98),
+(38, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:20.760', 206.2, 346.19),
+(39, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:22.785', 227.47, 304.57),
+(40, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:43.645', 233.33, 337.15),
+(41, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:25.774', 224.72, 326.39),
+(42, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:38.898', 228.29, 328.9),
+(43, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:47.835', 216.84, 356.58),
+(44, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:53.276', 204.42, 337.33),
+(45, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:23.397', 200.98, 343.34),
+(46, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:30.234', 204.14, 336.78),
+(47, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.250', 232.4, 306.76),
+(48, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:15.596', 201.92, 300.23),
+(49, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:36.745', 238.49, 314.58),
+(50, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:42.564', 241.59, 310.14),
+(51, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:59.480', 207.67, 311.95),
+(52, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:56.058', 234.88, 318.3),
+(53, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:24.708', 228.42, 304.34),
+(54, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:22.884', 222.21, 312.39),
+(55, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:32.091', 225.48, 332.84),
+(56, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:53.239', 208.9, 319.63),
+(57, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:39.586', 201.81, 357.72),
+(58, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:34.943', 213.88, 339.45),
+(59, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:44.183', 217.07, 339.78),
+(60, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:23.099', 202.99, 302.1),
+(61, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:15.679', 238.16, 302.69),
+(62, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:50.906', 239.71, 355.24),
+(63, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:15.620', 212.22, 300.38),
+(64, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:24.662', 200.14, 324.78),
+(65, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:59.683', 242.48, 302.55),
+(66, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:36.528', 228.99, 337.17),
+(67, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:48.282', 213.88, 341.08),
+(68, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:48.504', 206.48, 302.95),
+(69, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:48.843', 243.36, 350.23),
+(70, 'C000000009', '2023-07-11', 'LECCHR16E02H501V', '00:01:58.295', 229.91, 306.0),
+(1, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:48.072', 230.85, 350.01),
+(2, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:28.842', 240.09, 333.12),
+(3, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:55.240', 213.95, 350.04),
+(4, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:32.398', 223.83, 333.89),
+(5, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:16.542', 246.89, 349.58),
+(6, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:44.920', 207.07, 324.31),
+(7, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:28.504', 208.17, 328.07),
+(8, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:46.443', 219.48, 352.09),
+(9, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:52.446', 219.84, 305.85),
+(10, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:58.997', 232.31, 312.69),
+(11, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.538', 247.95, 349.3),
+(12, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:16.298', 227.5, 318.74),
+(13, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:22.224', 234.67, 351.69),
+(14, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:54.218', 204.52, 340.66),
+(15, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:23.412', 204.44, 343.15),
+(16, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:41.187', 236.52, 304.55),
+(17, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.054', 229.15, 339.59),
+(18, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.601', 233.65, 357.0),
+(19, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:36.681', 244.64, 311.84),
+(20, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.538', 227.34, 349.29),
+(21, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.627', 225.12, 353.25),
+(22, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.642', 248.13, 341.1),
+(23, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:58.130', 226.33, 351.73),
+(24, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:56.737', 206.19, 330.74),
+(25, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:27.463', 232.13, 348.76),
+(26, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:50.913', 245.03, 333.28),
+(27, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:25.161', 244.72, 315.75),
+(28, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:38.047', 245.82, 342.44),
+(29, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:56.567', 217.03, 349.59),
+(30, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:34.103', 244.42, 357.25),
+(31, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:43.909', 235.81, 325.04),
+(32, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:22.619', 221.01, 300.71),
+(33, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:45.082', 217.96, 340.44),
+(34, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:53.213', 212.73, 333.82),
+(35, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:24.172', 202.3, 312.32),
+(36, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.607', 219.08, 333.97),
+(37, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:55.959', 218.44, 356.22),
+(38, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:40.122', 244.44, 348.53),
+(39, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:49.250', 247.76, 305.34),
+(40, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:55.700', 231.62, 348.98),
+(41, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:24.399', 214.73, 334.76),
+(42, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:43.836', 239.66, 332.14),
+(43, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:30.811', 235.14, 348.92),
+(44, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:35.619', 222.78, 345.34),
+(45, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:41.314', 214.12, 345.78),
+(46, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:41.248', 245.05, 344.12),
+(47, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:38.302', 212.21, 317.3),
+(48, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:45.359', 232.55, 335.76),
+(49, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.884', 203.07, 350.07),
+(50, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:54.464', 204.77, 340.09),
+(51, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:23.848', 247.61, 334.44),
+(52, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:46.488', 234.59, 341.78),
+(53, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.848', 215.6, 338.03),
+(54, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:45.988', 238.71, 316.65),
+(55, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:35.384', 236.9, 330.51),
+(56, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:51.551', 216.66, 342.04),
+(57, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:36.388', 239.33, 336.36),
+(58, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:33.078', 237.85, 359.75),
+(59, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:54.649', 235.41, 333.73),
+(60, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:40.578', 242.87, 331.52),
+(61, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:40.824', 220.37, 321.56),
+(62, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:59.075', 237.29, 307.21),
+(63, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:46.175', 248.02, 318.93),
+(64, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:47.648', 221.99, 321.37),
+(65, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:18.239', 235.46, 316.44),
+(66, 'C000000010', '2023-05-25', 'HAMILC44D01H501W', '00:01:53.034', 210.68, 303.82),
+(1, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:23.078', 247.21, 312.21),
+(2, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:57.277', 213.06, 315.68),
+(3, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:38.413', 212.91, 347.81),
+(4, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:45.865', 232.96, 307.9),
+(5, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.956', 200.0, 328.82),
+(6, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:27.191', 212.45, 322.63),
+(7, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:25.091', 204.65, 344.47),
+(8, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:17.108', 204.03, 351.37),
+(9, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:48.907', 231.26, 355.97),
+(10, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:47.369', 209.89, 311.25),
+(11, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:45.788', 209.32, 333.85),
+(12, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:22.498', 204.38, 303.23),
+(13, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:45.922', 231.29, 337.67),
+(14, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:47.548', 248.66, 352.86),
+(15, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:21.678', 208.94, 355.0),
+(16, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:58.814', 236.09, 300.21),
+(17, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:39.444', 230.56, 329.98),
+(18, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.739', 235.0, 346.19),
+(19, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:18.381', 228.11, 341.67),
+(20, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:19.720', 225.07, 339.77),
+(21, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:39.443', 213.96, 356.76),
+(22, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:24.137', 208.68, 336.32),
+(23, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.578', 222.04, 315.53),
+(24, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:32.833', 233.99, 332.13),
+(25, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:46.164', 215.76, 340.99),
+(26, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:50.786', 211.85, 320.57),
+(27, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:53.933', 200.69, 313.35),
+(28, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:19.001', 221.11, 319.17),
+(29, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:21.804', 230.04, 339.36),
+(30, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:18.421', 211.06, 321.24),
+(31, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:41.415', 246.49, 337.61),
+(32, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:25.731', 203.19, 303.96),
+(33, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:38.286', 226.9, 322.95),
+(34, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:17.778', 216.47, 325.53),
+(35, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.592', 249.72, 358.09),
+(36, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:41.452', 231.83, 337.36),
+(37, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.946', 217.18, 328.82),
+(38, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:48.290', 233.18, 315.36),
+(39, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:19.111', 201.57, 342.49),
+(40, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:27.026', 229.78, 351.2),
+(41, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:37.183', 208.09, 324.98),
+(42, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.861', 247.81, 333.95),
+(43, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:29.231', 218.02, 310.63),
+(44, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:32.874', 223.2, 324.07),
+(45, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.020', 203.95, 355.33),
+(46, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:38.423', 210.05, 350.56),
+(47, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:44.311', 223.88, 330.31),
+(48, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:51.303', 226.24, 346.7),
+(49, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.441', 200.58, 343.82),
+(50, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:35.337', 203.87, 335.56),
+(51, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:52.919', 215.82, 315.52),
+(52, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:20.589', 211.47, 331.68),
+(53, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:34.450', 246.61, 346.2),
+(54, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:24.205', 223.18, 332.98),
+(55, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:52.249', 207.1, 339.6),
+(56, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:36.079', 233.88, 308.01),
+(57, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:22.975', 231.51, 341.53),
+(58, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.421', 228.85, 354.41),
+(59, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:42.555', 206.93, 303.6),
+(60, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:50.776', 242.54, 345.95),
+(61, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:32.060', 231.67, 310.54),
+(62, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:33.322', 223.92, 306.39),
+(63, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:40.520', 245.08, 326.9),
+(64, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:29.294', 209.81, 342.42),
+(65, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:26.149', 207.9, 349.52),
+(66, 'C000000010', '2023-05-25', 'LECCHR16E02H501V', '00:01:15.038', 243.71, 345.12),
+(1, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:54.658', 241.86, 334.93),
+(2, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:39.781', 217.8, 333.92),
+(3, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.155', 238.44, 316.74),
+(4, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:23.155', 224.97, 320.31),
+(5, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:17.171', 234.43, 345.27),
+(6, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:46.686', 246.14, 316.0),
+(7, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:24.482', 210.11, 313.29),
+(8, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:26.320', 229.33, 337.16),
+(9, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:30.109', 223.96, 319.95),
+(10, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:59.665', 215.53, 336.47),
+(11, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:46.276', 209.98, 317.66),
+(12, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:58.060', 244.5, 311.54),
+(13, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:21.923', 243.0, 338.58),
+(14, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.617', 201.48, 314.27),
+(15, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:21.846', 221.67, 324.2),
+(16, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:47.639', 216.1, 324.98),
+(17, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:42.212', 227.44, 342.53),
+(18, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:39.823', 205.13, 359.74),
+(19, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.357', 212.1, 317.82),
+(20, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:30.252', 200.64, 358.28),
+(21, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:22.189', 229.78, 349.87),
+(22, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:29.245', 202.84, 337.52),
+(23, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:17.839', 202.18, 310.66),
+(24, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:15.082', 244.76, 358.13),
+(25, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:34.035', 247.09, 332.06),
+(26, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:38.101', 238.95, 322.93),
+(27, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:44.417', 216.21, 307.47),
+(28, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:16.761', 207.7, 352.71),
+(29, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:42.218', 238.93, 305.33),
+(30, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:21.984', 239.05, 335.44),
+(31, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:25.056', 203.56, 349.95),
+(32, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:35.092', 203.84, 358.55),
+(33, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:50.357', 212.16, 334.13),
+(34, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:57.544', 212.67, 344.61),
+(35, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:29.198', 242.36, 353.29),
+(36, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:18.344', 226.84, 330.91),
+(37, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:55.960', 229.27, 335.1),
+(38, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:28.303', 224.91, 346.13),
+(39, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:28.120', 201.92, 324.86),
+(40, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:37.128', 208.81, 357.59),
+(41, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:32.217', 247.69, 354.18),
+(42, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:54.583', 245.39, 331.35),
+(43, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:30.591', 216.48, 303.12),
+(44, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:35.728', 216.35, 344.99),
+(45, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:19.905', 243.48, 325.51),
+(46, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:50.607', 211.68, 316.18),
+(47, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:55.330', 237.11, 324.53),
+(48, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:20.711', 232.42, 330.08),
+(49, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:25.331', 223.55, 351.39),
+(50, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:31.119', 222.03, 303.17),
+(51, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:23.939', 226.51, 307.45),
+(52, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:18.210', 231.71, 333.56),
+(53, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:15.084', 207.63, 311.85),
+(54, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:44.833', 229.21, 343.35),
+(55, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:51.890', 222.53, 315.98),
+(56, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:31.723', 207.83, 341.37),
+(57, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:43.262', 216.29, 355.33),
+(58, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:51.768', 231.3, 343.8),
+(59, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:40.678', 218.63, 355.42),
+(60, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:17.053', 239.2, 312.35),
+(61, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:49.778', 242.22, 351.59),
+(62, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:35.716', 228.39, 356.57),
+(63, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:49.246', 235.35, 324.27),
+(64, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:23.212', 221.06, 323.92),
+(65, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:15.675', 222.79, 341.69),
+(66, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:27.112', 210.02, 320.82),
+(67, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:24.196', 232.22, 359.07),
+(68, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:18.774', 249.63, 341.33),
+(69, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:16.704', 201.7, 342.0),
+(70, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:24.051', 228.47, 341.77),
+(71, 'C000000011', '2023-05-22', 'HAMILC44D01H501W', '00:01:54.750', 239.89, 313.13),
+(1, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:18.084', 226.22, 302.38),
+(2, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:36.493', 239.14, 310.16),
+(3, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.747', 211.24, 336.72),
+(4, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:54.197', 243.25, 327.1),
+(5, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:58.147', 213.49, 303.99),
+(6, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:33.860', 214.33, 305.82),
+(7, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:48.524', 211.7, 300.05),
+(8, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:39.224', 213.12, 349.78),
+(9, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:15.933', 231.25, 345.03),
+(10, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:41.532', 201.3, 350.87),
+(11, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:24.853', 246.39, 312.21),
+(12, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.090', 208.03, 339.22),
+(13, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.599', 219.19, 338.08),
+(14, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:49.241', 226.36, 338.78),
+(15, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:41.462', 217.09, 355.0),
+(16, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:45.136', 244.39, 351.16),
+(17, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.288', 241.27, 357.18),
+(18, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:39.182', 227.06, 356.14),
+(19, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:59.103', 200.65, 315.1),
+(20, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:21.638', 209.25, 300.7),
+(21, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.324', 210.55, 301.18),
+(22, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:22.931', 205.15, 339.11),
+(23, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:51.673', 243.19, 339.98),
+(24, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:16.292', 218.54, 311.6),
+(25, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:19.481', 222.72, 318.09),
+(26, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:31.078', 206.11, 332.26),
+(27, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:18.237', 220.95, 346.43),
+(28, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:30.909', 200.37, 351.88),
+(29, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:25.819', 234.21, 340.05),
+(30, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:17.122', 224.96, 307.83),
+(31, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:53.318', 245.13, 329.73),
+(32, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.154', 227.65, 319.24),
+(33, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:30.720', 206.84, 305.66),
+(34, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.764', 218.54, 352.56),
+(35, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:58.288', 228.79, 336.05),
+(36, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:43.926', 216.29, 310.76),
+(37, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:34.668', 244.63, 314.23),
+(38, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:29.069', 245.08, 300.97),
+(39, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:23.187', 225.49, 304.01),
+(40, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:54.168', 215.29, 333.52),
+(41, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:34.218', 218.43, 340.54),
+(42, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:51.456', 203.5, 339.99),
+(43, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:17.974', 245.83, 312.24),
+(44, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:56.960', 209.7, 326.78),
+(45, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:35.402', 211.92, 315.65),
+(46, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:58.028', 248.03, 319.42),
+(47, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:33.611', 225.37, 353.36),
+(48, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:31.473', 200.64, 335.87),
+(49, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:49.202', 232.16, 358.25),
+(50, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:25.817', 233.15, 346.65),
+(51, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:45.866', 227.33, 315.44),
+(52, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:16.817', 228.27, 359.75),
+(53, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:31.519', 243.76, 336.85),
+(54, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:21.284', 236.81, 346.4),
+(55, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:20.979', 239.81, 327.69),
+(56, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.015', 233.69, 359.68),
+(57, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:44.202', 218.96, 330.3),
+(58, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:21.241', 206.01, 346.46),
+(59, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:32.184', 240.49, 313.05),
+(60, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:33.716', 246.87, 349.86),
+(61, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:57.724', 221.44, 344.24),
+(62, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.909', 242.75, 314.48),
+(63, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:51.400', 227.26, 342.37),
+(64, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:45.154', 238.85, 309.07),
+(65, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:47.662', 238.44, 332.74),
+(66, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:24.122', 229.36, 347.78),
+(67, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:17.713', 208.13, 341.84),
+(68, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:49.953', 236.76, 315.72),
+(69, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:25.207', 216.43, 323.96),
+(70, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:22.790', 212.02, 323.71),
+(71, 'C000000011', '2023-05-22', 'LECCHR16E02H501V', '00:01:37.711', 220.18, 325.75),
+(1, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:34.616', 205.12, 326.93),
+(2, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:41.261', 242.01, 348.62),
+(3, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:40.870', 212.03, 318.48),
+(4, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.211', 217.23, 352.47),
+(5, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:37.236', 241.31, 349.13),
+(6, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:15.507', 210.01, 313.86),
+(7, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:16.205', 201.59, 359.73),
+(8, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:30.519', 216.01, 313.35),
+(9, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.384', 221.1, 341.24),
+(10, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:41.922', 201.84, 338.83),
+(11, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.274', 212.17, 307.67),
+(12, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.496', 231.78, 346.59),
+(13, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:49.046', 239.4, 323.42),
+(14, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:58.254', 205.44, 302.05),
+(15, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:26.016', 216.29, 324.03),
+(16, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:30.142', 233.31, 353.22),
+(17, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:43.088', 228.13, 313.11),
+(18, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:49.919', 224.86, 315.8),
+(19, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:59.059', 201.3, 342.08),
+(20, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:28.125', 230.0, 355.74),
+(21, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:29.037', 226.35, 310.87),
+(22, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:38.252', 238.86, 324.99),
+(23, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:39.211', 242.71, 304.58),
+(24, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:23.169', 246.24, 327.45),
+(25, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:49.877', 212.5, 316.04),
+(26, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:53.895', 246.9, 318.5),
+(27, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:20.042', 221.81, 329.15),
+(28, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:25.161', 221.18, 321.02),
+(29, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:54.778', 233.85, 318.78),
+(30, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:47.285', 243.91, 359.14),
+(31, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:40.912', 237.92, 306.75),
+(32, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:25.938', 245.14, 314.1),
+(33, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:21.423', 201.1, 356.5),
+(34, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:27.685', 208.3, 311.79),
+(35, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:28.707', 200.19, 331.71),
+(36, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:26.129', 205.34, 335.97),
+(37, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:27.062', 212.46, 310.22),
+(38, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:25.786', 249.61, 338.0),
+(39, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:35.820', 237.02, 328.34),
+(40, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:42.325', 243.09, 318.82),
+(41, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:45.351', 233.81, 334.0),
+(42, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:51.307', 224.18, 302.07),
+(43, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:50.192', 208.99, 338.17),
+(44, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:29.296', 208.2, 324.64),
+(45, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:39.441', 222.46, 303.6),
+(46, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:52.113', 244.39, 316.68),
+(47, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:58.241', 209.9, 350.36),
+(48, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:34.187', 207.61, 349.38),
+(49, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:43.129', 245.39, 339.09),
+(50, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:34.560', 245.43, 307.41),
+(51, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:30.533', 242.8, 347.7),
+(52, 'C000000012', '2023-04-01', 'HAMILC44D01H501W', '00:01:17.860', 200.59, 353.96),
+(1, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:41.642', 241.3, 351.27),
+(2, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:24.659', 249.3, 352.28),
+(3, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:55.359', 240.99, 335.87),
+(4, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.654', 238.98, 353.99),
+(5, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:48.860', 232.02, 336.66),
+(6, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:46.765', 226.04, 307.18),
+(7, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:56.331', 245.06, 341.84),
+(8, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:48.435', 204.36, 356.42),
+(9, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:30.617', 214.18, 323.31),
+(10, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:26.661', 201.54, 334.32),
+(11, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.072', 224.43, 311.55),
+(12, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:50.229', 208.85, 337.96),
+(13, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.345', 207.44, 315.86),
+(14, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:45.217', 205.89, 307.09),
+(15, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:32.294', 223.21, 327.08),
+(16, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:51.182', 205.29, 301.02),
+(17, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.696', 209.86, 324.49),
+(18, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:25.772', 228.53, 357.37),
+(19, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:32.343', 230.76, 320.79),
+(20, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:31.234', 232.08, 326.7),
+(21, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:58.055', 232.8, 359.85),
+(22, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:23.263', 213.62, 313.17),
+(23, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:51.924', 239.25, 347.92),
+(24, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:56.086', 231.51, 325.02),
+(25, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.085', 243.41, 307.88),
+(26, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:50.416', 229.98, 336.51),
+(27, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:39.336', 249.5, 306.77),
+(28, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:26.071', 244.25, 304.19),
+(29, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.444', 223.57, 325.03),
+(30, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:45.961', 244.43, 323.99),
+(31, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:58.845', 208.01, 302.12),
+(32, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:39.902', 223.36, 339.05),
+(33, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:15.754', 211.29, 347.26),
+(34, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:23.402', 218.59, 302.28),
+(35, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:49.086', 224.44, 339.7),
+(36, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:56.906', 214.61, 319.86),
+(37, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:58.992', 227.32, 308.28),
+(38, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:38.101', 204.44, 338.57),
+(39, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:21.391', 206.01, 320.3),
+(40, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:59.745', 205.76, 350.64),
+(41, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:16.932', 200.52, 334.32),
+(42, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:16.726', 243.73, 341.53),
+(43, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:42.375', 249.41, 346.86),
+(44, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:18.676', 243.16, 324.22),
+(45, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:50.391', 213.0, 340.21),
+(46, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:36.785', 225.3, 324.21),
+(47, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:26.202', 239.52, 321.83),
+(48, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:57.917', 243.05, 350.94),
+(49, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:25.744', 216.13, 307.33),
+(50, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:35.853', 208.34, 334.18),
+(51, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:48.867', 230.07, 359.18),
+(52, 'C000000012', '2023-04-01', 'LECCHR16E02H501V', '00:01:31.788', 211.61, 339.9),
+(1, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:48.747', 205.43, 357.83),
+(2, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:22.393', 246.99, 337.36),
+(3, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:20.104', 238.9, 310.0),
+(4, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:30.301', 224.52, 358.58),
+(5, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.016', 243.97, 312.57),
+(6, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.811', 217.91, 339.95),
+(7, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:30.444', 234.93, 351.38),
+(8, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.451', 230.63, 344.99),
+(9, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:47.092', 235.02, 306.83),
+(10, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:21.140', 211.21, 305.65),
+(11, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:39.888', 223.96, 318.03),
+(12, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:43.528', 247.99, 312.54),
+(13, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:29.333', 233.31, 328.77),
+(14, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:49.252', 238.46, 320.86),
+(15, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:23.061', 227.46, 312.11),
+(16, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:16.106', 214.4, 350.24),
+(17, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:42.366', 240.99, 345.86),
+(18, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:32.745', 220.5, 312.49),
+(19, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:38.676', 240.16, 325.82),
+(20, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:22.013', 227.78, 327.11),
+(21, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:57.253', 234.88, 355.67),
+(22, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.874', 234.56, 322.41),
+(23, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:54.313', 219.5, 338.61),
+(24, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:46.343', 233.41, 300.66),
+(25, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:46.096', 212.18, 329.94),
+(26, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:37.005', 229.55, 345.7),
+(27, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:35.087', 230.93, 300.88),
+(28, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:31.820', 224.84, 301.83),
+(29, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:47.605', 243.9, 349.77),
+(30, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:15.133', 212.18, 356.85),
+(31, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:56.975', 249.62, 351.77),
+(32, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:56.484', 247.25, 309.76),
+(33, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:27.002', 224.09, 359.89),
+(34, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:15.418', 214.35, 319.04),
+(35, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:40.840', 235.07, 328.67),
+(36, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:32.564', 221.73, 308.98),
+(37, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.113', 247.55, 326.78),
+(38, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:44.756', 211.89, 307.79),
+(39, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:19.372', 222.32, 355.77),
+(40, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:52.719', 205.82, 342.61),
+(41, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:26.126', 246.64, 349.79),
+(42, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:31.959', 214.86, 329.91),
+(43, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:37.405', 208.74, 312.44),
+(44, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:38.976', 207.24, 323.53),
+(45, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:55.620', 212.44, 301.32),
+(46, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:21.530', 245.21, 334.58),
+(47, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:25.629', 202.96, 331.96),
+(48, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:39.605', 245.99, 300.62),
+(49, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.377', 201.67, 359.36),
+(50, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:59.627', 232.88, 303.27),
+(51, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:26.121', 239.61, 335.44),
+(52, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:58.539', 239.17, 326.96),
+(53, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:23.100', 249.41, 305.0),
+(54, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:39.166', 230.14, 342.26),
+(55, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:42.672', 242.24, 307.04),
+(56, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:17.735', 232.38, 326.29),
+(57, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:41.352', 234.65, 340.47),
+(58, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:35.437', 247.68, 340.77),
+(59, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:27.344', 209.06, 305.03),
+(60, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:50.006', 237.02, 313.28),
+(61, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:26.811', 230.48, 326.22),
+(62, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:46.361', 205.05, 311.82),
+(63, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:25.637', 248.79, 333.62),
+(64, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:54.250', 203.85, 307.48),
+(65, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:42.237', 216.29, 347.87),
+(66, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:54.196', 219.65, 338.43),
+(67, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:38.941', 227.74, 312.15),
+(68, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:33.692', 214.45, 334.73),
+(69, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:31.102', 244.03, 309.4),
+(70, 'C000000013', '2023-08-10', 'HAMILC44D01H501W', '00:01:16.872', 216.64, 303.36),
+(1, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:53.853', 212.29, 315.25),
+(2, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:17.568', 202.1, 322.23),
+(3, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:22.567', 214.03, 332.61),
+(4, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:56.913', 220.22, 302.36),
+(5, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:34.805', 221.09, 347.12),
+(6, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:49.400', 215.29, 333.46),
+(7, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.241', 245.17, 353.92),
+(8, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:41.508', 216.93, 348.13),
+(9, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:26.213', 218.17, 326.54),
+(10, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:23.567', 249.77, 356.95),
+(11, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:47.588', 224.4, 345.66),
+(12, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:19.957', 227.11, 333.19),
+(13, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:21.770', 227.66, 318.18),
+(14, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.700', 223.27, 314.8),
+(15, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:44.486', 209.58, 340.16),
+(16, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:50.262', 212.03, 356.53),
+(17, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:56.971', 213.02, 359.83),
+(18, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:17.638', 229.19, 329.86),
+(19, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:53.429', 242.5, 300.62),
+(20, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:18.206', 244.68, 358.25),
+(21, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:22.972', 233.32, 312.59),
+(22, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:57.696', 223.56, 304.02),
+(23, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:18.070', 218.5, 308.88),
+(24, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:25.606', 206.64, 337.83),
+(25, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:51.172', 227.83, 359.41),
+(26, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:56.496', 218.47, 323.41),
+(27, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:29.997', 239.91, 305.33),
+(28, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.413', 220.29, 330.38),
+(29, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:57.824', 243.08, 307.37),
+(30, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:15.327', 216.37, 317.54),
+(31, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:34.849', 230.87, 342.94),
+(32, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:41.310', 221.72, 359.03),
+(33, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:16.916', 220.21, 300.25),
+(34, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:48.705', 222.95, 310.85),
+(35, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:18.196', 202.61, 325.25),
+(36, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:36.966', 204.66, 316.75),
+(37, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:59.949', 221.34, 323.36),
+(38, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:54.968', 236.09, 349.83),
+(39, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:59.071', 200.99, 308.57),
+(40, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:51.978', 232.24, 321.03),
+(41, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:32.749', 219.92, 358.62),
+(42, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:19.558', 204.4, 303.64),
+(43, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:22.526', 249.32, 349.74),
+(44, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:58.055', 204.71, 304.85),
+(45, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.248', 230.56, 327.88),
+(46, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:31.971', 235.18, 359.72),
+(47, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:47.314', 219.15, 300.12),
+(48, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.578', 200.71, 319.94),
+(49, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:49.016', 249.19, 310.88),
+(50, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.534', 205.08, 324.31),
+(51, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:24.155', 229.81, 339.06),
+(52, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:57.715', 239.3, 323.87),
+(53, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:20.926', 239.09, 335.31),
+(54, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:19.495', 246.02, 344.6),
+(55, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:33.074', 224.28, 343.34),
+(56, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:41.086', 235.49, 321.54),
+(57, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:26.909', 204.22, 327.13),
+(58, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:25.171', 202.16, 328.55),
+(59, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:54.626', 245.61, 358.38),
+(60, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:23.613', 215.9, 321.14),
+(61, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:47.596', 225.86, 353.12),
+(62, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:40.595', 227.04, 309.76),
+(63, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:20.966', 231.79, 355.35),
+(64, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:42.359', 245.91, 326.36),
+(65, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:49.228', 208.26, 348.49),
+(66, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:17.548', 240.93, 322.26),
+(67, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:42.519', 242.79, 302.78),
+(68, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:52.847', 245.0, 310.38),
+(69, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:28.629', 248.57, 346.24),
+(70, 'C000000013', '2023-08-10', 'LECCHR16E02H501V', '00:01:21.032', 243.29, 329.26),
+(1, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.216', 242.97, 347.74),
+(2, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.028', 231.07, 334.0),
+(3, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.975', 211.91, 336.38),
+(4, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.801', 241.08, 345.85),
+(5, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.584', 226.85, 359.13),
+(6, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:59.096', 246.6, 334.98),
+(7, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.432', 207.01, 351.73),
+(8, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:49.819', 201.59, 353.29),
+(9, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.380', 243.38, 325.44),
+(10, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:26.810', 234.22, 345.78),
+(11, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.149', 226.31, 319.58),
+(12, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.219', 224.93, 321.9),
+(13, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.524', 227.37, 342.24),
+(14, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:56.920', 230.9, 359.95),
+(15, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:37.736', 242.3, 324.13),
+(16, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.411', 211.35, 309.99),
+(17, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.221', 212.1, 342.21),
+(18, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.846', 222.42, 358.87),
+(19, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.544', 204.52, 316.26),
+(20, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.467', 227.68, 326.33),
+(21, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.845', 219.56, 300.96),
+(22, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:57.046', 245.88, 345.69),
+(23, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:57.771', 228.4, 308.47),
+(24, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:27.656', 233.19, 312.87),
+(25, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:38.668', 215.12, 307.76),
+(26, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.887', 203.22, 317.79),
+(27, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:45.726', 229.08, 357.57),
+(28, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.282', 232.44, 358.41),
+(29, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.203', 216.97, 323.81),
+(30, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:32.994', 207.11, 320.51),
+(31, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.095', 210.2, 341.93),
+(32, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.104', 237.63, 325.59),
+(33, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.822', 239.08, 312.58),
+(34, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.314', 229.87, 326.06),
+(35, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.347', 230.9, 331.02),
+(36, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:28.654', 207.34, 357.06),
+(37, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:53.563', 248.0, 321.31),
+(38, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.738', 239.25, 356.2),
+(39, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:19.103', 238.65, 315.37),
+(40, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:47.158', 241.14, 348.03),
+(41, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:46.034', 234.3, 305.37),
+(42, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:25.799', 247.43, 300.85),
+(43, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.069', 232.54, 311.72),
+(44, 'C000000014', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.087', 246.79, 323.15),
+(1, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.763', 231.73, 311.64),
+(2, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:51.642', 206.39, 348.07),
+(3, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:35.463', 203.96, 338.17),
+(4, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:57.250', 243.35, 317.19),
+(5, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.235', 239.99, 333.87),
+(6, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.044', 239.77, 350.0),
+(7, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:59.914', 239.16, 338.98),
+(8, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:17.785', 232.54, 359.0),
+(9, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:18.190', 211.72, 331.06),
+(10, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.351', 220.45, 341.38),
+(11, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:47.473', 207.42, 313.96),
+(12, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:48.078', 202.81, 312.67),
+(13, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:16.243', 231.12, 314.44),
+(14, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:48.817', 211.49, 303.56),
+(15, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:51.294', 240.45, 323.89),
+(16, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:40.749', 247.68, 301.58),
+(17, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:30.229', 209.5, 300.32),
+(18, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:51.214', 225.4, 303.21),
+(19, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.188', 242.84, 337.55),
+(20, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:30.176', 221.14, 326.09),
+(21, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.040', 203.42, 349.15),
+(22, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.525', 237.19, 348.86),
+(23, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:41.893', 225.06, 358.06),
+(24, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:15.370', 201.97, 333.45),
+(25, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:45.107', 207.65, 312.08),
+(26, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:17.973', 204.48, 304.74),
+(27, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:16.293', 207.14, 315.86),
+(28, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.703', 204.99, 349.86),
+(29, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.350', 245.14, 341.47),
+(30, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.911', 234.96, 322.18),
+(31, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:31.563', 205.9, 310.33),
+(32, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:50.515', 234.36, 304.46),
+(33, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.227', 210.71, 311.41),
+(34, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:37.849', 243.81, 312.81),
+(35, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.392', 229.3, 336.43),
+(36, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:57.877', 214.49, 355.5),
+(37, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:37.175', 249.31, 326.4),
+(38, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.464', 238.62, 325.29),
+(39, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:16.366', 246.36, 327.94),
+(40, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:20.478', 219.64, 334.02),
+(41, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:45.103', 237.32, 344.46),
+(42, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:27.436', 221.62, 328.16),
+(43, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:32.460', 247.62, 340.94),
+(44, 'C000000014', '2023-08-22', 'LECCHR16E02H501V', '00:01:28.413', 242.48, 347.39),
+(1, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:58.636', 211.06, 311.77),
+(2, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.216', 228.76, 302.82),
+(3, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:35.353', 243.67, 324.42),
+(4, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:26.920', 223.18, 357.33),
+(5, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:20.277', 221.53, 335.12),
+(6, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:28.201', 207.31, 322.33),
+(7, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:50.050', 209.96, 357.05),
+(8, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.639', 229.12, 329.52),
+(9, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:47.163', 209.49, 334.58),
+(10, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:22.197', 207.59, 321.85),
+(11, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:19.814', 203.72, 339.09),
+(12, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:29.695', 204.77, 304.6),
+(13, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:57.809', 229.38, 334.84),
+(14, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:45.087', 232.52, 328.28),
+(15, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:22.455', 218.15, 303.25),
+(16, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:21.989', 243.12, 339.49),
+(17, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:48.496', 241.77, 334.72),
+(18, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:48.709', 201.77, 334.92),
+(19, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:33.982', 203.88, 301.81),
+(20, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:55.977', 206.46, 358.91),
+(21, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:21.055', 203.09, 316.72),
+(22, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:36.555', 229.83, 316.14),
+(23, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:58.344', 225.03, 324.39),
+(24, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:19.000', 232.76, 349.09),
+(25, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:42.491', 218.85, 335.18),
+(26, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.924', 228.46, 325.91),
+(27, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.710', 248.71, 301.22),
+(28, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:31.576', 249.86, 320.74),
+(29, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:50.903', 239.36, 318.62),
+(30, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:29.592', 230.93, 327.42),
+(31, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.102', 207.19, 351.22),
+(32, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:53.105', 212.54, 322.93),
+(33, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:30.230', 240.65, 339.52),
+(34, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:40.894', 237.41, 343.56),
+(35, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:58.245', 245.31, 327.01),
+(36, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:54.894', 238.35, 312.87),
+(37, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:17.194', 222.9, 351.62),
+(38, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:16.727', 217.3, 340.5),
+(39, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:20.751', 218.94, 332.62),
+(40, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:40.693', 206.75, 300.15),
+(41, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:17.796', 224.69, 306.95),
+(42, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:45.663', 241.92, 352.76),
+(43, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:26.500', 248.19, 307.48),
+(44, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:38.706', 231.78, 308.57),
+(45, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.186', 218.83, 312.96),
+(46, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:53.173', 237.05, 314.17),
+(47, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:35.305', 235.97, 320.94),
+(48, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:27.853', 249.55, 315.42),
+(49, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:33.290', 223.32, 306.53),
+(50, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.145', 241.84, 328.81),
+(51, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:17.336', 222.09, 355.62),
+(52, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:36.506', 209.54, 354.69),
+(53, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:34.907', 208.11, 352.62),
+(54, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:42.850', 201.62, 335.29),
+(55, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.071', 228.01, 355.65),
+(56, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:25.953', 208.04, 322.78),
+(57, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:25.924', 204.24, 332.77),
+(58, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:24.223', 225.02, 311.64),
+(59, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:53.515', 220.21, 350.91),
+(60, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:55.741', 237.39, 351.35),
+(61, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:24.036', 225.53, 353.88),
+(62, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:29.463', 241.5, 328.61),
+(63, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:38.599', 234.81, 322.42),
+(64, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:20.029', 247.31, 324.35),
+(65, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:43.194', 218.33, 300.14),
+(66, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:18.584', 204.17, 333.27),
+(67, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:50.724', 235.63, 346.76),
+(68, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:16.147', 210.51, 339.73),
+(69, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:41.817', 221.62, 303.12),
+(70, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:32.872', 242.04, 316.22),
+(71, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:23.390', 215.47, 311.72),
+(72, 'C000000015', '2023-08-21', 'HAMILC44D01H501W', '00:01:46.491', 207.4, 311.44),
+(1, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:54.816', 248.44, 322.92),
+(2, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.023', 216.28, 321.8),
+(3, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:18.530', 209.48, 332.84),
+(4, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.923', 245.16, 322.65),
+(5, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.119', 226.14, 352.73),
+(6, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:15.686', 241.85, 350.56),
+(7, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.828', 210.12, 335.95),
+(8, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:56.099', 232.1, 312.49),
+(9, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:40.178', 205.61, 318.66),
+(10, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:42.311', 232.5, 355.25),
+(11, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.598', 246.83, 319.17),
+(12, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:52.988', 221.15, 359.98),
+(13, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:39.812', 237.22, 324.43),
+(14, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:20.145', 210.5, 354.93),
+(15, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.459', 222.01, 354.63),
+(16, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:25.075', 208.61, 358.52),
+(17, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.085', 245.23, 310.27),
+(18, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:56.849', 236.82, 315.51),
+(19, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.594', 218.27, 350.57),
+(20, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:35.643', 238.46, 352.68),
+(21, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:16.454', 230.36, 318.15),
+(22, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:34.367', 216.13, 359.34),
+(23, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:33.029', 233.97, 357.41),
+(24, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:34.835', 217.04, 332.16),
+(25, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.266', 247.92, 333.73),
+(26, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.837', 236.37, 326.36),
+(27, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:20.475', 224.31, 315.94),
+(28, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:40.667', 203.39, 313.47),
+(29, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:48.008', 208.98, 333.76),
+(30, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:21.009', 231.32, 314.74),
+(31, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:29.539', 249.28, 323.07),
+(32, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:54.884', 239.88, 337.43),
+(33, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:57.934', 209.09, 353.77),
+(34, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:28.655', 222.5, 324.17),
+(35, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.589', 224.04, 348.96),
+(36, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:15.875', 219.41, 307.28),
+(37, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.418', 227.84, 327.93),
+(38, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:55.963', 248.37, 341.35),
+(39, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.000', 218.88, 338.46),
+(40, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:41.117', 247.75, 317.71),
+(41, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:44.388', 235.95, 313.49),
+(42, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.639', 201.52, 345.44),
+(43, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:22.131', 244.93, 303.68),
+(44, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:33.139', 206.59, 334.22),
+(45, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:28.937', 205.01, 345.12),
+(46, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:28.038', 204.65, 355.07),
+(47, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:32.075', 206.95, 307.83),
+(48, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:56.046', 235.18, 352.62),
+(49, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:48.213', 227.65, 348.7),
+(50, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:29.754', 246.3, 316.5),
+(51, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:48.906', 203.47, 350.99),
+(52, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:43.866', 226.9, 349.52),
+(53, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:54.176', 247.1, 347.97),
+(54, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:49.791', 217.01, 304.17),
+(55, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:20.178', 219.65, 337.79),
+(56, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.053', 222.88, 316.87),
+(57, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.660', 207.29, 322.77),
+(58, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:35.529', 249.08, 358.24),
+(59, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:15.365', 237.09, 312.96),
+(60, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:25.153', 220.92, 331.52),
+(61, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.414', 221.61, 315.65),
+(62, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.955', 203.41, 356.58),
+(63, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:29.256', 248.01, 339.47),
+(64, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:27.663', 233.53, 352.2),
+(65, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:22.877', 230.67, 344.83),
+(66, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:26.324', 233.42, 349.63),
+(67, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:38.391', 234.36, 321.68),
+(68, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.295', 202.63, 350.59),
+(69, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:30.652', 214.72, 307.79),
+(70, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:17.079', 219.39, 333.09),
+(71, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:51.583', 238.57, 359.4),
+(72, 'C000000015', '2023-08-21', 'LECCHR16E02H501V', '00:01:42.118', 246.57, 323.18),
+(1, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:26.428', 233.46, 343.71),
+(2, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:54.428', 205.99, 330.1),
+(3, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:39.822', 229.0, 309.59),
+(4, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:21.959', 243.33, 344.67),
+(5, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:38.486', 221.0, 350.08),
+(6, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:21.984', 236.31, 340.97),
+(7, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:22.784', 232.49, 333.65),
+(8, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:54.248', 218.22, 351.7),
+(9, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:41.344', 216.94, 318.75),
+(10, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:59.079', 215.77, 308.71),
+(11, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:43.507', 201.49, 343.23),
+(12, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:39.560', 249.82, 328.41),
+(13, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:19.460', 200.77, 358.61),
+(14, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:22.250', 232.66, 301.82),
+(15, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:27.720', 238.56, 354.11),
+(16, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:33.229', 249.52, 312.72),
+(17, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:17.997', 221.75, 304.43),
+(18, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:32.526', 232.98, 300.57),
+(19, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.144', 210.57, 310.84),
+(20, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:17.308', 200.29, 344.11),
+(21, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:20.694', 240.57, 306.15),
+(22, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:50.542', 202.92, 326.48),
+(23, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:35.030', 202.2, 343.01),
+(24, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:46.204', 221.02, 328.02),
+(25, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.671', 202.78, 351.39),
+(26, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:29.045', 233.07, 355.65),
+(27, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.937', 249.6, 305.67),
+(28, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:45.425', 217.58, 303.56),
+(29, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:41.675', 203.44, 305.63),
+(30, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:16.676', 205.34, 326.1),
+(31, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:36.430', 222.99, 300.99),
+(32, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:36.826', 210.44, 358.68),
+(33, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:48.303', 214.97, 301.55),
+(34, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:56.591', 211.93, 302.42),
+(35, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:42.803', 245.35, 334.52),
+(36, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:17.216', 220.72, 338.24),
+(37, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:50.806', 203.96, 330.82),
+(38, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:46.436', 227.29, 307.93),
+(39, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:29.379', 244.86, 350.78),
+(40, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:25.636', 231.82, 346.59),
+(41, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:42.750', 238.36, 328.15),
+(42, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:18.842', 234.9, 334.21),
+(43, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:30.898', 205.46, 340.11),
+(44, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:45.954', 241.06, 350.07),
+(45, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:52.941', 210.81, 346.4),
+(46, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:52.847', 235.53, 334.35),
+(47, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:26.600', 205.95, 300.44),
+(48, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:16.571', 223.89, 326.39),
+(49, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:50.902', 224.41, 303.08),
+(50, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:45.236', 210.48, 310.45),
+(51, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:23.693', 201.12, 338.58),
+(52, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:20.929', 200.44, 352.04),
+(53, 'C000000016', '2023-07-05', 'HAMILC44D01H501W', '00:01:51.954', 242.17, 306.85),
+(1, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:16.222', 220.57, 318.7),
+(2, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:35.901', 211.08, 301.86),
+(3, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:24.250', 226.46, 310.25),
+(4, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:18.379', 247.94, 324.92),
+(5, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:19.098', 234.68, 352.23),
+(6, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:17.276', 238.47, 308.08),
+(7, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:53.450', 203.66, 308.26),
+(8, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:54.750', 211.83, 309.89),
+(9, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.937', 218.13, 327.66),
+(10, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:28.001', 203.32, 346.49),
+(11, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:17.934', 245.04, 342.76),
+(12, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:33.873', 240.96, 323.48),
+(13, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:21.701', 217.81, 325.54),
+(14, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:53.414', 242.33, 308.4),
+(15, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:29.068', 242.91, 341.6),
+(16, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:30.723', 226.21, 301.68),
+(17, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:38.615', 229.15, 326.17),
+(18, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:36.924', 209.44, 326.96),
+(19, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:45.142', 241.19, 308.56),
+(20, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:57.652', 246.68, 351.39),
+(21, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:53.562', 206.98, 311.92),
+(22, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:45.396', 241.18, 329.77),
+(23, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:23.619', 245.77, 304.33),
+(24, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:46.285', 238.65, 305.84),
+(25, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:49.126', 217.96, 341.62),
+(26, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:46.614', 225.15, 327.02),
+(27, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:19.892', 217.95, 358.5),
+(28, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:15.562', 236.69, 320.61),
+(29, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.549', 248.91, 356.38),
+(30, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:27.235', 216.95, 313.02),
+(31, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:33.534', 237.89, 323.88),
+(32, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:26.382', 203.91, 338.21),
+(33, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:18.277', 202.39, 345.28),
+(34, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:50.604', 235.26, 332.56),
+(35, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:15.572', 244.83, 320.73),
+(36, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:54.209', 218.54, 342.29),
+(37, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.462', 241.46, 329.05),
+(38, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:55.985', 200.18, 337.1),
+(39, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:55.193', 212.07, 305.86),
+(40, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:30.094', 202.65, 354.64),
+(41, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:50.542', 232.41, 345.85),
+(42, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.983', 225.27, 304.72),
+(43, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:29.060', 225.44, 317.54),
+(44, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:37.589', 228.24, 307.86),
+(45, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:38.771', 237.11, 318.39),
+(46, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:49.630', 241.25, 339.2),
+(47, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:38.760', 246.7, 307.0),
+(48, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:43.510', 239.44, 307.7),
+(49, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:51.983', 241.37, 340.66),
+(50, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:27.884', 241.37, 342.28),
+(51, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:18.785', 204.39, 309.78),
+(52, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:29.199', 209.26, 323.21),
+(53, 'C000000016', '2023-07-05', 'LECCHR16E02H501V', '00:01:30.966', 223.09, 331.49),
+(1, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.327', 245.52, 354.86),
+(2, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:51.230', 244.71, 304.94),
+(3, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:37.161', 210.26, 338.42),
+(4, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:18.584', 227.11, 322.37),
+(5, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:42.999', 244.58, 339.0),
+(6, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:18.470', 239.93, 309.85),
+(7, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:58.588', 212.59, 351.2),
+(8, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:48.610', 212.34, 312.9),
+(9, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:17.521', 245.23, 318.84),
+(10, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:47.720', 230.16, 346.51),
+(11, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:15.479', 221.75, 314.45),
+(12, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:35.863', 202.25, 350.81),
+(13, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.188', 232.43, 333.3),
+(14, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:30.229', 211.86, 306.03),
+(15, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:34.361', 209.26, 358.42),
+(16, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:55.225', 217.98, 329.33),
+(17, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:55.670', 249.15, 301.28),
+(18, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:43.593', 244.7, 354.88),
+(19, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:46.585', 214.25, 348.09),
+(20, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:45.687', 243.59, 314.24),
+(21, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:26.410', 239.34, 335.0),
+(22, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:17.134', 209.57, 330.8),
+(23, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:38.694', 214.82, 300.75),
+(24, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:54.894', 213.61, 352.98),
+(25, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:48.871', 249.9, 353.09),
+(26, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:30.249', 206.55, 344.45),
+(27, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:16.289', 210.13, 325.36),
+(28, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:57.534', 200.71, 309.65),
+(29, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:17.848', 245.15, 303.09),
+(30, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.994', 216.69, 352.25),
+(31, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.370', 234.26, 304.91),
+(32, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:50.057', 235.39, 312.34),
+(33, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:47.968', 249.83, 347.22),
+(34, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:38.735', 221.23, 357.08),
+(35, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:44.131', 203.26, 352.15),
+(36, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:45.842', 244.56, 323.63),
+(37, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:44.579', 237.91, 312.33),
+(38, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:29.577', 230.26, 353.39),
+(39, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:23.629', 248.2, 320.0),
+(40, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:23.307', 245.4, 324.48),
+(41, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.451', 233.94, 325.25),
+(42, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:37.371', 228.31, 341.1),
+(43, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:27.117', 201.34, 300.17),
+(44, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:59.551', 223.97, 321.68),
+(45, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:56.702', 204.58, 307.99),
+(46, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:58.301', 219.15, 314.24),
+(47, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:51.170', 244.54, 330.28),
+(48, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:33.105', 248.56, 325.04),
+(49, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:41.184', 228.12, 302.15),
+(50, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:56.509', 204.74, 312.03),
+(51, 'C000000017', '2023-06-25', 'HAMILC44D01H501W', '00:01:24.952', 202.78, 330.07),
+(1, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.756', 226.09, 359.84),
+(2, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:35.982', 217.68, 326.89),
+(3, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:23.393', 225.43, 317.56),
+(4, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:28.891', 221.5, 335.82),
+(5, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.905', 236.59, 351.74),
+(6, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:33.659', 248.62, 337.14),
+(7, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:16.016', 212.44, 352.03),
+(8, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:59.206', 205.4, 353.16),
+(9, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:27.682', 230.78, 300.61),
+(10, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:50.697', 230.15, 321.39),
+(11, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:47.134', 244.14, 312.85),
+(12, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:38.456', 211.03, 335.37),
+(13, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:42.613', 248.39, 332.89),
+(14, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:44.695', 236.55, 339.23),
+(15, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:45.204', 224.6, 303.19),
+(16, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:34.104', 208.51, 337.26),
+(17, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:55.533', 207.74, 315.33),
+(18, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:43.307', 230.61, 327.52),
+(19, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:40.442', 210.18, 316.61),
+(20, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:32.376', 215.62, 359.75),
+(21, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:34.031', 237.93, 358.79),
+(22, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.541', 200.68, 313.24),
+(23, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:31.881', 228.96, 303.72),
+(24, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:58.518', 205.22, 303.88),
+(25, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:42.715', 206.02, 306.42),
+(26, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:39.298', 217.79, 330.52),
+(27, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:23.402', 206.14, 329.22),
+(28, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:26.542', 229.48, 352.41),
+(29, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:58.955', 234.65, 308.57),
+(30, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:15.514', 218.87, 327.96),
+(31, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:55.890', 204.69, 308.58),
+(32, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:50.880', 246.04, 337.35),
+(33, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:21.771', 209.8, 345.0),
+(34, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:18.242', 218.44, 313.84),
+(35, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:27.042', 221.24, 314.48),
+(36, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:49.740', 226.12, 355.72),
+(37, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:52.493', 240.85, 306.58),
+(38, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:41.716', 236.31, 355.32),
+(39, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:24.707', 244.61, 330.75),
+(40, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:21.069', 212.31, 343.99),
+(41, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:55.143', 235.45, 307.31),
+(42, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:40.472', 230.83, 344.52),
+(43, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:52.822', 223.79, 318.62),
+(44, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:47.712', 244.24, 340.04),
+(45, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:45.496', 213.64, 349.54),
+(46, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:35.176', 234.23, 356.71),
+(47, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:39.934', 221.11, 316.65),
+(48, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:35.171', 249.22, 347.56),
+(49, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:43.056', 218.23, 300.02),
+(50, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:16.280', 246.54, 302.13),
+(51, 'C000000017', '2023-06-25', 'LECCHR16E02H501V', '00:01:54.960', 222.15, 312.45),
+(1, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:50.531', 208.29, 358.41),
+(2, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:49.396', 210.88, 300.95),
+(3, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.516', 249.05, 349.83),
+(4, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:18.526', 238.27, 306.32),
+(5, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.046', 226.1, 308.95),
+(6, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:24.836', 203.36, 356.44),
+(7, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:40.916', 206.72, 310.42),
+(8, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:47.367', 215.27, 307.3),
+(9, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.362', 243.99, 354.65),
+(10, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:56.897', 243.79, 359.35),
+(11, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:54.748', 234.17, 307.5),
+(12, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:37.774', 220.54, 332.9),
+(13, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:52.801', 204.21, 300.39),
+(14, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:40.459', 201.72, 326.09),
+(15, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:56.020', 227.74, 349.14),
+(16, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:22.789', 201.14, 302.65),
+(17, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:21.585', 232.2, 336.8),
+(18, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:45.699', 204.44, 304.36),
+(19, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:29.931', 228.77, 319.01),
+(20, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:50.351', 218.32, 349.49),
+(21, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:26.605', 231.78, 301.49),
+(22, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:41.791', 235.75, 325.05),
+(23, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:24.561', 213.19, 304.87),
+(24, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:22.334', 231.08, 328.42),
+(25, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.119', 237.84, 332.12),
+(26, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:35.462', 223.49, 349.87),
+(27, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:55.680', 244.48, 316.03),
+(28, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:57.605', 215.38, 318.35),
+(29, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:44.632', 213.87, 318.38),
+(30, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:46.582', 203.74, 316.65),
+(31, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:37.479', 245.22, 341.8),
+(32, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:51.235', 229.39, 317.44),
+(33, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:59.746', 224.97, 352.08),
+(34, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:47.135', 209.97, 329.9),
+(35, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:18.619', 209.74, 319.87),
+(36, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:59.085', 245.47, 342.19),
+(37, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.210', 214.62, 342.89),
+(38, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:39.779', 246.66, 305.64),
+(39, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:21.291', 222.83, 358.04),
+(40, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:27.746', 210.67, 331.25),
+(41, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:39.616', 203.83, 306.19),
+(42, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:52.249', 208.1, 351.56),
+(43, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:50.048', 249.35, 332.83),
+(44, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:45.136', 200.81, 305.01),
+(45, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.408', 230.6, 307.61),
+(46, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:34.501', 206.4, 350.58),
+(47, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:59.552', 211.29, 334.05),
+(48, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:56.750', 214.04, 301.13),
+(49, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:43.821', 221.38, 302.54),
+(50, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:26.121', 203.04, 300.46),
+(51, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:30.753', 203.47, 318.42),
+(52, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:19.498', 224.86, 312.7),
+(53, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:53.665', 238.0, 307.41),
+(54, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:42.079', 240.29, 327.03),
+(55, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:39.221', 241.33, 325.87),
+(56, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:45.219', 214.64, 331.59),
+(57, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:31.284', 213.13, 351.29),
+(58, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:19.509', 222.54, 347.71),
+(59, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:25.089', 223.27, 315.39),
+(60, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:28.146', 239.28, 332.0),
+(61, 'C000000018', '2023-07-23', 'HAMILC44D01H501W', '00:01:37.929', 220.74, 300.63),
+(1, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.252', 206.64, 304.98),
+(2, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:49.683', 238.59, 330.9),
+(3, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:56.162', 232.79, 356.74),
+(4, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.492', 206.05, 325.77),
+(5, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:41.819', 215.04, 310.98),
+(6, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:49.323', 246.37, 312.52),
+(7, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:57.380', 201.46, 334.02),
+(8, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:49.418', 230.05, 357.26),
+(9, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:22.697', 223.06, 309.16),
+(10, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:42.064', 204.93, 308.83),
+(11, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.005', 244.48, 319.13),
+(12, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.485', 218.24, 303.03),
+(13, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:27.609', 240.3, 315.32),
+(14, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:28.845', 216.45, 312.7),
+(15, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:25.684', 202.59, 313.04),
+(16, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.332', 215.75, 352.77),
+(17, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:34.232', 249.19, 344.75),
+(18, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:36.811', 248.55, 319.56),
+(19, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:50.078', 246.47, 352.83),
+(20, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:40.305', 247.81, 332.97),
+(21, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:28.526', 209.04, 308.06),
+(22, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.258', 226.43, 325.46),
+(23, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:32.758', 228.36, 323.13),
+(24, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:32.401', 213.68, 336.12),
+(25, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:46.235', 204.75, 341.3),
+(26, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:33.257', 237.9, 340.43),
+(27, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:58.680', 247.31, 309.29),
+(28, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.671', 249.64, 310.99),
+(29, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:21.808', 221.15, 337.64),
+(30, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:48.430', 225.89, 319.62),
+(31, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:39.797', 210.48, 308.99),
+(32, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:36.023', 221.24, 311.83),
+(33, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:24.172', 216.28, 352.52),
+(34, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:29.941', 248.59, 347.25),
+(35, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:29.468', 221.84, 310.07),
+(36, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:35.695', 242.77, 354.2),
+(37, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.252', 220.41, 340.42),
+(38, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:18.366', 244.06, 356.85),
+(39, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:58.080', 249.2, 339.25),
+(40, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:42.353', 236.76, 359.06),
+(41, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:22.867', 209.66, 317.33),
+(42, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:30.353', 224.54, 308.18),
+(43, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.460', 240.81, 355.69),
+(44, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:24.136', 245.79, 326.18),
+(45, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:46.478', 241.75, 348.65),
+(46, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:31.573', 248.84, 352.76),
+(47, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.578', 238.4, 304.82),
+(48, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:46.499', 244.33, 348.32),
+(49, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:19.461', 223.05, 304.97),
+(50, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:20.353', 221.2, 322.61),
+(51, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:15.890', 215.66, 307.35),
+(52, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:43.750', 242.08, 356.72),
+(53, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:26.135', 233.98, 329.96),
+(54, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:29.668', 204.84, 351.29),
+(55, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:21.291', 233.18, 352.01),
+(56, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:53.140', 227.83, 303.34),
+(57, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:57.980', 223.48, 304.83),
+(58, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:23.858', 204.54, 327.16),
+(59, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:36.623', 221.08, 354.61),
+(60, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:24.308', 221.86, 358.86),
+(61, 'C000000018', '2023-07-23', 'LECCHR16E02H501V', '00:01:50.660', 249.84, 321.31),
+(1, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.352', 225.18, 359.41),
+(2, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:32.141', 246.9, 343.15),
+(3, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:43.421', 220.19, 328.38),
+(4, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.075', 224.09, 356.07),
+(5, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:24.210', 221.89, 322.49),
+(6, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:30.237', 242.69, 311.49),
+(7, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:50.056', 241.21, 308.21),
+(8, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:39.420', 236.25, 320.92),
+(9, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:52.435', 244.41, 354.17),
+(10, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:58.800', 236.33, 301.46),
+(11, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:51.919', 220.23, 343.73),
+(12, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:41.545', 240.2, 319.3),
+(13, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:24.833', 210.73, 332.63),
+(14, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:35.589', 206.93, 345.07),
+(15, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:34.574', 209.38, 304.99),
+(16, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:49.243', 247.9, 342.7),
+(17, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:36.287', 230.72, 301.72),
+(18, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:17.223', 216.83, 354.15),
+(19, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.608', 245.29, 321.61),
+(20, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.352', 242.04, 350.5),
+(21, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:37.262', 230.82, 355.12),
+(22, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.104', 222.21, 341.42),
+(23, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.671', 245.03, 330.98),
+(24, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.852', 210.58, 355.59),
+(25, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:47.806', 216.92, 300.99),
+(26, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:30.310', 221.2, 359.57),
+(27, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.761', 221.02, 307.54),
+(28, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:44.603', 226.76, 345.59),
+(29, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:32.379', 246.05, 320.73),
+(30, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:55.325', 208.7, 300.17),
+(31, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:19.246', 242.74, 347.01),
+(32, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:54.341', 218.2, 340.74),
+(33, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:48.826', 237.64, 300.41),
+(34, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:49.650', 237.64, 352.64),
+(35, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:31.140', 242.48, 313.96),
+(36, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:18.883', 221.03, 303.46),
+(37, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:52.698', 215.91, 332.65),
+(38, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:58.183', 224.29, 322.58),
+(39, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:53.210', 248.48, 306.28),
+(40, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:58.393', 215.16, 346.38),
+(41, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:28.629', 231.57, 326.18),
+(42, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:47.043', 222.74, 320.98),
+(43, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:17.175', 228.12, 350.98),
+(44, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:35.887', 212.04, 311.95),
+(45, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:46.777', 229.08, 306.54),
+(46, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:34.455', 225.27, 303.61),
+(47, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:59.474', 238.42, 321.7),
+(48, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.735', 238.83, 357.91),
+(49, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:20.504', 240.05, 301.23),
+(50, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:55.068', 232.62, 346.12),
+(51, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:24.007', 234.47, 302.41),
+(52, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:38.488', 206.79, 319.16),
+(53, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:37.870', 219.14, 328.69),
+(54, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:33.958', 228.58, 348.72),
+(55, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:15.840', 232.41, 318.93),
+(56, 'C000000019', '2023-09-23', 'HAMILC44D01H501W', '00:01:35.251', 237.12, 316.28),
+(1, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:27.014', 218.56, 337.51),
+(2, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:17.254', 240.71, 319.63),
+(3, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:38.797', 235.7, 304.65),
+(4, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.229', 205.68, 307.95),
+(5, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:44.446', 238.03, 323.25),
+(6, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:15.149', 231.31, 351.53),
+(7, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.283', 233.97, 311.35),
+(8, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:17.705', 219.1, 320.82),
+(9, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:36.419', 209.07, 358.53),
+(10, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.208', 248.41, 311.61),
+(11, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:30.883', 233.13, 333.21),
+(12, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:58.758', 234.65, 306.21),
+(13, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:35.777', 203.61, 349.63),
+(14, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:15.024', 237.0, 302.98),
+(15, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:55.176', 249.73, 309.66),
+(16, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:59.000', 224.17, 358.44),
+(17, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:39.417', 240.71, 335.6),
+(18, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:34.828', 243.57, 319.13),
+(19, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:54.316', 217.03, 323.37),
+(20, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:54.300', 238.57, 339.95),
+(21, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:17.634', 236.34, 313.61),
+(22, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:40.993', 234.75, 313.22),
+(23, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:32.135', 244.35, 327.0),
+(24, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:36.378', 239.47, 340.61),
+(25, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:18.112', 248.84, 359.4),
+(26, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:52.243', 245.9, 326.83),
+(27, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:57.134', 201.13, 314.78),
+(28, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:48.524', 239.15, 323.52),
+(29, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:47.368', 247.72, 345.97),
+(30, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:49.081', 219.79, 332.55),
+(31, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:37.410', 215.24, 310.94),
+(32, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:20.665', 247.92, 326.86),
+(33, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:28.801', 220.48, 319.29),
+(34, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:40.899', 218.88, 337.49),
+(35, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:37.235', 202.47, 334.33),
+(36, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:55.721', 215.91, 341.46),
+(37, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:32.189', 245.82, 311.73),
+(38, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:53.025', 237.75, 314.38),
+(39, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:22.692', 216.0, 357.96),
+(40, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:50.009', 209.32, 358.77),
+(41, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:15.972', 204.65, 345.11),
+(42, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:55.912', 246.67, 353.4),
+(43, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:41.243', 246.93, 355.77),
+(44, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:28.900', 209.16, 332.34),
+(45, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:43.813', 211.93, 321.73),
+(46, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:24.125', 227.67, 333.54),
+(47, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:19.170', 214.91, 305.55),
+(48, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:37.737', 204.83, 335.38),
+(49, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:58.412', 219.02, 334.49),
+(50, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:21.977', 248.63, 316.02),
+(51, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:38.224', 248.78, 324.41),
+(52, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:50.602', 223.69, 322.76),
+(53, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:28.805', 237.73, 322.59),
+(54, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:45.789', 218.35, 331.44),
+(55, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:59.672', 212.68, 338.74),
+(56, 'C000000019', '2023-09-23', 'LECCHR16E02H501V', '00:01:33.915', 226.53, 321.36),
+(1, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:54.880', 234.03, 349.03),
+(2, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:42.357', 202.15, 307.03),
+(3, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:18.148', 207.05, 316.26),
+(4, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.379', 229.58, 322.86),
+(5, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:46.816', 235.68, 356.24),
+(6, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:33.380', 242.95, 331.29),
+(7, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.874', 233.65, 351.29),
+(8, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:26.449', 225.02, 330.45),
+(9, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:45.819', 237.21, 320.46),
+(10, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:47.276', 234.92, 339.73),
+(11, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.451', 227.96, 314.18),
+(12, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.877', 223.36, 333.52),
+(13, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:32.582', 232.8, 325.23),
+(14, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:22.605', 212.97, 351.87),
+(15, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:31.979', 217.13, 351.05),
+(16, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:55.981', 249.69, 346.52),
+(17, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.947', 229.93, 348.5),
+(18, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:54.436', 232.99, 305.68),
+(19, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.621', 222.58, 318.16),
+(20, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:30.143', 206.54, 331.95),
+(21, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.211', 240.13, 358.48),
+(22, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.640', 231.02, 328.77),
+(23, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:22.962', 222.28, 348.83),
+(24, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.677', 220.25, 326.29),
+(25, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.948', 247.21, 315.43),
+(26, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.416', 207.63, 328.57),
+(27, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.486', 206.62, 307.56),
+(28, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.828', 238.72, 303.68),
+(29, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:19.545', 226.33, 340.26),
+(30, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.528', 245.53, 345.42),
+(31, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.662', 245.56, 318.5),
+(32, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.851', 211.87, 306.38),
+(33, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:23.432', 220.22, 357.29),
+(34, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:44.314', 235.36, 345.8),
+(35, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:18.113', 243.62, 304.58),
+(36, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:43.326', 220.27, 336.86),
+(37, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:57.149', 246.5, 359.37),
+(38, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:24.399', 242.87, 334.97),
+(39, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.478', 237.78, 330.97),
+(40, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:49.118', 226.09, 331.8),
+(41, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.751', 221.62, 345.12),
+(42, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:29.529', 212.43, 327.74),
+(43, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.421', 222.03, 314.33),
+(44, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.972', 210.21, 355.93),
+(45, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:37.243', 227.51, 326.98),
+(46, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.863', 237.52, 344.79),
+(47, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.035', 240.38, 300.26),
+(48, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:34.555', 229.05, 327.83),
+(49, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.632', 217.04, 302.7),
+(50, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:45.624', 230.3, 359.47),
+(51, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:25.349', 242.19, 318.56),
+(52, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:16.367', 216.03, 353.76),
+(53, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:21.743', 231.17, 355.41),
+(54, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:20.499', 218.89, 306.96),
+(55, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.982', 246.03, 358.58),
+(56, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:25.299', 211.33, 321.12),
+(57, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:19.346', 218.46, 319.56),
+(58, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:49.871', 203.61, 308.21),
+(59, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:42.785', 247.22, 355.18),
+(60, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:36.851', 205.35, 305.92),
+(61, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:39.449', 223.1, 315.73),
+(62, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:51.831', 237.68, 354.03),
+(63, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:50.715', 204.34, 315.07),
+(64, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:40.526', 232.0, 340.56),
+(65, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.764', 208.42, 342.34),
+(66, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:47.514', 217.59, 334.84),
+(67, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:48.004', 216.49, 322.53),
+(68, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:37.448', 225.39, 351.46),
+(69, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:46.662', 225.08, 309.23),
+(70, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:31.079', 221.77, 352.54),
+(71, 'C000000020', '2023-08-22', 'HAMILC44D01H501W', '00:01:41.655', 232.14, 325.09),
+(1, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:35.856', 215.23, 335.62),
+(2, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:40.110', 216.09, 320.42),
+(3, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.834', 247.19, 354.97),
+(4, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.608', 203.94, 316.05),
+(5, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.117', 237.05, 351.4),
+(6, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.932', 245.55, 318.18),
+(7, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:56.447', 231.08, 319.63),
+(8, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.895', 230.09, 302.39),
+(9, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.685', 203.76, 357.47),
+(10, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:24.040', 247.65, 348.78),
+(11, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.975', 214.5, 310.86),
+(12, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:43.962', 214.12, 329.93),
+(13, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.118', 221.82, 316.96),
+(14, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:50.723', 230.75, 300.23),
+(15, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:36.262', 224.03, 301.32),
+(16, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:47.007', 240.36, 325.11),
+(17, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.908', 204.5, 352.63),
+(18, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:21.269', 210.69, 317.54),
+(19, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:59.078', 241.43, 329.18),
+(20, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:38.129', 238.13, 305.73),
+(21, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:49.014', 222.41, 355.52),
+(22, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:27.650', 243.13, 345.12),
+(23, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.385', 217.58, 309.87),
+(24, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:20.248', 228.01, 307.34),
+(25, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:56.546', 240.88, 334.84),
+(26, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:33.579', 245.25, 320.87),
+(27, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:59.767', 234.05, 329.09),
+(28, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:49.282', 220.5, 332.43),
+(29, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.428', 240.98, 308.82),
+(30, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:25.105', 215.92, 302.31),
+(31, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.930', 224.18, 355.75),
+(32, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.635', 229.82, 314.5),
+(33, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.852', 218.9, 329.28),
+(34, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:26.385', 224.24, 346.88),
+(35, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:21.435', 224.07, 359.37),
+(36, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.117', 233.93, 358.67),
+(37, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:54.788', 203.79, 323.05),
+(38, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.449', 207.83, 335.41),
+(39, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.523', 213.61, 339.01),
+(40, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:23.852', 236.2, 353.21),
+(41, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:24.666', 214.28, 323.15),
+(42, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.949', 249.84, 329.24),
+(43, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:34.035', 226.48, 347.33),
+(44, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.938', 217.12, 337.15),
+(45, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:50.665', 229.73, 351.25),
+(46, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.594', 233.85, 317.31),
+(47, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:42.323', 227.19, 316.62),
+(48, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:18.087', 213.27, 312.25),
+(49, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:47.610', 221.8, 341.79),
+(50, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:19.330', 239.46, 336.77),
+(51, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:41.701', 240.84, 349.22),
+(52, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:57.854', 218.09, 301.6),
+(53, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:45.392', 235.3, 335.96),
+(54, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:28.853', 204.32, 359.25),
+(55, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:36.657', 222.81, 308.84),
+(56, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:23.629', 216.42, 324.32),
+(57, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:22.969', 205.23, 307.09),
+(58, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:29.204', 203.06, 347.56),
+(59, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.526', 209.9, 356.64),
+(60, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:29.648', 236.24, 318.33),
+(61, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.384', 246.11, 307.32),
+(62, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:52.970', 219.94, 310.23),
+(63, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:40.195', 213.08, 328.43),
+(64, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:49.848', 220.98, 334.18),
+(65, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:32.659', 222.45, 301.76),
+(66, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:31.863', 200.11, 320.53),
+(67, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:53.210', 232.16, 336.81),
+(68, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:30.870', 227.47, 311.57),
+(69, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:58.316', 226.71, 333.96),
+(70, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:17.650', 224.67, 301.14),
+(71, 'C000000020', '2023-08-22', 'LECCHR16E02H501V', '00:01:44.575', 223.37, 331.93),
+(1, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.682', 225.55, 317.9),
+(2, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:41.376', 205.69, 353.7),
+(3, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:35.641', 226.32, 339.58),
+(4, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:18.066', 237.87, 304.82),
+(5, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:44.887', 214.75, 309.58),
+(6, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:25.152', 240.58, 315.06),
+(7, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:52.925', 211.6, 357.17),
+(8, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:49.355', 201.29, 343.08),
+(9, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.450', 207.89, 340.43),
+(10, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:34.852', 244.93, 312.7),
+(11, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:55.766', 245.14, 322.64),
+(12, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:21.984', 239.46, 318.07),
+(13, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:19.000', 227.41, 322.69),
+(14, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.688', 215.01, 334.44),
+(15, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:15.745', 218.0, 317.29),
+(16, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:21.408', 239.27, 345.39),
+(17, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:51.991', 225.09, 351.87),
+(18, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:53.610', 239.67, 355.2),
+(19, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:47.134', 244.43, 336.81),
+(20, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:26.537', 215.34, 328.03),
+(21, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:45.474', 200.46, 306.22),
+(22, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:24.468', 203.79, 303.91),
+(23, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.897', 233.93, 328.25),
+(24, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.582', 204.69, 307.26),
+(25, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:53.781', 248.63, 333.52),
+(26, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.179', 229.73, 345.81),
+(27, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.242', 218.23, 354.62),
+(28, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.100', 211.83, 310.08),
+(29, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.152', 224.13, 329.21),
+(30, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:55.261', 224.37, 333.54),
+(31, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:44.620', 209.37, 329.3),
+(32, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:22.061', 203.14, 329.51),
+(33, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:22.036', 202.68, 351.77),
+(34, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:16.653', 223.31, 348.82),
+(35, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.735', 240.17, 344.18),
+(36, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:39.134', 225.78, 323.05),
+(37, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:51.742', 218.66, 317.92),
+(38, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:37.208', 210.22, 346.78),
+(39, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.666', 219.78, 312.89),
+(40, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:24.732', 230.62, 325.74),
+(41, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:42.463', 234.22, 312.19),
+(42, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.124', 208.1, 343.93),
+(43, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.734', 222.74, 329.83),
+(44, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:58.954', 229.97, 315.04),
+(45, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:46.513', 241.56, 355.54),
+(46, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:54.773', 225.09, 304.36),
+(47, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:37.125', 229.53, 331.11),
+(48, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:59.664', 242.47, 303.04),
+(49, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:42.882', 221.75, 359.51),
+(50, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:50.863', 202.58, 320.51),
+(51, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:50.601', 220.95, 309.39),
+(52, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:20.481', 201.98, 305.66),
+(53, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:57.942', 245.47, 321.92),
+(54, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:32.749', 246.46, 312.64),
+(55, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:30.842', 225.95, 342.65),
+(56, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:56.096', 207.74, 335.97),
+(57, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:31.765', 236.22, 346.28),
+(58, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:38.106', 237.93, 328.57),
+(59, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.383', 204.49, 300.11),
+(60, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:33.684', 213.54, 341.2),
+(61, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:34.565', 204.03, 324.67),
+(62, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:51.070', 205.32, 332.42),
+(63, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:22.185', 225.03, 317.46),
+(64, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:42.031', 207.52, 312.99),
+(65, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:24.226', 248.96, 353.48),
+(66, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:50.545', 225.98, 323.56),
+(67, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:40.243', 234.92, 300.57),
+(68, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:29.777', 225.03, 322.52),
+(69, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:36.852', 215.67, 322.46),
+(70, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:37.373', 217.52, 339.49),
+(71, 'C000000021', '2023-03-22', 'HAMILC44D01H501W', '00:01:23.803', 244.32, 349.57),
+(1, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.828', 216.79, 329.39),
+(2, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:29.723', 221.96, 328.3),
+(3, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:37.764', 242.96, 320.06),
+(4, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:53.214', 222.75, 354.54),
+(5, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:21.613', 207.67, 301.81),
+(6, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:56.681', 218.36, 340.29),
+(7, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:21.302', 227.28, 322.52),
+(8, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:44.742', 238.65, 344.81),
+(9, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:51.518', 227.47, 351.05),
+(10, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:22.542', 247.81, 346.76),
+(11, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:26.848', 203.59, 316.19),
+(12, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:46.652', 214.44, 359.97),
+(13, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:26.689', 219.28, 357.63),
+(14, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:31.215', 236.87, 354.33),
+(15, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:48.787', 201.16, 301.08),
+(16, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:42.524', 209.87, 306.26),
+(17, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.334', 200.31, 324.67),
+(18, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:38.549', 217.87, 356.5),
+(19, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:28.408', 210.9, 311.66),
+(20, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:35.616', 235.64, 316.72),
+(21, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:22.056', 243.39, 334.79),
+(22, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:59.841', 249.52, 322.47),
+(23, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:19.095', 240.94, 319.58),
+(24, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:56.018', 230.31, 305.44),
+(25, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:41.435', 218.73, 350.74),
+(26, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:58.658', 222.12, 343.03),
+(27, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:16.855', 214.39, 303.48),
+(28, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:56.751', 231.59, 300.57),
+(29, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:47.626', 223.75, 317.86),
+(30, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:37.175', 202.81, 355.17),
+(31, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:39.989', 222.12, 352.91),
+(32, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:49.489', 215.67, 342.93),
+(33, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:46.530', 249.92, 314.26),
+(34, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:27.038', 238.12, 343.85),
+(35, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:31.330', 208.93, 323.58),
+(36, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:16.183', 208.33, 300.78),
+(37, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:30.839', 221.75, 355.75),
+(38, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:38.039', 207.16, 315.57),
+(39, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:48.633', 215.67, 303.89),
+(40, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:17.162', 222.43, 343.78),
+(41, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:54.043', 249.56, 303.54),
+(42, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:27.325', 236.27, 350.06),
+(43, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:44.539', 215.63, 351.23),
+(44, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:53.327', 229.09, 315.83),
+(45, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:41.290', 247.59, 345.11),
+(46, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:35.577', 219.86, 313.69),
+(47, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:20.552', 233.81, 332.45),
+(48, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:34.403', 240.14, 356.98),
+(49, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:36.047', 247.56, 312.28),
+(50, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:27.679', 219.11, 338.22),
+(51, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:39.051', 217.29, 327.14),
+(52, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:54.863', 221.46, 346.9),
+(53, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:33.570', 207.54, 338.74),
+(54, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:32.592', 222.3, 304.16),
+(55, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:24.014', 217.03, 305.96),
+(56, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:59.065', 243.77, 345.78),
+(57, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:23.800', 248.37, 330.56),
+(58, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:24.003', 223.54, 305.81),
+(59, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:37.372', 203.2, 334.31),
+(60, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:28.203', 216.51, 352.43),
+(61, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:33.895', 218.13, 335.54),
+(62, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:26.933', 247.96, 324.09),
+(63, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:32.842', 228.59, 308.01),
+(64, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.425', 208.62, 318.43),
+(65, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:43.397', 209.79, 350.32),
+(66, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:29.722', 216.62, 324.77),
+(67, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:47.775', 223.7, 344.92),
+(68, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:42.086', 216.58, 336.52),
+(69, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:36.147', 231.88, 348.27),
+(70, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:50.208', 226.0, 359.01),
+(71, 'C000000021', '2023-03-22', 'LECCHR16E02H501V', '00:01:16.853', 236.06, 337.06),
+(1, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:47.622', 207.45, 352.0),
+(2, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:59.556', 230.25, 307.97),
+(3, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.481', 206.89, 326.28),
+(4, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:54.010', 227.13, 325.81),
+(5, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:28.777', 248.46, 338.07),
+(6, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:53.675', 201.61, 318.73),
+(7, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:56.657', 202.87, 332.91),
+(8, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:50.001', 243.51, 305.86),
+(9, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:46.367', 243.62, 335.2),
+(10, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:38.849', 234.86, 316.43),
+(11, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:34.588', 228.43, 321.32),
+(12, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:32.662', 227.16, 314.92),
+(13, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:31.395', 232.51, 310.17),
+(14, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.941', 215.76, 349.07),
+(15, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:28.706', 227.73, 343.04),
+(16, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:43.402', 231.74, 321.71),
+(17, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:46.472', 227.0, 328.29),
+(18, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:45.015', 218.61, 335.61),
+(19, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:17.978', 220.92, 333.56),
+(20, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:24.900', 218.84, 357.07),
+(21, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.136', 240.28, 326.29),
+(22, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:58.448', 238.55, 304.18),
+(23, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:44.804', 232.55, 342.25),
+(24, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:36.681', 217.78, 300.14),
+(25, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:48.186', 205.22, 341.21),
+(26, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.852', 221.97, 300.93),
+(27, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.352', 248.96, 320.49),
+(28, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:45.101', 210.15, 344.0),
+(29, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:43.940', 203.11, 302.61),
+(30, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.748', 229.39, 309.36),
+(31, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:31.995', 212.8, 352.14),
+(32, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:57.907', 201.02, 343.46),
+(33, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:18.555', 221.54, 349.78),
+(34, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:46.145', 202.94, 350.07),
+(35, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:24.990', 227.46, 320.54),
+(36, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:36.851', 236.37, 328.54),
+(37, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:27.229', 234.76, 342.91),
+(38, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:52.754', 235.26, 358.95),
+(39, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:42.724', 211.91, 325.59),
+(40, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:19.634', 217.49, 320.29),
+(41, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:57.674', 218.13, 314.93),
+(42, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:48.936', 220.8, 341.39),
+(43, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:49.127', 210.71, 323.29),
+(44, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:17.145', 202.22, 355.82),
+(45, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:39.112', 221.29, 325.95),
+(46, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:31.735', 203.35, 334.66),
+(47, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:53.506', 247.79, 309.45),
+(48, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:51.601', 205.94, 345.9),
+(49, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:49.842', 215.27, 354.72),
+(50, 'C000000022', '2023-08-17', 'HAMILC44D01H501W', '00:01:20.192', 227.97, 330.81),
+(1, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:38.032', 242.09, 321.04),
+(2, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:42.414', 207.38, 342.91),
+(3, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:57.984', 219.74, 334.63),
+(4, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.640', 206.71, 352.61),
+(5, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:19.436', 249.23, 344.65),
+(6, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:41.263', 238.48, 346.3),
+(7, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:43.764', 248.52, 302.4),
+(8, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:55.097', 200.59, 307.04),
+(9, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:50.442', 237.97, 343.9),
+(10, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.436', 226.37, 313.19),
+(11, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:16.006', 200.19, 321.62),
+(12, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.180', 215.76, 356.84),
+(13, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:54.899', 227.53, 320.97),
+(14, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:33.595', 214.69, 359.88),
+(15, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:16.452', 207.36, 308.89),
+(16, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:50.252', 203.23, 319.64),
+(17, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:55.322', 242.75, 339.32),
+(18, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:59.517', 220.19, 345.98),
+(19, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.543', 217.77, 342.4),
+(20, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:23.189', 233.18, 354.04),
+(21, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:15.393', 214.05, 338.67),
+(22, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:18.254', 220.01, 329.0),
+(23, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:19.710', 222.85, 322.99),
+(24, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:42.428', 226.3, 356.79),
+(25, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:34.047', 248.46, 308.47),
+(26, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:22.673', 246.53, 315.7),
+(27, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:17.009', 219.67, 308.67),
+(28, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:17.624', 201.9, 305.86),
+(29, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:28.399', 234.21, 348.58),
+(30, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.370', 206.33, 353.58),
+(31, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:17.611', 234.15, 314.81),
+(32, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:57.232', 217.71, 323.24),
+(33, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:21.208', 237.48, 345.07),
+(34, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:47.182', 212.68, 321.64),
+(35, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:20.636', 205.81, 318.63),
+(36, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:42.868', 232.33, 351.81),
+(37, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:20.675', 220.33, 315.74),
+(38, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:36.809', 218.04, 345.79),
+(39, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:21.852', 209.41, 328.24),
+(40, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:21.760', 200.11, 318.69),
+(41, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:34.404', 209.1, 329.12),
+(42, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:46.563', 202.74, 345.48),
+(43, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:37.254', 215.96, 310.99),
+(44, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:36.617', 220.46, 304.25),
+(45, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:25.516', 232.96, 343.16),
+(46, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:30.204', 206.34, 304.64),
+(47, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.699', 227.37, 356.5),
+(48, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:15.835', 220.36, 348.45),
+(49, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:40.648', 244.83, 323.27),
+(50, 'C000000022', '2023-08-17', 'LECCHR16E02H501V', '00:01:43.568', 201.04, 344.02),
+(1, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:30.735', 228.97, 334.69),
+(2, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:57.374', 219.36, 313.18),
+(3, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:23.481', 244.54, 358.28),
+(4, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:48.134', 225.54, 321.98),
+(5, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:28.841', 219.37, 304.63),
+(6, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:25.019', 241.95, 335.22),
+(7, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:52.108', 216.69, 324.52),
+(8, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:30.967', 227.54, 348.7),
+(9, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:27.571', 205.4, 337.87),
+(10, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:56.359', 212.51, 318.38),
+(11, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:37.967', 213.69, 354.92),
+(12, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:41.107', 216.44, 317.84),
+(13, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:36.184', 214.78, 336.69),
+(14, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:47.535', 242.76, 343.3),
+(15, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:44.802', 202.63, 351.74),
+(16, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:40.705', 244.04, 326.62),
+(17, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:51.810', 226.46, 345.12),
+(18, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:22.797', 221.49, 319.66),
+(19, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:40.320', 235.15, 338.05),
+(20, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:53.432', 226.44, 326.83),
+(21, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:49.030', 203.92, 342.21),
+(22, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:46.766', 224.63, 320.52),
+(23, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:18.214', 210.77, 318.29),
+(24, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:31.749', 235.24, 320.56),
+(25, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:27.649', 205.05, 345.77),
+(26, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:46.512', 236.23, 316.96),
+(27, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:46.885', 218.55, 358.61),
+(28, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:25.299', 231.71, 309.85),
+(29, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:50.669', 233.95, 300.64),
+(30, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:51.701', 240.59, 318.98),
+(31, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:23.547', 201.04, 317.34),
+(32, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:19.155', 207.24, 352.63),
+(33, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:44.634', 242.66, 348.33),
+(34, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:31.415', 216.39, 312.1),
+(35, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:22.533', 246.83, 315.61),
+(36, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:50.905', 200.49, 304.2),
+(37, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:54.352', 205.14, 344.05),
+(38, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:54.044', 241.76, 315.98),
+(39, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:21.850', 239.12, 345.55),
+(40, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:45.210', 227.64, 324.77),
+(41, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:50.356', 241.14, 302.78),
+(42, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:16.024', 216.83, 345.76),
+(43, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:48.413', 224.55, 342.74),
+(44, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:34.613', 231.56, 341.71),
+(45, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:49.042', 212.84, 316.61),
+(46, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:23.494', 210.07, 309.24),
+(47, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:26.992', 218.0, 353.54),
+(48, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:56.670', 208.25, 305.02),
+(49, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:17.946', 223.55, 350.08),
+(50, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:38.745', 236.23, 330.12),
+(51, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:32.987', 236.0, 358.0),
+(52, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:44.576', 207.99, 301.69),
+(53, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:41.676', 239.53, 355.07),
+(54, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:56.866', 217.77, 318.66),
+(55, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:37.822', 227.22, 332.33),
+(56, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:39.305', 212.08, 359.65),
+(57, 'C000000023', '2023-05-07', 'HAMILC44D01H501W', '00:01:58.498', 210.84, 325.56),
+(1, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:30.352', 224.99, 317.13),
+(2, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:47.994', 224.28, 321.4),
+(3, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:55.505', 205.59, 328.94),
+(4, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.092', 231.5, 328.11),
+(5, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:36.434', 248.82, 334.74),
+(6, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:46.214', 241.5, 355.42),
+(7, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:19.335', 215.14, 301.0),
+(8, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:29.537', 214.23, 338.42),
+(9, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:56.414', 218.26, 328.26),
+(10, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:33.543', 222.09, 329.49),
+(11, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:28.459', 201.17, 318.07),
+(12, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.962', 235.09, 312.27),
+(13, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:43.638', 210.34, 314.29),
+(14, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:44.600', 213.63, 300.88),
+(15, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.312', 245.42, 346.38),
+(16, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:57.829', 240.89, 321.61),
+(17, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:31.795', 230.54, 309.78),
+(18, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:35.955', 221.06, 342.03),
+(19, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:56.444', 208.48, 311.51),
+(20, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:27.571', 225.87, 346.75),
+(21, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:59.366', 232.35, 324.99),
+(22, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:38.307', 226.39, 315.46),
+(23, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:40.669', 241.74, 358.11),
+(24, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:35.897', 220.97, 332.89),
+(25, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:35.028', 235.43, 356.34),
+(26, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:57.671', 231.7, 338.54),
+(27, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:25.653', 236.8, 351.1),
+(28, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:50.668', 209.6, 305.1),
+(29, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:38.952', 200.77, 325.37),
+(30, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:20.482', 247.92, 331.92),
+(31, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:24.981', 234.73, 341.24),
+(32, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:24.712', 209.84, 312.25),
+(33, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:27.743', 207.27, 333.02),
+(34, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:22.258', 206.52, 315.33),
+(35, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:20.061', 215.52, 341.14),
+(36, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:41.113', 224.75, 348.83),
+(37, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:38.946', 233.02, 306.11),
+(38, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:17.149', 234.9, 329.28),
+(39, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:46.005', 215.89, 336.69),
+(40, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:18.705', 211.12, 319.9),
+(41, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:58.316', 230.77, 320.99),
+(42, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:51.088', 220.05, 315.51),
+(43, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:27.487', 222.1, 350.77),
+(44, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:44.482', 212.97, 302.79),
+(45, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:42.321', 220.42, 308.33),
+(46, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:43.373', 205.6, 334.12),
+(47, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:55.605', 229.58, 356.3),
+(48, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:42.069', 207.22, 328.37),
+(49, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:37.512', 240.58, 353.18),
+(50, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:54.438', 241.74, 312.7),
+(51, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:17.743', 231.28, 351.05),
+(52, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:23.250', 231.66, 354.51),
+(53, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:52.471', 212.68, 357.55),
+(54, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:24.207', 227.46, 326.15),
+(55, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:43.131', 220.04, 332.24),
+(56, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:15.354', 206.04, 344.3),
+(57, 'C000000023', '2023-05-07', 'LECCHR16E02H501V', '00:01:49.192', 225.58, 337.72),
+(1, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.921', 215.15, 321.91),
+(2, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:59.072', 236.97, 308.15),
+(3, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:28.599', 210.04, 354.41),
+(4, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:31.348', 224.73, 349.27),
+(5, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:54.030', 208.15, 340.02),
+(6, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:38.662', 226.83, 356.84),
+(7, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.767', 224.45, 325.88),
+(8, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:40.839', 209.84, 355.15),
+(9, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:33.727', 238.08, 321.5),
+(10, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.995', 205.68, 352.39),
+(11, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:50.858', 236.03, 329.03),
+(12, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:53.966', 225.35, 333.7),
+(13, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.840', 202.25, 305.25),
+(14, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:57.135', 248.2, 320.43),
+(15, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:41.103', 228.41, 307.08),
+(16, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:22.637', 202.63, 332.3),
+(17, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:49.402', 227.0, 303.96),
+(18, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:35.686', 238.37, 334.93),
+(19, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:51.916', 235.96, 338.2),
+(20, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:59.504', 248.5, 301.09),
+(21, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:23.078', 221.0, 300.93),
+(22, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:25.504', 204.72, 353.79),
+(23, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:58.112', 218.04, 318.19),
+(24, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:27.824', 212.6, 315.45),
+(25, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.089', 201.68, 323.68),
+(26, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.996', 236.95, 330.02),
+(27, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:27.793', 219.59, 309.41),
+(28, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.385', 237.58, 352.55),
+(29, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:31.399', 207.98, 350.56),
+(30, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:56.876', 236.21, 359.3),
+(31, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:55.029', 214.74, 320.31),
+(32, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:18.846', 201.36, 320.21),
+(33, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.092', 224.17, 327.34),
+(34, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:35.213', 218.02, 303.86),
+(35, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:57.316', 210.2, 325.11),
+(36, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:46.559', 228.31, 334.69),
+(37, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.535', 210.24, 342.8),
+(38, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:36.166', 219.2, 356.88),
+(39, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:30.555', 235.8, 307.97),
+(40, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:34.484', 247.82, 334.62),
+(41, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:54.928', 209.45, 311.1),
+(42, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:24.873', 227.53, 301.79),
+(43, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:38.567', 241.46, 333.91),
+(44, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:44.233', 246.11, 307.72),
+(45, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.063', 221.85, 307.28),
+(46, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:50.788', 218.28, 326.82),
+(47, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:22.142', 221.7, 328.43),
+(48, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.897', 236.22, 316.92),
+(49, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:32.478', 229.03, 311.38),
+(50, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:29.739', 209.47, 357.24),
+(51, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:20.692', 233.55, 349.04),
+(52, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:55.310', 212.18, 336.84),
+(53, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:57.566', 208.7, 355.35),
+(54, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.129', 234.56, 309.3),
+(55, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:52.749', 235.49, 309.58),
+(56, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:47.830', 247.81, 354.22),
+(57, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:37.708', 200.4, 322.9),
+(58, 'C000000024', '2023-10-23', 'HAMILC44D01H501W', '00:01:26.993', 247.1, 356.91),
+(1, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:41.485', 239.58, 349.99),
+(2, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:38.416', 236.86, 318.76),
+(3, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:33.692', 214.97, 354.34),
+(4, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:38.348', 224.7, 317.21),
+(5, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.540', 226.08, 303.33),
+(6, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:31.632', 236.61, 358.68),
+(7, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:43.848', 219.64, 342.13),
+(8, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:16.869', 223.46, 330.41),
+(9, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.167', 200.37, 346.07),
+(10, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.610', 216.02, 358.33),
+(11, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:25.385', 239.05, 352.61),
+(12, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:46.258', 236.11, 337.05),
+(13, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:43.355', 214.68, 339.54),
+(14, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:34.340', 240.62, 332.64),
+(15, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:15.214', 225.51, 323.76),
+(16, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:22.139', 237.91, 323.71),
+(17, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.066', 218.27, 302.85),
+(18, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.146', 214.41, 359.64),
+(19, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.343', 211.07, 334.91),
+(20, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.907', 228.64, 322.53),
+(21, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:34.019', 215.6, 315.9),
+(22, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:34.017', 201.21, 359.82),
+(23, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:24.136', 205.67, 351.11),
+(24, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.350', 212.49, 343.59),
+(25, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.214', 204.05, 351.67),
+(26, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:37.528', 208.85, 333.27),
+(27, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:37.809', 207.99, 317.6),
+(28, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.006', 240.29, 319.5),
+(29, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:59.931', 241.28, 321.88),
+(30, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.316', 200.09, 342.83),
+(31, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:27.376', 238.83, 313.67),
+(32, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:50.045', 230.07, 349.95),
+(33, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:28.015', 202.82, 304.28),
+(34, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.617', 202.29, 339.31),
+(35, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:42.027', 232.2, 355.93),
+(36, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.555', 214.46, 308.65),
+(37, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:49.590', 203.83, 300.68),
+(38, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:24.093', 205.03, 342.0),
+(39, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:20.023', 221.84, 318.87),
+(40, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:39.654', 234.73, 311.31),
+(41, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:24.212', 235.85, 351.25),
+(42, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.188', 243.95, 314.19),
+(43, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:20.526', 217.36, 300.2),
+(44, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:33.643', 226.09, 328.48),
+(45, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:52.751', 236.84, 339.91),
+(46, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:53.244', 212.87, 345.19),
+(47, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:59.092', 235.36, 308.24),
+(48, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:25.286', 206.47, 338.97),
+(49, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:56.499', 249.87, 312.85),
+(50, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:40.830', 224.14, 330.91),
+(51, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:51.984', 214.55, 308.75),
+(52, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:19.047', 201.23, 320.41),
+(53, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:29.080', 233.13, 334.6),
+(54, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:35.685', 208.96, 318.55),
+(55, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:18.953', 214.16, 359.93),
+(56, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:57.897', 202.23, 332.66),
+(57, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:55.100', 248.85, 336.07),
+(58, 'C000000024', '2023-10-23', 'LECCHR16E02H501V', '00:01:36.598', 237.51, 340.75);
 
 ALTER TABLE settore
 ADD FOREIGN KEY (capo)
