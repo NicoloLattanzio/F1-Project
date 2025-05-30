@@ -130,7 +130,7 @@ CREATE TABLE vettura (
 CREATE TABLE circuito (
     id_circuito CHAR(10) PRIMARY KEY,
     nome VARCHAR(50) NOT NULL,
-    localita VARCHAR(100) NOT NULL,
+    localita VARCHAR(50) NOT NULL,
     paese VARCHAR(50) NOT NULL,
     lunghezza DECIMAL(7,3) NOT NULL, CHECK (lunghezza > 0),
     nr_curve INTEGER NOT NULL CHECK (nr_curve > 0),
@@ -141,14 +141,14 @@ CREATE TABLE gara (
     pilota CHAR(16) NOT NULL,
     circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
-    condizioni_meteo CHAR(16) NOT NULL,
+    condizioni_meteo VARCHAR(20) NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0),
     tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > INTERVAL '0'),
     numero_giri INTEGER NOT NULL CHECK (numero_giri > 0),
     PRIMARY KEY (pilota, circuito, data),
     FOREIGN KEY (pilota) REFERENCES pilota(cf),
     FOREIGN KEY (circuito) REFERENCES circuito(id_circuito)
-	--Analogamente a circuiti non avrebbe senso eliminare i gp
+	--Analogamente a circuiti non avrebbe senso eliminare le gare
 );
 
 --Tabella giro
@@ -157,7 +157,7 @@ CREATE TABLE giro (
     circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
     pilota CHAR(16) NOT NULL,
-    tempo INTERVAL NOT NULL CHECK (tempo > INTERVAL '0'), --millisecondi
+    tempo INTERVAL NOT NULL CHECK (tempo > INTERVAL '0'),
     v_min DECIMAL(6,2) NOT NULL CHECK (v_min >= 0 and v_min < v_max),
     v_max DECIMAL(6,2) NOT NULL CHECK (v_max >= 0 and v_max > v_min),
     PRIMARY KEY (numero_giro, circuito, data, pilota),
