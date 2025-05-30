@@ -3251,7 +3251,7 @@ SELECT
     tm.ruolo,
     AVG(c.compenso) AS compenso_medio
 FROM team_member tm
-JOIN contratto c ON c.cf = tm.cf
+JOIN contratto c ON c.cf_team = tm.cf
 WHERE EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita)) BETWEEN 30 AND 50
 GROUP BY tm.ruolo
 ORDER BY compenso_medio DESC;
