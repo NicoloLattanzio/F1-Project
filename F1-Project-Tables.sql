@@ -18,7 +18,7 @@ CREATE TABLE fornitura (
 	prezzo DECIMAL(10,2) NOT NULL,
     strumento CHAR(10) NOT NULL,
     fornitore CHAR(10) NOT NULL,
-    FOREIGN KEY (strumento) REFERENCES strumento(strumento),
+    FOREIGN KEY (strumento) REFERENCES strumento(id_strumento),
     FOREIGN KEY (fornitore) REFERENCES fornitore(nome)
 );
 
