@@ -125,12 +125,12 @@ void prepare_all_statements(PGconn *conn){
             "SELECT c.nome, g.data, g.numero_giro, g.tempo "
             "FROM giro g "
             "JOIN pilota p ON p.cf = g.pilota "
-            "JOIN circuito c ON c.id_circuito = g.id_circuito "
+            "JOIN circuito c ON c.id_circuito = g.circuito "
             "WHERE g.pilota = $1::char(16) "
             "AND g.tempo <= ALL( "
             "SELECT g1.tempo "
             "FROM giro g1 "
-            "WHERE g1.id_circuito = g.id_circuito "
+            "WHERE g1.circuito = g.circuito "
             "AND g1.data = g.data "
             "AND g1.pilota = g.pilota "
             ")",
@@ -167,7 +167,7 @@ void prepare_all_statements(PGconn *conn){
             "JOIN fornitore f ON fnt.fornitore = f.nome "
             "WHERE FLOOR(EXTRACT(YEAR FROM fnt.data))::integer = $1::integer "
             "GROUP BY s.nome, s.budget, f.nome "
-            "HAVING SUM(fnt.prezzo_fnt) <= s.budget "
+            "HAVING SUM(fnt.prezzo) <= s.budget "
             "ORDER BY s.budget DESC",
             1
         }
