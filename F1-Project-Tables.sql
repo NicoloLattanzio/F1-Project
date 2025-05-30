@@ -15,7 +15,7 @@ CREATE TABLE fornitura (
     id_fornitura CHAR(10) PRIMARY KEY,
     quantita INTEGER NOT NULL CHECK (quantita > 0), --Una fornitura per essere considerata tale deve essere di almeno 1 elemento
     data DATE NOT NULL,
-	prezzo_fnt DECIMAL(10,2) NOT NULL,
+	prezzo DECIMAL(10,2) NOT NULL,
     strumento CHAR(10) NOT NULL,
     fornitore CHAR(10) NOT NULL,
     FOREIGN KEY (strumento) REFERENCES strumento(id_strumento),
