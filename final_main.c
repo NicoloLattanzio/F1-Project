@@ -151,8 +151,8 @@ void prepare_all_statements(PGconn *conn){
             "SELECT tm.ruolo, AVG(c.compenso) as compenso_medio "
             "FROM team_member tm "
             "JOIN contratto c ON c.cf_team = tm.cf "
-            "WHERE FLOOR(EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita)))::integer >= $1::integer "
-            "AND FLOOR(EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita)))::integer <= $2::integer "
+            "WHERE EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita))::integer >= $1::integer "
+            "AND EXTRACT(YEAR FROM AGE(CURRENT_DATE, tm.data_nascita))::integer <= $2::integer "
             "GROUP BY tm.ruolo "
             "ORDER BY AVG(c.compenso) DESC",
             2
@@ -165,7 +165,7 @@ void prepare_all_statements(PGconn *conn){
             "JOIN strumento str ON str.id_strumento = u.strumento "
             "JOIN fornitura fnt ON fnt.strumento = str.id_strumento "
             "JOIN fornitore f ON fnt.fornitore = f.nome "
-            "WHERE FLOOR(EXTRACT(YEAR FROM fnt.data))::integer = $1::integer "
+            "WHERE EXTRACT(YEAR FROM fnt.data)::integer = $1::integer "
             "GROUP BY s.nome, s.budget, f.nome "
             "HAVING SUM(fnt.prezzo) <= s.budget "
             "ORDER BY s.budget DESC",
