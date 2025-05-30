@@ -156,6 +156,7 @@ CREATE TABLE gara (
     data DATE NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0),
     tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > INTERVAL '0'),
+    numero_giri INTEGER NOT NULL CHECK (numero_giri > 0)
     PRIMARY KEY (pilota, id_circuito, data),
     FOREIGN KEY (pilota) REFERENCES pilota(cf),
     FOREIGN KEY (circuito, data) REFERENCES gp(circuito, data)
