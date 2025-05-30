@@ -3428,7 +3428,7 @@ SELECT
     tm.ruolo
 FROM team_member tm
 JOIN contratto c ON tm.cf = c.cf_team
-WHERE c.inizio > DATE '2022-01-01';
+WHERE c.inizio > '2022-01-01'::date;
 
 --Query 2
 SELECT
