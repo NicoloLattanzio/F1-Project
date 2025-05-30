@@ -167,16 +167,36 @@ CREATE TABLE giro (
 INSERT INTO fornitore (nome, settore) VALUES
 ('Marelli', 'Telaio'),
 ('Ferrari', 'Motori'),
+('HP', 'Ricerca E Sviluppo'),
+('Ferrari', 'Pista'),
+('Blackshape', 'Aerodinamica');
+	
 
 -- Tabella strumento
 INSERT INTO strumento (id_strumento, nome) VALUES
 ('ST00000001', 'Analizzatore dati'),
-('ST00000002', 'Simulatore guida'),
+('ST00000002', 'Cacciavite'),
+('ST00000003', 'Workstation'),
+('ST00000004', 'Galleria del Vento'),
+('ST00000005', 'Pistoni'),
+('ST00000006', 'Batteria'),
+('ST00000007', 'Simulatore Aerodinamica'),
+('ST00000008', 'Simulatore guida'),
+('ST00000009', 'Simulatore usura Motore'),
+('ST00000010', 'Chiave Inglese');
 
 -- Tabella fornitura
 INSERT INTO fornitura (id_fornitura, quantita, data, prezzo, strumento, fornitore) VALUES
-('F000000001', 10, '2023-05-10', 5000.00, 'ST00000001', 'Marelli'),
-('F000000002', 3, '2023-06-15', 12000.00, 'ST00000002', 'Ferrari'),
+('F000000001', 10, '2023-05-10', 5000.00, 'ST00000001', 'HP'),
+('F000000002', 3, '2023-05-15', 12000.00, 'ST00000002', 'Marelli'),
+('F000000003', 5, '2023-08-12', 5000.00, 'ST00000003', 'HP'),
+('F000000004', 3, '2023-01-14', 12000.00, 'ST00000004', 'BlackShape'),
+('F000000005', 1, '2023-05-01', 5000.00, 'ST00000005', 'Ferrari'),
+('F000000006', 3, '2023-06-23', 12000.00, 'ST00000006', 'Ferrari'),
+('F000000007', 10, '2023-03-21', 5000.00, 'ST00000007', 'BlackShape'),
+('F000000008', 7, '2023-09-15', 12000.00, 'ST00000008', 'Ferrari'),
+('F000000009', 12, '2023-10-10', 5000.00, 'ST00000009', 'Ferrari'),
+('F000000010', 2, '2023-11-15', 12000.00, 'ST00000010', 'Marelli'),
 
 --Tabella settore
 INSERT INTO settore (nome, budget, capo, numero_persone) VALUES
@@ -188,9 +208,13 @@ INSERT INTO settore (nome, budget, capo, numero_persone) VALUES
 
 --Tabella utilizzo
 INSERT INTO utilizzo (strumento, settore, quantita) VALUES
-('ST00000001', 'Aerodinamica', 5),
-('ST00000002', 'Motori', 3),
-('ST00000003', 'Gomme', 2);
+('ST00000001', 'Ricerca e sviluppo', 5),
+('ST00000002', 'Telaio', 3),
+('ST00000003', 'Ricerca e sviluppo', 2);
+('ST00000004', 'Aerodinamica', 5),
+('ST00000005', 'Motori', 3),
+('ST00000006', 'Motori', 2);
+('ST00000007', 'HP', 2);
 
 -- Tabella contratto
 INSERT INTO contratto (id_contratto, inizio, fine, compenso, bonus_mensile, cf_team, cf_pilota) VALUES
