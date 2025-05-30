@@ -21,7 +21,7 @@ INSERT INTO fornitura (id_fornitura, quantita, data, prezzo, strumento, fornitor
 INSERT INTO settore (nome, budget, capo, numero_persone) VALUES
 ('Aerodinamica', 1000000.00, 'RSSMRA80A01H501Z', 15),
 ('Motori', 1500000.00, 'FRDGPP85C23H501X', 20),
-('Gomme', 800000.00, 'CRDGPP85C23H501X', 10),
+('Telaio', 800000.00, 'CRDGPP85C23H501X', 10),
 ('Ricerca e sviluppo', 2000000.00, 'BNCLGU75B12H501Y', 5),
 ('Pista', 5000000.00, 'BRDGPP85C23H501X', 20);
 
