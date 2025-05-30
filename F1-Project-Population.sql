@@ -97,41 +97,14 @@ INSERT INTO circuito (id_circuito, nome, localita, paese, lunghezza, nr_curve) V
 ('C000000023', 'Lusail International Circuit', 'Lusail', 'Qatar', 5410, 16),
 ('C000000024', 'Yas Marina Circuit', 'Abu Dhabi', 'Emirati Arabi Uniti', 5281, 21);
 
--- Popolamento tabella gp
-INSERT INTO gp (id_circuito, data, condizioni_meteo) VALUES
-('C000000001', '2023-03-05', 'Sereno'),       -- Bahrain
-('C000000002', '2023-03-19', 'Sereno'),       -- Arabia Saudita
-('C000000003', '2023-04-02', 'Variabile'),    -- Australia
-('C000000004', '2023-04-16', 'Pioggia'),      -- Giappone (data sostitutiva)
-('C000000005', '2023-04-30', 'Nuvoloso'),     -- Cina (non disputata nel 2023, data ipotetica)
-('C000000006', '2023-05-07', 'Sereno'),       -- Miami
-('C000000007', '2023-05-21', 'Pioggia leggera'), -- Imola (annullata per alluvione, data ipotetica)
-('C000000008', '2023-05-28', 'Sereno'),       -- Monaco
-('C000000009', '2023-06-18', 'Variabile'),    -- Canada
-('C000000010', '2023-06-04', 'Sereno'),      -- Spagna (data reale)
-('C000000011', '2023-07-02', 'Pioggia'),     -- Austria
-('C000000012', '2023-07-09', 'Sereno'),      -- Gran Bretagna
-('C000000013', '2023-07-23', 'Afoso'),       -- Ungheria
-('C000000014', '2023-07-30', 'Variabile'),   -- Belgio
-('C000000015', '2023-08-27', 'Sereno'),      -- Olanda
-('C000000016', '2023-09-03', 'Pioggia'),     -- Italia
-('C000000017', '2023-09-17', 'Sereno'),      -- Azerbaijan
-('C000000018', '2023-09-17', 'Umido'),       -- Singapore (data corretta)
-('C000000019', '2023-10-22', 'Sereno'),      -- USA (Austin)
-('C000000020', '2023-10-29', 'Asciutto'),    -- Messico
-('C000000021', '2023-11-05', 'Pioggia'),     -- Brasile
-('C000000022', '2023-11-19', 'Freddo'),      -- Las Vegas
-('C000000023', '2023-10-08', 'Afoso'),       -- Qatar (data reale)
-('C000000024', '2023-11-26', 'Sereno');      -- Abu Dhabi
-
 -- Popolamento tabella gara
-INSERT INTO gara (pilota, id_circuito, data, posizione, tempo_totale) VALUES
-('HAMILC44D01H501W', 'C000000001', '2023-03-05', 5, '01:33:30.456'),   -- Hamilton in Bahrain (5°)
-('LECCHR16E02H501V', 'C000000001', '2023-03-05', 2, '01:32:15.123'),   -- Leclerc in Bahrain (2°)
-('HAMILC44D01H501W', 'C000000012', '2023-07-09', 3, '01:25:45.789'),   -- Hamilton a Silverstone (3°)
-('LECCHR16E02H501V', 'C000000012', '2023-07-09', 9, '01:27:22.456'),  -- Leclerc a Silverstone (9°)
-('HAMILC44D01H501W', 'C000000016', '2023-09-03', 6, '01:21:30.111'),  -- Hamilton a Monza (6°)
-('LECCHR16E02H501V', 'C000000016', '2023-09-03', 4, '01:20:45.222');  -- Leclerc a Monza (4°)
+INSERT INTO gara (pilota, id_circuito, data, posizione, tempo_totale, numero_giri) VALUES
+('HAMILC44D01H501W', 'C000000001', '2023-03-05', 5, '01:33:30.456', 70),   -- Hamilton in Bahrain (5°)
+('LECCHR16E02H501V', 'C000000001', '2023-03-05', 2, '01:32:15.123', 65),   -- Leclerc in Bahrain (2°)
+('HAMILC44D01H501W', 'C000000012', '2023-07-09', 3, '01:25:45.789', 67),   -- Hamilton a Silverstone (3°)
+('LECCHR16E02H501V', 'C000000012', '2023-07-09', 9, '01:27:22.456', 72),  -- Leclerc a Silverstone (9°)
+('HAMILC44D01H501W', 'C000000016', '2023-09-03', 6, '01:21:30.111', 59),  -- Hamilton a Monza (6°)
+('LECCHR16E02H501V', 'C000000016', '2023-09-03', 4, '01:20:45.222', 58);  -- Leclerc a Monza (4°)
 
 -- Popolamento tabella giro
 INSERT INTO giro (numero_giro, circuito, data, pilota, tempo, v_min, v_max) VALUES
