@@ -136,19 +136,6 @@ CREATE TABLE circuito (
     nr_curve INTEGER NOT NULL CHECK (nr_curve > 0),
 	UNIQUE (nome)
 );
-
---Tabella gp
-CREATE TABLE gp (
-    circuito CHAR(10) NOT NULL,
-    data DATE NOT NULL,
-	--Data non UNIQUE poiché possono esserci più gran premi nella stessa data come per il caso della formula 2
-    condizioni_meteo VARCHAR(50) NOT NULL,
-    PRIMARY KEY (circuito, data),
-    FOREIGN KEY (circuito) REFERENCES circuito(id_circuito)
-	--Non si possono eliminare i circuiti e nemmeno aggiornare perché non avrebbe senso in un database che
-	--funziona anche da cronologia di eventi per lo studio delle prestazioni della scuderia nel lungo periodo
-);
-
 --Tabella gara
 CREATE TABLE gara (
     pilota CHAR(16) NOT NULL,
