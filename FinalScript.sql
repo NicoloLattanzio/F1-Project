@@ -141,6 +141,7 @@ CREATE TABLE gara (
     pilota CHAR(16) NOT NULL,
     circuito CHAR(10) NOT NULL,
     data DATE NOT NULL,
+    condizioni_meteo CHAR(16) NOT NULL,
     posizione INTEGER NOT NULL CHECK (posizione > 0),
     tempo_totale INTERVAL NOT NULL CHECK (tempo_totale > INTERVAL '0'),
     numero_giri INTEGER NOT NULL CHECK (numero_giri > 0),
